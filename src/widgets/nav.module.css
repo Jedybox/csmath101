@@ -12,7 +12,7 @@
 
 .iconHolder {
     position: relative;
-    width: 45%;
+    width: 40%;
     height: auto;
 
     display: flex;
@@ -25,7 +25,7 @@
 
 .list {
     position: relative;
-    width:55%;
+    width:60%;
     height: auto;
 
     list-style: none;

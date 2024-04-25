@@ -67,6 +67,23 @@ nav {
 .graphics {
     height: auto;
     width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graphs {
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.periods {
+    width: 100%;
+    height: fit-content;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -75,6 +92,150 @@ nav {
     align-items: center;
 }
 
-.graphs {
-    max-width: 900px;
+.periodsIntro {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conquer {
+    width: 731px;
+    position: relative;
+    font-size: 60px;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+}
+
+.embark {
+    width: 630px;
+    position: relative;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 71px
+}
+
+.semestrialterms {
+    max-width: 80%;
+    min-width: 500px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    gap: 20px;
+}
+
+.term {
+    width: 480px;
+    position: relative;
+    box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #26292c;
+    height: 310px;
+}
+
+.termIcon {
+    width: 91px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #474a4e;
+    height: 91px;
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.termtitle {
+    width: 226px;
+    position: relative;
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: left;
+
+    margin-left: 30px;
+}
+
+.termlist {
+    position: relative;
+
+    color: #474a4e;
+
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 24px;
+
+
+    margin-left: 60px;
+}
+
+.termItem {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+#prelim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._123 {
+    width: 60px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+._2 {
+    position: absolute;
+    width: 23px;
+    background-color: #474a4e;
+    left: 31px;
+}
+
+#mindterm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sqrtTable {
+    position: absolute;
+    width: 56px;
+    top: 18px;
+    left: 18px;
+}
+
+#semis {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.function {
+    width: 52px;
+}
+
+#finals {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.wave {
+    width: 62px;
 }
