@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navi from './widgets/nav'
+import Foot from './widgets/foot'
 
 function App() {
 
@@ -69,6 +70,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Foot/>
     </>
   )
 }
