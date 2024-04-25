@@ -1,16 +1,16 @@
 import React from 'react'
-import style from './App.css'
+import './App.css'
 import Navi from './widgets/nav'
 
 function App() {
 
   return (
     <>
-    	<header className={style.headerHome}>
+    	<header className="headerHome">
 			  <Navi/>
-        <div className={style.title}>
-          <div className={style.alge}></div>
-          <div className={style.sub}></div>
+        <div className="title">
+          <div className="alge">Algebra</div>
+          <div className="sub">Mastering Algebra: Prelims to Finals</div>
         </div>
 		  </header>
     </>
