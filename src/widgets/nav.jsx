@@ -5,7 +5,7 @@ function Navi(){
 
     return(
         <>
-            <nav className={style.header}>
+            <nav className={style.navi}>
                 <div className={style.iconHolder}>
                     <img src="src/assets/icon.png" alt="Icon" className={style.img}/>
                     <b className={style.name}>CSMath101</b>

@@ -3,3 +3,13 @@
     width: 100%;
     height: inherit;
 }
+
+nav {
+    position: relative;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+}

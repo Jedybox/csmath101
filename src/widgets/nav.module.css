@@ -1,4 +1,4 @@
-.header {
+.navi {
     max-width: 1280px;;
     width: 1280px;
     position: relative;
@@ -7,35 +7,59 @@
     color: #fff;
     font-family: 'Montserrat';
 
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
 }
 
 .iconHolder {
-    width: 70%;
+    position: relative;
+    width: 45%;
     height: auto;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    gap: 0px;
 }
 
 .list {
-    width:30%;
+    position: relative;
+    width:55%;
     height: auto;
 
     list-style: none;
-    gap: 20px;
+    gap: 100px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    text-align: left;
 }
 
 .listItem {
+    display: inline-block;
+
+    width: max-content;
+    position: relative;
+    font-size: 23px;
+    letter-spacing: 0.05em;
+    font-family: 'Montserrat';
+    color: #fff;
     display: inline-block;
 }
 
 .img {
     width: 48px;
     height: 48px;
+}
+
+.name {
+    width: 194px;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
 }

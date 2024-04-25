@@ -6,9 +6,13 @@ function App() {
 
   return (
     <>
-    	<header className={style.homeHeader}>
-			<Navi/>
-		</header>
+    	<header className={style.headerHome}>
+			  <Navi/>
+        <div className={style.title}>
+          <div className={style.alge}></div>
+          <div className={style.sub}></div>
+        </div>
+		  </header>
     </>
   )
 }
