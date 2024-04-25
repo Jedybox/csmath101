@@ -9,8 +9,14 @@ body {
     height: 100%;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 #root {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    overflow: visible;
 }
