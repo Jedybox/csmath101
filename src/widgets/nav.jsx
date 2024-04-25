@@ -1,13 +1,15 @@
 import React from "react";
 import style from "./nav.module.css"
 
+import icon from "../assets/icon.png"
+
 function Navi(){
 
     return(
         <>
             <nav className={style.navi}>
                 <div className={style.iconHolder}>
-                    <img src="./src/assets/icon.png" alt="Icon" className={style.img}/>
+                    <img src={icon} alt="Icon" className={style.img}/>
                     <b className={style.name}>CSMath101</b>
                 </div>
                 <ul className={style.list}>

@@ -1,15 +1,27 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+
+import './App.css';
+
 import Navi from './widgets/nav'
-import Foot from './widgets/foot'
+import Foot from './widgets/foot';
+
+import bg1 from "./assets/bgGradients/bg1.png";
+import bg2 from "./assets/bgGradients/bg2.png";
+import headerBG from "./assets/bgheader.png";
+import graphics from "./assets/graphs.png";
+import _123 from "./assets/123.png";
+import _2 from "./assets/2.png";
+import sqrtTable from "./assets/tablesqrt.png";
+import func from "./assets/func.png";
+import wave from "./assets/wave.png";
 
 function App() {
 
   return (
     <>
     	<header className="headerHome">
-        <img src="./src/assets/bgGradients/bg1.png" alt="" id='bg1'/>
-        <img src="./src/assets/bgheader.png" alt="Header Background" className='bgimg'/>
+        <img src={bg1} alt="" id='bg1'/>
+        <img src={headerBG} alt="Header Background" className='bgimg'/>
 			  <Navi/>
         <div className="title">
           <div className="alge">Algebra</div>
@@ -17,20 +29,19 @@ function App() {
         </div>
 		  </header>
       <div className='graphics'>
-        <img src="./src/assets/bgGradients/bg2.png" alt="" id='bg2'/>
-        <img src="./src/assets/graphs.png" alt="graphics" className='graphs'/>
+        <img src={bg2} alt="" id='bg2'/>
+        <img src={graphics} alt="graphics" className='graphs'/>
       </div>
       <div className='periods'>
         <div className='periodsIntro'>
           <h1 className='conquer'>Conquer core concepts</h1>
           <p className='embark'>Embark on a journey of Algebraic Discovery: From fundamentals to advanced mathematical concepts</p>
         </div>
-        <img src="./src/assets/bgGradients/bg3.png" alt="" id='bg3'/>
         <div className="semestrialterms">
           <div className="term">
             <div className="termIcon" id='prelim'>
-              <img src="./src/assets/123.png" alt="123" className='_123'/>
-              <img src="./src/assets/2.png" alt="2" className='_2'/>
+              <img src={_123} alt="123" className='_123'/>
+              <img src={_2} alt="2" className='_2'/>
             </div>
             <h1 className="termtitle">Preliminary Term</h1>
             <ul className='termlist'>
@@ -40,7 +51,7 @@ function App() {
           </div>
           <div className="term">
             <div className="termIcon" id='midterm'>
-              <img src="./src/assets/tablesqrt.png" alt="table" className='sqrtTable'/>
+              <img src={sqrtTable} alt="table" className='sqrtTable'/>
             </div>
             <h1 className="termtitle">Midterm</h1>
             <ul className='termlist'>
@@ -51,7 +62,7 @@ function App() {
           </div>
           <div className="term">
             <div className="termIcon" id='semis'>
-              <img src="./src/assets/func.png" alt="function" className='function'/>
+              <img src={func} alt="function" className='function'/>
             </div>
             <h1 className="termtitle">Semi-Finals Term</h1>
             <ul className='termlist'>
@@ -62,7 +73,7 @@ function App() {
           </div>
           <div className="term">
             <div className="termIcon" id='finals'>
-              <img src="./src/assets/wave.png" alt="wave" className='wave'/>
+              <img src={wave} alt="wave" className='wave'/>
             </div>
             <h1 className="termtitle">Final Term</h1>
             <ul className='termlist'>

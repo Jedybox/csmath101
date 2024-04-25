@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./foot.module.css"
 
+import icon from "../assets/icon.png"
 
 function Foot() {
     
@@ -12,7 +13,7 @@ function Foot() {
                 <footer className={style.foot}>
                     <div className={style.topfoot}>
                         <div className={style.iconHolder}>
-                            <img src="./src/assets/icon.png" alt="Icon" className={style.img}/>
+                            <img src={icon} alt="Icon" className={style.img}/>
                             <b className={style.name}>CSMath101</b>
                         </div>
                         <div className={style.termHolder}>
