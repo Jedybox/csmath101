@@ -5,20 +5,18 @@ function Navi(){
 
     return(
         <>
-            <header className={style.headero}>
-                <div className={style.iconNameHolder}>
-                    <img src="src/assets/icon.png" alt="icon" width={48} height={48}/>
-                    <h1 className={style.name}>CSMATH101</h1>
+            <nav className={style.header}>
+                <div className={style.iconHolder}>
+                    <img src="src/assets/icon.png" alt="Icon" className={style.img}/>
+                    <b className={style.name}>CSMath101</b>
                 </div>
-                <nav className={style.navigation}>
-                    <ul className={style.list}>
-                        <li className={style.item}>Prelim</li>
-                        <li className={style.item}>Midterm</li>
-                        <li className={style.item}>Semi</li>
-                        <li className={style.item}>Final</li>
-                    </ul>
-                </nav>
-            </header>
+                <ul className={style.list}>
+                    <li className={style.listItem}>Prelim</li>
+                    <li className={style.listItem}>Midterm</li>
+                    <li className={style.listItem}>Semi</li>
+                    <li className={style.listItem}>Final</li>
+                </ul>
+            </nav>
         </>
     )
 }

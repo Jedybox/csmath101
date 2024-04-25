@@ -1,12 +1,14 @@
 import React from 'react'
-import './App.css'
+import style from './App.css'
 import Navi from './widgets/nav'
 
 function App() {
 
   return (
     <>
-      <Navi/>
+    	<header className={style.homeHeader}>
+			<Navi/>
+		</header>
     </>
   )
 }

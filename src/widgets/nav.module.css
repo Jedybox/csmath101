@@ -1,69 +1,41 @@
-.headero {
-    width: 100%;
-    height: auto;
-    column-gap: 50px;
+.header {
+    max-width: 1280px;;
+    width: 1280px;
+    position: relative;
+    height: 48px;
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Montserrat';
+
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    grid-template-columns: auto auto;
 }
 
-.iconNameHolder {
+.iconHolder {
+    width: 70%;
+    height: auto;
+
     display: flex;
     flex-direction: row;
-    padding: 25px;
-    padding-left: 136px;
     align-items: center;
-    margin-left: 100px;
+    justify-content: center;
 }
 
+.list {
+    width:30%;
+    height: auto;
 
-.name {
-    /* CSMAT101 */
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
 
-    width: 194px;
-    height: 43px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
-    /* identical to box height */
-    letter-spacing: 0.05em;
-
-    color: #FFFFFF;
-
+.listItem {
+    display: inline-block;
 }
 
 .img {
-    width: 48;
-    height: 48;
-}
-
-
-.list {
-    list-style: none;
-    display: inline;
-    display: flex;
-    gap: 100px;
-}
-
-.item {
-    display: inline;
-    font-size: 35px;
-
-    width: 82px;
-    height: 28px;   
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 28px;
-    /* identical to box height */
-    letter-spacing: 0.05em;
-
-    color: #FFFFFF;
-
-
+    width: 48px;
+    height: 48px;
 }
