@@ -8,6 +8,7 @@ function App() {
   return (
     <>
     	<header className="headerHome">
+        <img src="./src/assets/bgGradients/bg1.png" alt="" id='bg1'/>
         <img src="./src/assets/bgheader.png" alt="Header Background" className='bgimg'/>
 			  <Navi/>
         <div className="title">
@@ -16,6 +17,7 @@ function App() {
         </div>
 		  </header>
       <div className='graphics'>
+        <img src="./src/assets/bgGradients/bg2.png" alt="" id='bg2'/>
         <img src="./src/assets/graphs.png" alt="graphics" className='graphs'/>
       </div>
       <div className='periods'>
@@ -23,6 +25,7 @@ function App() {
           <h1 className='conquer'>Conquer core concepts</h1>
           <p className='embark'>Embark on a journey of Algebraic Discovery: From fundamentals to advanced mathematical concepts</p>
         </div>
+        <img src="./src/assets/bgGradients/bg3.png" alt="" id='bg3'/>
         <div className="semestrialterms">
           <div className="term">
             <div className="termIcon" id='prelim'>

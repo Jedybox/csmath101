@@ -65,6 +65,7 @@ nav {
 }
 
 .graphics {
+    position: relative;
     height: auto;
     width: 100%;
     padding-top: 75px;
@@ -82,6 +83,7 @@ nav {
 }
 
 .periods {
+    position: relative;
     width: 100%;
     height: fit-content;
     padding-top: 50px;
@@ -239,3 +241,40 @@ nav {
 .wave {
     width: 62px;
 }
+
+#bg1 {
+    position: absolute;
+    width: 1102px;
+    height: 1018px;
+
+    left: -375px;
+    top: 200px;
+
+    animation: rotation 7.30s infinite linear;
+}
+
+#bg2 {
+    position: absolute;
+    width: 1155px;
+    height: 1109px;
+
+    right: -600px;
+    top: -50px;
+    animation: rotation 7.30s infinite linear;
+}
+
+#bg3 {
+    position: absolute;
+    width: 1155px;
+    height: 1109px;
+    animation: rotation 7.30s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
