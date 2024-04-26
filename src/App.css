@@ -14,6 +14,8 @@
 .bgimg {
     position: absolute;
     height: 100%;
+    
+    pointer-events: none;
 }
 
 nav {
@@ -195,6 +197,8 @@ nav {
     position: relative;
     overflow: hidden;
     object-fit: cover;
+
+    pointer-events: none;
 }
 
 ._2 {
@@ -202,6 +206,8 @@ nav {
     width: 23px;
     background-color: #474a4e;
     left: 31px;
+
+    pointer-events: none;
 }
 
 #mindterm {
@@ -216,6 +222,8 @@ nav {
     width: 56px;
     top: 18px;
     left: 18px;
+    
+    pointer-events: none;
 }
 
 #semis {
@@ -228,6 +236,8 @@ nav {
 
 .function {
     width: 52px;
+    
+    pointer-events: none;
 }
 
 #finals {
@@ -240,6 +250,8 @@ nav {
 
 .wave {
     width: 62px;
+
+    pointer-events: none;
 }
 
 #bg1 {
@@ -251,6 +263,8 @@ nav {
     top: 200px;
 
     animation: rotation 10s infinite linear;
+
+    pointer-events: none;
 }
 
 #bg2 {
@@ -261,6 +275,8 @@ nav {
     right: -600px;
     top: -50px;
     animation: rotation 7.30s infinite linear;
+
+    pointer-events: none;
 }
 
 #bg3 {
@@ -268,6 +284,8 @@ nav {
     width: 1155px;
     height: 1109px;
     animation: rotation 7.30s infinite linear;
+    
+    pointer-events: none;
 }
 
 footer {
