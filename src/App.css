@@ -407,4 +407,25 @@ footer {
     footer {
         margin-top: 0;
     }
+    
+    #bg1 {
+        width: 288.75px;
+        height: 277.25px;
+
+        left: -30%;
+        top: 30%;
+    }
+
+    #bg2 {
+        width: 288.75px;
+        height: 277.25px;
+
+        right:  -30%;
+        top: 30%;
+    }
+    
+    #bg3 {
+        width: 288.75px;
+        height: 277.25px;
+    }
 }
