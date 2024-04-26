@@ -7,6 +7,7 @@ import Foot from './widgets/foot';
 
 import bg1 from "./assets/bgGradients/bg1.png";
 import bg2 from "./assets/bgGradients/bg2.png";
+import bg3 from "./assets/bgGradients/bg3.png";
 import headerBG from "./assets/bgheader.png";
 import graphics from "./assets/graphs.png";
 import _123 from "./assets/123.png";
@@ -33,6 +34,7 @@ function App() {
         <img src={graphics} alt="graphics" className='graphs'/>
       </div>
       <div className='periods'>
+        <img src={bg3} alt="" id='bg3'/>
         <div className='periodsIntro'>
           <h1 className='conquer'>Conquer core concepts</h1>
           <p className='embark'>Embark on a journey of Algebraic Discovery: From fundamentals to advanced mathematical concepts</p>

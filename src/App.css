@@ -124,7 +124,7 @@ nav {
 
 .semestrialterms {
     max-width: 80%;
-    min-width: 500px;
+    width: autos;
 
     display: grid;
     grid-template-columns: auto auto;
@@ -250,7 +250,7 @@ nav {
     left: -375px;
     top: 200px;
 
-    animation: rotation 7.30s infinite linear;
+    animation: rotation 10s infinite linear;
 }
 
 #bg2 {
@@ -270,6 +270,10 @@ nav {
     animation: rotation 7.30s infinite linear;
 }
 
+footer {
+    margin-top: 100px;
+}
+
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -277,4 +281,130 @@ nav {
     to {
       transform: rotate(359deg);
     }
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .headerHome {
+        width: 100%;
+        height: auto;
+        gap: 50px;
+    }
+    
+    nav {
+        margin-top: 27px;
+    }
+
+    .title {
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .alge {
+        width: fit-content;
+        font-size: 75px;
+    }
+
+    .sub {
+        width: fit-content;
+        font-size: 10px;
+    }
+
+    .graphics{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .graphs {
+        max-width: 90%;
+    }
+
+    .periods {
+        padding-top: 30px;
+    }
+
+    .periodsIntro {
+        max-width: 85%;
+        justify-content: center;
+    }
+
+    .conquer {
+        width: 100%;
+        height: fit-content;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .embark {
+        margin: 0;
+        margin-bottom: 10px;
+        width: 90%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .semestrialterms {
+        max-width: 100%;
+        min-width: none;
+        grid-template-columns: auto;
+    }
+
+    .term {
+        width: 80%;
+        height: auto;
+        padding-bottom: 10px;
+        place-self: center;
+    }
+
+    .termIcon {
+        border-radius: 13px;
+        width: 45px;
+        height: 45px;
+
+        margin-top: 17px;
+        margin-left: 17px;
+    }
+
+    .termtitle {
+        width: 200px;
+        font-size: 20px;
+        
+        margin-left: 17px;
+    }
+
+    .termlist {
+        margin-top: 3px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    .termItem {
+        font-size: 15px;
+    }
+
+    ._123 {
+        width: 35px;
+    }
+
+    ._2 {
+        width: 13px;
+        left: 14px;
+    }
+
+    .sqrtTable {
+        width: 77%;
+        top: 6px;
+        left: 6px;
+    }
+
+    .function {
+        width: 77%;
+    }
+
+    .wave {
+        width: 77%;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}

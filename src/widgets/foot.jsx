@@ -25,9 +25,9 @@ function Foot() {
                                 <li className={style.foottermItems}>Finals</li>
                             </ul>
                         </div>
-                        <div className={style.aboutUs}></div>
+                        <p className={style.aboutUs}></p>
                     </div>
-                    <div className={style.bottomfoot}><p>Copyright &copy; {year} CSMAT101 - M003</p></div>
+                    <p className={style.bottomfoot}>Copyright &copy; {year} CSMAT101 - M003</p>
                 </footer>
         </>
     )

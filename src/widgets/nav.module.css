@@ -63,3 +63,23 @@
     color: #fff;
     text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+    .navi {
+        max-width: 60%;
+        flex-direction: column;
+    }
+    
+    .iconHolder {
+        margin-left: 0px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+    
+    .list {
+        display: none;
+    }
+
+}
