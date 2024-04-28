@@ -8,11 +8,21 @@ import {
 import './index.css'
 
 import App from './App.jsx'
+import Semi from './Semis.jsx'
+import ErrorPage from './ErrorPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>
+    element: <App/>,
+  },
+  {
+    path: "/Semi",
+    element: <Semi/>
+  },
+  {
+    path: "*",
+    element: <ErrorPage/>
   }
 ])
 

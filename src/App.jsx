@@ -41,7 +41,7 @@ function App() {
           <p className='embark'>Embark on a journey of Algebraic Discovery: From fundamentals to advanced mathematical concepts</p>
         </div>
         <div className="semestrialterms">
-          <Link to="/prelims" div className="term">
+          <a to="/prelims" div className="term">
               <div className="termIcon" id='prelim'>
                 <img src={_123} alt="123" className='_123'/>
                 <img src={_2} alt="2" className='_2'/>
@@ -51,8 +51,8 @@ function App() {
                 <li className='termItem'>Basic Number Theory Concepts</li>
                 <li className='termItem'>Real Number System and Complex Number System</li>
               </ul>
-          </Link>
-          <Link to="midterm" className='term'>
+          </a>
+          <a to="midterm" className='term'>
               <div className="termIcon" id='midterm'>
                 <img src={sqrtTable} alt="table" className='sqrtTable'/>
               </div>
@@ -62,8 +62,8 @@ function App() {
                 <li className="termItem">Equations and Inequalities</li>
                 <li className="termItem">Systems of Linear Equations and Matrices</li>
               </ul>
-          </Link>
-          <Link to="semis" className="term">
+          </a>
+          <Link to="/Semi" className="term">
               <div className="termIcon" id='semis'>
                 <img src={func} alt="function" className='function'/>
               </div>
@@ -74,7 +74,7 @@ function App() {
                 <li className="termItem">Quadratic Functions</li>
               </ul>
           </Link>
-          <Link to="/finals" className="term">
+          <a to="/finals" className="term">
               <div className="termIcon" id='finals'>
                 <img src={wave} alt="wave" className='wave'/>
               </div>
@@ -84,7 +84,7 @@ function App() {
                 <li className="termItem">Exponential Functions</li>
                 <li className="termItem">Logarithmic Functions</li>
               </ul>
-          </Link>
+          </a>
         </div>
       </div>
       <Foot/>

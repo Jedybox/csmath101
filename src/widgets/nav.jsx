@@ -15,16 +15,16 @@ function Navi(){
                 </div>
                 <ul className={style.list}>
                     <li className={style.listItem}>
-                        <Link to="/prelims">Prelim</Link>
+                        <a to="/prelims">Prelim</a>
                     </li>
                     <li className={style.listItem}>
-                        <Link to="/midterm">Midterms</Link>
+                        <a to="/midterm">Midterms</a>
                     </li>
                     <li className={style.listItem}>
-                        <Link to="/semis">Semi</Link>
+                        <Link to="/Semi">Semi</Link>
                     </li>
                     <li className={style.listItem}>
-                        <Link to="/finals">Final</Link>
+                        <a to="/finals">Final</a>
                     </li>
                 </ul>
             </nav>

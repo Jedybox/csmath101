@@ -1,0 +1,29 @@
+.mid {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+._404 {
+    font-family: Montserrat;
+    font-size: 100px;
+    color: #fff;
+}
+
+.message {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
