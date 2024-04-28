@@ -9,7 +9,7 @@ import './index.css'
 
 import App from './App.jsx'
 import Prelims from './Prelim.jsx'
-import PrelimProblem from './problem_prelim.jsx'
+import PrelimProblem from './Prelim_problems.jsx'
 import Midterms from './Midterm.jsx'
 import MidtermPronblem from './Midterm_problems.jsx'
 import Semis from './Semi.jsx'

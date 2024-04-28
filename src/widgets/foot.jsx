@@ -2,6 +2,7 @@ import React from "react";
 import style from "./foot.module.css"
 
 import icon from "../assets/icon.png"
+import { Link } from "react-router-dom";
 
 function Foot() {
     
@@ -19,10 +20,18 @@ function Foot() {
                         <div className={style.termHolder}>
                             <h1 className={style.Term}>Terms</h1>
                             <ul className={style.termlist}>
-                                <li className={style.foottermItems}>Prelim</li>
-                                <li className={style.foottermItems}>Midterm</li>
-                                <li className={style.foottermItems}>Semis</li>
-                                <li className={style.foottermItems}>Finals</li>
+                                <li className={style.foottermItems}>
+                                    <Link to="/prelims">Prelim</Link>
+                                </li>
+                                <li className={style.foottermItems}>
+                                    <Link to="/midterm">Midterms</Link>
+                                </li>
+                                <li className={style.foottermItems}>
+                                    <Link to="/semis">Semi</Link>
+                                </li>
+                                <li className={style.foottermItems}>
+                                    <Link to="/finals">Final</Link>
+                                </li>
                             </ul>
                         </div>
                         <p className={style.aboutUs}></p>

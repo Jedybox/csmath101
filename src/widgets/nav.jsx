@@ -2,6 +2,7 @@ import React from "react";
 import style from "./nav.module.css"
 
 import icon from "../assets/icon.png"
+import { Link } from "react-router-dom";
 
 function Navi(){
 
@@ -13,10 +14,18 @@ function Navi(){
                     <b className={style.name}>CSMath101</b>
                 </div>
                 <ul className={style.list}>
-                    <li className={style.listItem}>Prelim</li>
-                    <li className={style.listItem}>Midterm</li>
-                    <li className={style.listItem}>Semi</li>
-                    <li className={style.listItem}>Final</li>
+                    <li className={style.listItem}>
+                        <Link to="/prelims">Prelim</Link>
+                    </li>
+                    <li className={style.listItem}>
+                        <Link to="/midterm">Midterms</Link>
+                    </li>
+                    <li className={style.listItem}>
+                        <Link to="/semis">Semi</Link>
+                    </li>
+                    <li className={style.listItem}>
+                        <Link to="/finals">Final</Link>
+                    </li>
                 </ul>
             </nav>
         </>

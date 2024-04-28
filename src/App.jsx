@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './App.css';
 
@@ -40,50 +41,50 @@ function App() {
           <p className='embark'>Embark on a journey of Algebraic Discovery: From fundamentals to advanced mathematical concepts</p>
         </div>
         <div className="semestrialterms">
-          <div className="term">
-            <div className="termIcon" id='prelim'>
-              <img src={_123} alt="123" className='_123'/>
-              <img src={_2} alt="2" className='_2'/>
-            </div>
-            <h1 className="termtitle">Preliminary Term</h1>
-            <ul className='termlist'>
-              <li className='termItem'>Basic Number Theory Concepts</li>
-              <li className='termItem'>Real Number System and Complex Number System</li>
-            </ul>
-          </div>
-          <div className="term">
-            <div className="termIcon" id='midterm'>
-              <img src={sqrtTable} alt="table" className='sqrtTable'/>
-            </div>
-            <h1 className="termtitle">Midterm</h1>
-            <ul className='termlist'>
-              <li className="termItem">Basic Algebraic Concepts</li>
-              <li className="termItem">Equations and Inequalities</li>
-              <li className="termItem">Systems of Linear Equations and Matrices</li>
-            </ul>
-          </div>
-          <div className="term">
-            <div className="termIcon" id='semis'>
-              <img src={func} alt="function" className='function'/>
-            </div>
-            <h1 className="termtitle">Semi-Finals Term</h1>
-            <ul className='termlist'>
-              <li className="termItem">Relations and Functions</li>
-              <li className="termItem">Linear Functions </li>
-              <li className="termItem">Quadratic Functions</li>
-            </ul>
-          </div>
-          <div className="term">
-            <div className="termIcon" id='finals'>
-              <img src={wave} alt="wave" className='wave'/>
-            </div>
-            <h1 className="termtitle">Final Term</h1>
-            <ul className='termlist'>
-              <li className="termItem">Transcendental Functions</li>
-              <li className="termItem">Exponential Functions</li>
-              <li className="termItem">Logarithmic Functions</li>
-            </ul>
-          </div>
+          <Link to="/prelims" div className="term">
+              <div className="termIcon" id='prelim'>
+                <img src={_123} alt="123" className='_123'/>
+                <img src={_2} alt="2" className='_2'/>
+              </div>
+              <h1 className="termtitle">Preliminary Term</h1>
+              <ul className='termlist'>
+                <li className='termItem'>Basic Number Theory Concepts</li>
+                <li className='termItem'>Real Number System and Complex Number System</li>
+              </ul>
+          </Link>
+          <Link to="midterm" className='term'>
+              <div className="termIcon" id='midterm'>
+                <img src={sqrtTable} alt="table" className='sqrtTable'/>
+              </div>
+              <h1 className="termtitle">Midterm</h1>
+              <ul className='termlist'>
+                <li className="termItem">Basic Algebraic Concepts</li>
+                <li className="termItem">Equations and Inequalities</li>
+                <li className="termItem">Systems of Linear Equations and Matrices</li>
+              </ul>
+          </Link>
+          <Link to="semis" className="term">
+              <div className="termIcon" id='semis'>
+                <img src={func} alt="function" className='function'/>
+              </div>
+              <h1 className="termtitle">Semi-Finals Term</h1>
+              <ul className='termlist'>
+                <li className="termItem">Relations and Functions</li>
+                <li className="termItem">Linear Functions </li>
+                <li className="termItem">Quadratic Functions</li>
+              </ul>
+          </Link>
+          <Link to="/finals" className="term">
+              <div className="termIcon" id='finals'>
+                <img src={wave} alt="wave" className='wave'/>
+              </div>
+              <h1 className="termtitle">Final Term</h1>
+              <ul className='termlist'>
+                <li className="termItem">Transcendental Functions</li>
+                <li className="termItem">Exponential Functions</li>
+                <li className="termItem">Logarithmic Functions</li>
+              </ul>
+          </Link>
         </div>
       </div>
       <Foot/>
