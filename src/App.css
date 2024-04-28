@@ -301,7 +301,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .headerHome {
         width: 100%;
         height: auto;
@@ -425,25 +425,52 @@ footer {
     footer {
         margin-top: 0;
     }
-    
+
     #bg1 {
-        width: 288.75px;
-        height: 277.25px;
+        width: 750px;
+        height: auto;
+
+        left: -50%;
+        top: 20%;
+    }
+
+    #bg2 {
+        width: 750px;
+        height: auto;
+
+        right: -50%;
+        top: 30%;
+    }
+
+    #bg3 {
+        width: 750px;
+        height: auto;
+
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #bg1 {
+        width: 367.3px;
+        height: 339.3px;
 
         left: -30%;
         top: 30%;
     }
 
     #bg2 {
-        width: 288.75px;
-        height: 277.25px;
+        width: 385px;
+        height: 369.6px;
 
-        right:  -30%;
+        right:  -40%;
         top: 30%;
     }
     
     #bg3 {
-        width: 288.75px;
-        height: 277.25px;
+        width: 577.5px;
+        height: 554.5px;
+
+        top: 30%;
     }
 }
