@@ -1,13 +1,13 @@
 import React from "react";
-import "./ErrorPage.css"
+import style from "./ErrorPage.module.css";
 import { Link } from "react-router-dom";
 
 function ErrorPage() {
     return(
     <>
-        <div className="mid">
-            <h1 className="_404">404</h1>
-            <p className="message">
+        <div className={style.mid}>
+            <h1 className={style._404}>404</h1>
+            <p className={style.message}>
                 Page is not found
             </p>
             <nav>

@@ -10,6 +10,7 @@ import './index.css'
 import App from './App.jsx'
 import Semi from './Semis.jsx'
 import ErrorPage from './ErrorPage.jsx'
+import SemiProblem from './Semis_Problem.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/Semi",
     element: <Semi/>
+  },
+  {
+    path: "/Semi/:topic",
+    element: <SemiProblem/>
   },
   {
     path: "*",

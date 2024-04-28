@@ -66,12 +66,14 @@
 
 @media only screen and (max-width: 600px) {
     .navi {
-        max-width: 60%;
-        flex-direction: column;
+        width: 90%;
+        flex-direction: row;
     }
     
     .iconHolder {
+        position: absolute;
         margin-left: 0px;
+        left: 10%;
     }
 
     .name {

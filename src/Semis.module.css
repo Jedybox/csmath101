@@ -1,0 +1,169 @@
+.navi {
+    max-width: 1280px;;
+    width: 1280px;
+    position: relative;
+    height: 48px;
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Montserrat';
+
+    display: flex;
+}
+
+.nameIcon {
+    position: relative;
+    width: 40%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+.name {
+    width: 194px;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+}
+
+.navList {
+    position: relative;
+    width:60%;
+    height: auto;
+
+    list-style: none;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.navItem {
+    width: 500px;
+}
+
+.termTitle {
+    width: 829px;
+    position: relative;
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+
+    gap: 0;
+    margin: 0;
+}
+
+.TitleEffect {
+    width: 254px;
+    position: relative;
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-family: Montserrat;
+    background: linear-gradient(90deg,#667EEA,#764BA2 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.sub {
+    width: 630px;
+    position: relative;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic {
+    width: 1280px;
+    height: max-content;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.sampleImg {
+    max-width: 80%;
+    width: 80%;
+}
+
+.topicContent {
+    position: relative;
+    max-width: 70%;
+    width: 70%;
+}
+
+.topicTitle {
+    width: auto;
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+    display: inline-block;
+    font-family: Montserrat;
+    padding-bottom: 20px;
+}
+
+#try {
+    width: auto;
+    font-size: 28px;
+    text-decoration: underline;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-weight: 700;
+    font-family: Montserrat;
+    background: linear-gradient(90deg,#667EEA,#764BA2 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    justify-self: right;
+    
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
