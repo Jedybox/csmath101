@@ -7,6 +7,9 @@ import functrelation from "./assets/semis/functionrelation.png"
 import linearfunc from "./assets/semis/linearfunc.png"
 import quadra from "./assets/semis/quadrafunc.png"
 import icon from "./assets/icon.png";
+import bg1 from "./assets/bgGradients/bg1.png"
+import bg2 from "./assets/bgGradients/bg2.png"
+import bg3 from "./assets/bgGradients/bg3.png"
 
 import Foot from "./widgets/foot";
 
@@ -39,6 +42,7 @@ function Semi() {
             </ul>
         </nav>
         <header className={style.head}>
+            <img src={bg2} alt="" className={style.headBG}/>
             <h1 className={style.termTitle}>Semi-Final<b className={style.TitleEffect}>Term</b></h1>
             <p className={style.sub}>
                 This page contains issues with functions and relations, linear and quadratic functions, along with their solutions and answers. Some of the problems may come from real-world situations.
@@ -79,10 +83,12 @@ function Semi() {
                         whereas relations may allow for multiple outputs for a single input, making them more general.
                     </p>
                 </div>
+                <img src={bg1} alt="" className={style.FRBG}/>
                 <Link to="/Semi/FunctionsRelations" id={style.try}>Try Some Problems</Link>
             </section>
         </div>
         <div className={style.topic}>
+            <img src={bg3} alt="" className={style.LFBG}/>
             <img src={linearfunc} alt="" className={style.sampleImg}/>
             <section className={style.topicContent}>
                 <h1 className={style.topicTitle}>Linear Functions</h1>
@@ -126,9 +132,11 @@ function Semi() {
                     </p>
                 </div>
                 <Link id={style.try} to="/Semi/LinearFunction">Try Some Problems</Link>
+                <img src={bg1} alt="" className={style.LFBG2}/>
             </section>
         </div>
         <div className={style.topic}>
+        <img src={bg2} alt="" className={style.QTBG}/>
             <img src={quadra} alt="" className={style.sampleImg}/>
             <section className={style.topicContent}>
                 <h1 className={style.topicTitle}>Quadratic Functions</h1>
@@ -190,7 +198,6 @@ function Semi() {
                 <Link id={style.try} to="/Semi/QuadraticFunctions">Try Some Problems</Link>
             </section>
         </div>
-        <div className={style.topic}></div>
         <Foot/>
         </>
     )

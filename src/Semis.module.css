@@ -100,9 +100,14 @@
 }
 
 .head {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    gap: 10px;
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 
 .topic {
@@ -166,4 +171,67 @@
     position: absolute;
     right: 0%;
     bottom: 0%;
+}
+
+.headBG {
+    width: 1200px;
+    position: absolute;
+    z-index: -100;
+    
+    left: -80%;
+    top: -50%;
+
+    pointer-events: none;
+    animation: rotation 10s infinite linear;
+}
+
+.FRBG {
+    width: 1000px;
+    position: absolute;
+    z-index: -100;
+
+    left: 60%;
+    bottom: -20%;
+    pointer-events: none;
+    animation: rotation 10s infinite linear;
+}
+
+.LFBG {
+    position: absolute;
+    width: 1000px;
+    z-index: -100;
+
+    right: 65%;
+    pointer-events: none;
+    animation: rotation 10s infinite linear;
+}
+
+.LFBG2 {
+    position: absolute;
+    width: 1000px;
+    z-index: -100;
+
+    right: -75%;
+    pointer-events: none;
+    animation: rotation 10s infinite linear;
+}
+
+.QTBG {
+    position: absolute;
+    width: 1000px;
+
+    pointer-events: none;
+    z-index: -100;
+    right: 65%;
+
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
 }
