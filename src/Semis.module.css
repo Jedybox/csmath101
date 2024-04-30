@@ -57,7 +57,7 @@
 }
 
 .termTitle {
-    width: 829px;
+    width:  fit-content;
     position: relative;
     font-size: 60px;
     letter-spacing: 0.05em;
@@ -71,7 +71,7 @@
 }
 
 .TitleEffect {
-    width: 254px;
+    width: fit-content;
     position: relative;
     font-size: 60px;
     letter-spacing: 0.05em;
@@ -114,6 +114,7 @@
     width: 1280px;
     height: max-content;
     padding: 20px;
+    margin-top: 75px;
 
     display: flex;
     flex-direction: column;
@@ -151,7 +152,7 @@
     text-align: justify;
     display: inline-block;
     font-family: Montserrat;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 #try {
@@ -233,5 +234,41 @@
     }
     to {
       transform: rotate(359deg);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .navi {
+        max-width: 100%;
+    }
+
+    .nameIcon{
+        width: fit-content;
+        position: absolute;
+        left: 50px;
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .head {
+        width: 100%;
+        text-align: center;
+    }
+
+    .topic {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .name{
+        font-size: 25px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
     }
 }
