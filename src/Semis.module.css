@@ -271,4 +271,52 @@
         width: 30px;
         height: 30px;
     }
+
+    .head {
+        width: 100%;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .termTitle {
+        font-size: 35px;
+    }
+
+    .TitleEffect {
+        font-size: 35px;
+    }
+
+    .sub {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .topic {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .topicContent {
+        max-width: 800%;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .topicTitle {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #try {
+        font-size: 20px;
+    }
 }
