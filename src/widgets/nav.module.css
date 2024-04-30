@@ -64,12 +64,29 @@
     text-align: left;
 }
 
+@media only screen and (max-width: 1200px) {
+    .navi {
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .iconHolder {
+        position: absolute;
+        margin-left: 0px;
+        left: 0%;
+    }
+
+    .list {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .navi {
         width: 90%;
         flex-direction: row;
     }
-    
+
     .iconHolder {
         position: absolute;
         margin-left: 0px;
