@@ -319,4 +319,31 @@
     #try {
         font-size: 20px;
     }
+
+    .headBG, .FRBG, .LFBG, .LFBG2, .QTBG {
+        width: 500px;
+    }
+
+    .headBG {
+        left: -60%;
+        top: -50%;
+    }
+
+    .FRBG {
+        left: 30%;
+        bottom: 20%;
+    }
+
+    .LFBG {
+        left: -60%;
+    }
+
+    .LFBG2 {
+        bottom: 20%;
+        right: -75%;
+    }
+
+    .QTBG {
+        right: 35%;
+    }
 }
