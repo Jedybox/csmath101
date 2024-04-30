@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 import style from "./Semis.module.css";
 
-import functrelation from "./assets/semis/functionrelation.png"
-import linearfunc from "./assets/semis/linearfunc.png"
-import quadra from "./assets/semis/quadrafunc.png"
-import icon from "./assets/icon.png";
-import bg1 from "./assets/bgGradients/bg1.png"
-import bg2 from "./assets/bgGradients/bg2.png"
-import bg3 from "./assets/bgGradients/bg3.png"
+import functrelation from "../../assets/semis/functionrelation.png"
+import linearfunc from "../../assets/semis/linearfunc.png"
+import quadra from "../../assets/semis/quadrafunc.png"
+import icon from "../../assets/icon.png";
+import bg1 from "../../assets/bgGradients/bg1.png"
+import bg2 from "../../assets/bgGradients/bg2.png"
+import bg3 from "../../assets/bgGradients/bg3.png"
 
-import Foot from "./widgets/foot";
+import Foot from "../../widgets/foot";
 
 function Semi() {
 

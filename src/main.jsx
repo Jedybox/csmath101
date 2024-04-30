@@ -8,9 +8,9 @@ import {
 import './index.css'
 
 import App from './App.jsx'
-import Semi from './Semis.jsx'
-import ErrorPage from './ErrorPage.jsx'
-import SemiProblem from './Semis_Problem.jsx'
+import Semi from './pages/Semis/Semis.jsx'
+import ErrorPage from './pages/Error/ErrorPage.jsx'
+import SemiProblem from './pages/Semis/Semis_Problem.jsx'
 
 const router = createBrowserRouter([
   {
