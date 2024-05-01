@@ -97,6 +97,8 @@
     justify-content: center;
 
     gap: 250px;
+
+    margin-bottom: 250px;
 }
 
 .TryIT {
@@ -154,11 +156,6 @@
     to {
       transform: rotate(359deg);
     }
-}
-
-
-footer {
-    margin-top: 250px;
 }
 
 @media only screen and (max-width:1200px) {
@@ -239,5 +236,10 @@ footer {
     ._3bg {
         width: 900px;
         left: -50%;
+    }
+
+    .TryITChild {
+        margin-left: 25px;
+        font: 30px;
     }
 }
