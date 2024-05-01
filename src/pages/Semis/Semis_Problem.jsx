@@ -3,6 +3,9 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import icon from "../../assets/icon.png"
+import bg1 from "../../assets/bgGradients/bg1.png";
+import bg2 from "../../assets/bgGradients/bg2.png";
+import bg3 from "../../assets/bgGradients/bg3.png";
 
 import ErrorPage from "../Error/ErrorPage";
 import style_ from "./Semis_Problem.module.css"
@@ -110,7 +113,7 @@ function SemiProblem() {
     }
 
     return(
-        <>
+        <>  
             <nav className={style_.SemNav}>
                 <div className={style_.nameIconHolder}>
                     <img src={icon} alt="icon" className={style_.Icon}/>
@@ -122,9 +125,12 @@ function SemiProblem() {
             </nav>
             <h1 className={style_.TopicTitle}>Functions <br /> and <br /> Relations</h1>
             <div className={style_.parentProblemContainer}>
+                <img src={bg2} alt="" className={style_._1bg}/>
                 <div className={style_.TryIT}>
                     <p className={style_.TryITChild}>Try it yourself</p>
                 </div>
+                <img src={bg1} alt="" className={style_._2bg}/>
+                <img src={bg3} alt="" className={style_._3bg}/>
                 <div className={style_.ProblemContainer}>
                     <Task qts={question[0]} ans={solution[0]} num={1}/>
                     <Task qts={question[1]} ans={solution[1]} num={2}/>

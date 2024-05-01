@@ -73,3 +73,9 @@
     text-align: justify;
     display: inline-block;
 }
+
+@media only screen and (max-width: 900px){
+    .container {
+        width: 100%;
+    }
+}
