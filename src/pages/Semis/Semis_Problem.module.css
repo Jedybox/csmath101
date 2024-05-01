@@ -1,0 +1,79 @@
+.SemNav {
+    max-width: 1280px;;
+    width: 1280px;
+    position: relative;
+    height: 48px;
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Montserrat';
+
+    display: flex;
+}
+
+.nameIconHolder {
+    position: relative;
+    width: 40%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0px;
+}
+
+.Icon {
+    width: 48px;
+    height: 48px;
+}
+
+.name {
+    width: 194px;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: left;
+}
+
+.gobackContainer {
+    position: relative;
+    width:60%;
+    height: auto;
+
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    right: 200px;
+}
+
+#ID {
+    position: absolute;
+    left: 0%;
+    display: inline-block;
+
+    width: max-content;
+    position: relative;
+    font-size: 23px;
+    letter-spacing: 0.05em;
+    font-family: 'Montserrat';
+    color: #fff;
+    display: inline-block;
+}
+
+.TopicTitle {
+    width: 100%;
+    position: relative;
+    font-size: 80px;
+    display: inline-block;
+    font-family: Montserrat;
+    background: linear-gradient(90deg, #334ab0, #45caff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
