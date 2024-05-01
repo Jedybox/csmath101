@@ -7,6 +7,7 @@ import icon from "../../assets/icon.png"
 import ErrorPage from "../Error/ErrorPage";
 import style from "./Semis_Problem.module.css"
 import Foot from "../../widgets/foot";
+import Task from "../../widgets/task";
 
 function SemiProblem() {
     const topic = useParams()
@@ -15,7 +16,11 @@ function SemiProblem() {
     if (!topics.includes(topic.topic)) {
         return(<ErrorPage/>)
     } 
-        
+    
+    const question = "A car travels at a constant speed of 120 miles per hour. Write a linear function to represent the distance traveled by the car after x hours. Find the distance traveled by the car in 7 hours. "
+    
+    const solution = "𝒇(𝒙) = 𝟏𝟐𝟎(𝒙) , where f(x) is distance in miles and t are the hours. <br />𝒇(𝟕) = 𝟏𝟐𝟎(𝟕) <br />𝒇(𝟕) = 𝟖𝟒𝟎 𝒎𝒑�"
+
     return(
         <>
             <nav className={style.SemNav}>
@@ -33,14 +38,16 @@ function SemiProblem() {
                     <p className={style.TryITChild}>Try it yourself</p>
                 </div>
                 <div className={style.ProblemContainer}>
-                    <div className={style.Problem}>
-                        <div className={style.Question}>
-                            <p></p>
-                        </div>
-                        <div>
-                            <button></button>
-                        </div>
-                    </div>
+                    <Task qts={question} ans={solution} num={1}/>
+                    <Task qts={question} ans={solution} num={2}/>
+                    <Task qts={question} ans={solution} num={3}/>
+                    <Task qts={question} ans={solution} num={4}/>
+                    <Task qts={question} ans={solution} num={5}/>
+                    <Task qts={question} ans={solution} num={6}/>
+                    <Task qts={question} ans={solution} num={7}/>
+                    <Task qts={question} ans={solution} num={8}/>
+                    <Task qts={question} ans={solution} num={9}/>
+                    <Task qts={question} ans={solution} num={10}/>
                 </div>
             </div>
             <Foot/>

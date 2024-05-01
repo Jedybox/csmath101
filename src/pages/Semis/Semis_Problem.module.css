@@ -77,3 +77,11 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
+
+.ProblemContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 250px;
+}
