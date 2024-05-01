@@ -85,3 +85,17 @@
 
     gap: 250px;
 }
+
+footer {
+    margin-top: 250px;
+}
+
+@media only screen and (max-width:1200px) {
+    .SemNav {
+        max-width: 100%;
+    }
+
+    .gobackContainer {
+        right: 100px;
+    }
+}
