@@ -1,0 +1,41 @@
+.head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 250px;
+}
+
+.TermTitle {
+    width: 100%;
+    text-align: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Title {
+    position: relative;
+    font-size: 110px;
+    display: inline-block;
+    font-family: Montserrat;
+    background: linear-gradient(90deg, #334ab0, #45caff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0%;
+}
+
+.midsub {
+    position: relative;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 0%;
+    margin-bottom: 50px;
+}

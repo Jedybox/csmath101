@@ -18,7 +18,7 @@ function Navi(){
                         <a to="/prelims">Prelim</a>
                     </li>
                     <li className={style.listItem}>
-                        <a to="/midterm">Midterms</a>
+                        <Link to="/midterm">Midterms</Link>
                     </li>
                     <li className={style.listItem}>
                         <Link to="/Semi">Semi</Link>
