@@ -200,3 +200,57 @@
     top: 800%;
 }
 
+@media only screen and (max-width:1050px){
+    .head {
+        gap: 100px;
+    }
+
+    .bg {
+        width: 1000px;
+    }
+
+    #bg1 {
+        right: 30%;
+        top: 5%;
+    }
+
+    #bg2 {
+        left: 30%;
+        top: 70%;
+    }
+
+    #bg3 {
+        right: 30%;
+        top: 150%;
+    }
+
+    #bg4 {
+        left: 30%;
+        top: 270%;
+    }
+
+    #bg5 {
+        right: 30%;
+        top: 370%;
+    }
+
+    #bg6 {
+        left: 30%;
+        top: 430%;
+    }
+
+    #bg7 {
+        right: 30%;
+        top: 520%;
+    }
+
+    #bg8 {
+        left: 30%;
+        top: 630%;
+    }
+
+    #bg9 {
+        right: 35%;
+        top: 678%;
+    }
+}
