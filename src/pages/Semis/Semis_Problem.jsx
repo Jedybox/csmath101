@@ -127,7 +127,7 @@ function SemiProblem() {
             <div className={style_.parentProblemContainer}>
                 <img src={bg2} alt="" className={style_._1bg}/>
                 <div className={style_.TryIT}>
-                    <p className={style.p} className={style_.TryITChild}>Try it yourself</p>
+                    <p className={style_.TryITChild}>Try it yourself</p>
                 </div>
                 <img src={bg1} alt="" className={style_._2bg}/>
                 <img src={bg3} alt="" className={style_._3bg}/>

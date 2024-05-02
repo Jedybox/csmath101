@@ -141,7 +141,19 @@
     position: absolute;
     z-index: -100;
     width: 1100px;
+
+    animation: rotation 10s linear infinite;
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
 
 #bg1 {
     right: 55%;
@@ -165,4 +177,26 @@
 
 #bg5 {
     right: 55%;
+    top: 470%;
 }
+
+#bg6 {
+    left: 55%;
+    top: 570%;
+}
+
+#bg7 {
+    right: 55%;
+    top: 670%;
+}
+
+#bg8 {
+    left: 55%;
+    top: 710%;
+}
+
+#bg9 {
+    right: 55%;
+    top: 800%;
+}
+

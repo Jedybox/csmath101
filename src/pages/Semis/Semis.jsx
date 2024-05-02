@@ -44,7 +44,7 @@ function Semi() {
         <header className={style.head}>
             <img src={bg2} alt="" className={style.headBG}/>
             <h1 className={style.termTitle}>Semi-Final <b className={style.TitleEffect}>Term</b></h1>
-            <p className={style.p} className={style.sub}>
+            <p className={style.sub}>
                 This page contains issues with functions and relations, linear and quadratic functions, along with their solutions and answers. Some of the problems may come from real-world situations.
             </p>
         </header>
