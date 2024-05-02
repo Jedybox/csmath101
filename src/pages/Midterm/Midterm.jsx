@@ -217,35 +217,35 @@ function Midterm() {
                             &ensp; &ensp; &ensp;o	This form represents linear equations in a more general format.
                         </p>
                         <h2 className={style.SubTopicTitle}>Understanding Systems of Linear Equations:</h2>
-                        <p>
+                        <p className={style.p}>
                             •	A system of linear equations consists of two or more linear equations involving the same variables.
                         </p>
-                        <p>
+                        <p className={style.p}>
                             •	Each equation represents a line in a coordinate system, 
                             and the solution to the system is the point(s) where these lines intersect.
                         </p>
-                        <p>
+                        <p className={style.p}>
                             •	Types of solutions: <br />
                             &ensp; &ensp; &ensp;o	Unique solution: The system has exactly one solution. <br />
                             &ensp; &ensp; &ensp;o	No solution: The system has no common solution. <br />
                             &ensp; &ensp; &ensp;o	Infinitely many solutions: The system has infinite solutions.
                         </p>
-                        <p>
+                        <p className={style.p}>
                             •	Example: 2x + y = 5 and 3x - 2y = 1.
                         </p>
                         <img src={photo9} alt="" className={style.photo9}/>
                         <h2 className={style.SubTopicTitle}>Representing Systems of Linear Equations Using Matrices:</h2>
-                        <p>
+                        <p className={style.p}>
                             Matrices are rectangular arrays of numbers. They are used to compactly represent linear equations.
                         </p>
-                        <p>
+                        <p className={style.p}>
                             &ensp; &ensp; &ensp;•	Coefficient matrix: A matrix representing the coefficients of the variables in the 
                             system of linear equations. <br />
                             &ensp; &ensp; &ensp;•	Variable matrix: A matrix representing the variables in the system of linear equations. <br />
                             &ensp; &ensp; &ensp;•	Constant matrix: A matrix representing the constants in the system of linear equations. <br />
                             &ensp; &ensp; &ensp;•	Augmented matrix: The combination of the coefficient matrix and the constant matrix.
                         </p>
-                        <p>
+                        <p className={style.p}>
                             Example: Convert the system of linear equations into matrix form: <br />
                             &ensp; &ensp; &ensp;2x + y = 5 <br />
                             &ensp; &ensp; &ensp;3x - 2y = 1

@@ -52,7 +52,7 @@ function App() {
                 <li className='termItem'>Real Number System and Complex Number System</li>
               </ul>
           </a>
-          <a to="midterm" className='term'>
+          <Link to="midterm" className='term'>
               <div className="termIcon" id='midterm'>
                 <img src={sqrtTable} alt="table" className='sqrtTable'/>
               </div>
@@ -62,7 +62,7 @@ function App() {
                 <li className="termItem">Equations and Inequalities</li>
                 <li className="termItem">Systems of Linear Equations and Matrices</li>
               </ul>
-          </a>
+          </Link>
           <Link to="/Semi" className="term">
               <div className="termIcon" id='semis'>
                 <img src={func} alt="function" className='function'/>

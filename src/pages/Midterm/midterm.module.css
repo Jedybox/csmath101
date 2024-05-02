@@ -58,6 +58,7 @@
 }
 
 .lesson {
+    position: relative;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -252,5 +253,51 @@
     #bg9 {
         right: 35%;
         top: 678%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .lessonTitle, .SubTopicTitle {
+        width: 90%;
+    }
+
+    .lesson {
+        width: 90%;
+    }
+
+    .p {
+        width: 90%;
+    }
+
+    .photo1 {
+        width: 620px;
+    }
+    .photo2 {
+        width: 390px;
+    }
+    .photo3 {
+        width: 390px;
+    }
+    .photo4 {
+        width: 600px;
+    }
+    .photo5 {
+        width: 450px;
+    }
+    .photo6 {
+        width: 430px;
+    }
+    .photo7 {
+        width: 620px;
+    }
+    .photo8 {
+        width: 470px;
+    }
+    .photo9 {
+        width: 500px;
+    }
+    .photo10 {
+        width: 200px;
     }
 }
