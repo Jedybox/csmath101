@@ -207,8 +207,8 @@
     top: 90%;
 }
 
-.btnContiner {
-    height: max-content;
+.btnContainer {
+    height: 100px;
     width: 780px;
     position: relative;
 }
@@ -239,6 +239,46 @@
     color: #fff;
     text-align: center;
     display: inline-block;
+}
+
+@media only screen and (max-width:1200px){
+    .photo1 {
+        width: 777px;
+    }
+    .photo2 {
+        width: 480px;
+    }
+    .photo3 {
+        width: 481px;
+    }
+    .photo4 {
+        width: 630px;
+    }
+    .photo5 {
+        width: 579px;
+    }
+    .photo6 {
+        width: 541px;
+    }
+    .photo7 {
+        width: 777px;
+    }
+    .photo8 {
+        width: 591px;
+    }
+    .photo9 {
+        width: 630px;
+    }
+    .photo10 {
+        width: 264px;
+    }
+    .btnContiner {
+        width: 100%;
+    }
+    .lessonsContainer {
+        width: 80%;
+    }
+
 }
 
 @media only screen and (max-width:1050px){
@@ -297,6 +337,11 @@
 
     .lessonsContainer {
         margin-bottom: 50px;
+        gap: 50px;
+    }
+
+    .lesson, .lessonContent {
+        width: 100%;
     }
 }
 
@@ -344,12 +389,18 @@
     .photo10 {
         width: 200px;
     }
+    .btnContainer {
+        width: 100%;
+    }
+    #btn {
+        right: 7.5%;
+    }
+    #inbtn {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 600px){
-    .lesson, .lessonContent {
-        width: 100%;
-    }
     .lessonTitle {
         font-size: 30px;
     }

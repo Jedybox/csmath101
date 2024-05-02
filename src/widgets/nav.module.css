@@ -1,6 +1,5 @@
 .navi {
-    max-width: 1280px;;
-    width: 1280px;
+    width: 100%;
     position: relative;
     height: 48px;
     font-size: 23px;
@@ -8,12 +7,14 @@
     font-family: 'Montserrat';
 
     display: flex;
+    align-items: center;
 }
 
 .iconHolder {
-    position: relative;
-    width: 40%;
+    position: absolute;
     height: auto;
+
+    left: 10%;
 
     display: flex;
     flex-direction: row;
@@ -24,10 +25,10 @@
 }
 
 .list {
-    position: relative;
-    width:60%;
+    position: absolute;
     height: auto;
 
+    right: 10%;
     list-style: none;
     gap: 100px;
     display: flex;
@@ -76,8 +77,34 @@
         left: 0%;
     }
 
+    .img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
     .list {
-        display: none;
+        right: 0%;
+        gap: 50px;
+    }
+
+    .listItem {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .list {
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .list {
+        gap: 10px;
     }
 }
 
@@ -89,8 +116,6 @@
 
     .iconHolder {
         position: absolute;
-        margin-left: 0px;
-        left: 10%;
     }
 
     .name {
@@ -100,5 +125,4 @@
     .list {
         display: none;
     }
-
 }
