@@ -1,3 +1,9 @@
+.bgs {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .head {
     width: 100%;
     display: flex;
@@ -158,47 +164,47 @@
 
 #bg1 {
     right: 55%;
-    top: 25%;
+    top: 2%;
 }
 
 #bg2 {
     left: 55%;
-    top: 115%;
+    top: 11%;
 }
 
 #bg3 {
     right: 55%;
-    top: 220%;
+    top: 22%;
 }
 
 #bg4 {
     left: 55%;
-    top: 370%;
+    top: 35%;
 }
 
 #bg5 {
     right: 55%;
-    top: 470%;
+    top: 49%;
 }
 
 #bg6 {
     left: 55%;
-    top: 570%;
+    top: 55%;
 }
 
 #bg7 {
     right: 55%;
-    top: 670%;
+    top: 65%;
 }
 
 #bg8 {
     left: 55%;
-    top: 710%;
+    top: 84%;
 }
 
 #bg9 {
     right: 55%;
-    top: 800%;
+    top: 90%;
 }
 
 @media only screen and (max-width:1050px){
@@ -212,47 +218,51 @@
 
     #bg1 {
         right: 30%;
-        top: 5%;
+        top: 1%;
     }
 
     #bg2 {
         left: 30%;
-        top: 70%;
+        top: 10%;
     }
 
     #bg3 {
         right: 30%;
-        top: 150%;
+        top: 20%;
     }
 
     #bg4 {
         left: 30%;
-        top: 270%;
+        top: 35%;
     }
 
     #bg5 {
         right: 30%;
-        top: 370%;
+        top: 48%;
     }
 
     #bg6 {
         left: 30%;
-        top: 430%;
+        top: 57%;
     }
 
     #bg7 {
         right: 30%;
-        top: 520%;
+        top: 63%;
     }
 
     #bg8 {
         left: 30%;
-        top: 630%;
+        top: 85%;
     }
 
     #bg9 {
         right: 35%;
-        top: 678%;
+        top: 91%;
+    }
+
+    .lessonsContainer {
+        margin-bottom: 50px;
     }
 }
 
@@ -356,35 +366,35 @@
     }
 
     .bg {
-        width: 500px;
+        width: 450px;
     }
 
     #bg1 {
-        top: 20%;
+        top: 3%;
     }
 
     #bg2 {
-        top: 80%;
+        top: 12%;
     }
     #bg3 {
-        top: 180%;
+        top: 25%;
     }
     #bg4 {
-        top: 330%;
+        top: 42%;
     }
     #bg5 {
-        top: 430%;
+        top: 56%;
     }
     #bg6 {
-        top: 490%;
+        top: 62%;
     }
     #bg7 {
-        top: 600%;
+        top: 69%;
     }
     #bg8 {
-        top: 705%;
+        top: 86%;
     }
     #bg9 {
-        top: 755%;
+        top: 95%;
     }
 }
