@@ -207,6 +207,40 @@
     top: 90%;
 }
 
+.btnContiner {
+    height: max-content;
+    width: 780px;
+    position: relative;
+}
+
+#btn {
+    position: absolute;
+    right: 20%;
+
+    background: linear-gradient(90deg, rgba(87,2,101,1) 0%, rgba(255,27,107,1) 100%);
+    border: none;
+    padding: 5px;
+    border-radius: 36px;
+    width: max-content;
+}
+
+#inbtn {
+    background-color: #26292C;
+    padding-top: 7px;
+    padding-bottom: 7.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: auto;
+    border-radius: 31px;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
 @media only screen and (max-width:1050px){
     .head {
         gap: 100px;

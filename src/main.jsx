@@ -12,6 +12,7 @@ import Semi from './pages/Semis/Semis.jsx'
 import ErrorPage from './pages/Error/ErrorPage.jsx'
 import SemiProblem from './pages/Semis/Semis_Problem.jsx'
 import Midterm from './pages/Midterm/Midterm.jsx'
+import Tasks from './pages/Midterm/MidtermTask.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/Midterm",
     element: <Midterm/>
+  },
+  {
+    path: "/Midterm/:topic",
+    element: <Tasks/>
   },
   {
     path: "*",

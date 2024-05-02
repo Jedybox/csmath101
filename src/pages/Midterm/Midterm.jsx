@@ -1,5 +1,6 @@
 import React from "react";
 import Navi from "../../widgets/nav";
+import { Link } from "react-router-dom";
 
 import photo1 from "./midtermAssets/photo1.png"
 import photo2 from "./midtermAssets/photo2.png"
@@ -125,6 +126,9 @@ function Midterm() {
                             variable present in the expression.
                         </p>
                     </div>
+                    <div className={style.btnContainer}>
+                        <button id={style.btn}><Link to="/Midterm/Basic-Algebraic-Concepts" id={style.inbtn}>Problems</Link></button>
+                    </div>
                 </div>
                 <div className={style.lesson}>
                     <div className={style.lessonContent}>
@@ -185,6 +189,9 @@ function Midterm() {
                             to solve for the value(s) of the variable(s) that satisfy the equation. 
                             Example: 2x + 3 = 7 is an equation.
                         </p>
+                    </div>
+                    <div className={style.btnContainer}>
+                        <button id={style.btn}><Link to="/Midterm/Equations-and-Inequalities" id={style.inbtn}>Problems</Link></button>
                     </div>
                 </div>
                 <div className={style.lesson}>
@@ -254,6 +261,9 @@ function Midterm() {
                             <p>Into matrix form:</p>
                             <img src={photo10} alt="" className={style.photo10}/>
                         </div>
+                    </div>
+                    <div className={style.btnContainer}>
+                        <button id={style.btn}><Link to="/Midterm/Systems-of-Linear-Equations-and-Matrices" id={style.inbtn}>Problems</Link></button>
                     </div>
                 </div>
             </div>
