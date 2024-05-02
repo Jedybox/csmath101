@@ -301,3 +301,90 @@
         width: 200px;
     }
 }
+
+@media only screen and (max-width: 600px){
+    .lesson, .lessonContent {
+        width: 100%;
+    }
+    .lessonTitle {
+        font-size: 30px;
+    }
+    .SubTopicTitle {
+        font-size: 20px;
+    }
+    .p {
+        font-size: 15px;
+    }
+    .p, .lessonTitle, .SubTopicTitle {
+        width: 85%;
+    }
+    .Title {
+        font-size: 70px;
+    }
+    .midsub {
+        font-size: 15px;
+    }
+    .photo1 {
+        width: 310px;
+    }
+    .photo2 {
+        width: 195px;
+    }
+    .photo3 {
+        width: 195px;
+    }
+    .photo4 {
+        width: 300px;
+    }
+    .photo5 {
+        width: 225px;
+    }
+    .photo6 {
+        width: 215px;
+    }
+    .photo7 {
+        width: 310px;
+    }
+    .photo8 {
+        width: 265px;
+    }
+    .photo9 {
+        width: 225px;
+    }
+    .photo10 {
+        width: 100px;
+    }
+
+    .bg {
+        width: 500px;
+    }
+
+    #bg1 {
+        top: 20%;
+    }
+
+    #bg2 {
+        top: 80%;
+    }
+    #bg3 {
+        top: 180%;
+    }
+    #bg4 {
+        top: 330%;
+    }
+    #bg5 {
+        top: 430%;
+    }
+    #bg6 {
+        top: 490%;
+    }
+    #bg7 {
+        top: 600%;
+    }
+    #bg8 {
+        top: 705%;
+    }
+    #bg9 {
+        top: 755%;
+    }
+}
