@@ -42,4 +42,127 @@
 
 .lessonsContainer {
     margin-top: 75px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 150px;
+
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.lesson {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 30px;
+}
+
+.lessonContent {
+    width: 780px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lessonTitle {
+    width: 100%;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.SubTopicTitle {
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+
+.p {
+    width: 100%;
+}
+
+.photo1 {
+    width: 977px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.photo2 {
+    width: 580px;
+}
+
+.photo3 {
+    width: 581px;
+}
+
+.photo4 {
+    width: 830px;
+}
+
+.photo5 {
+    width: 679px;
+}
+
+.photo6 {
+    width: 641px;
+}
+
+.photo7 {
+    width: 977px;
+}
+
+.photo8 {
+    width: 691px;
+}
+
+.photo9 {
+    width: 730px;
+}
+
+.photo10Container {
+    width: fit-content;
+}
+
+.photo10 {
+    width: 364px;
+}
+
+.bg {
+    position: absolute;
+    z-index: -100;
+    width: 1100px;
+}
+
+#bg1 {
+    right: 55%;
+    top: 25%;
+}
+
+#bg2 {
+    left: 55%;
+    top: 115%;
+}
+
+#bg3 {
+    right: 55%;
+    top: 220%;
+}
+
+#bg4 {
+    left: 55%;
+    top: 370%;
+}
+
+#bg5 {
+    right: 55%;
 }

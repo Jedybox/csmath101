@@ -26,10 +26,10 @@ function Task(props) {
             <div className={style.container}>
                 <div className={style.questionContainer}>
                     <h2 className={style.probNum}>Problem {props.num}</h2>
-                    <p className={style.question} dangerouslySetInnerHTML={{__html:props.qts}}/>
+                    <p className={style.p} className={style.question} dangerouslySetInnerHTML={{__html:props.qts}}/>
                 </div>
                 <div className={style.answerContainer} id={answer}>
-                    <p className={style.answer} dangerouslySetInnerHTML={{__html:props.ans}}/>
+                    <p className={style.p} className={style.answer} dangerouslySetInnerHTML={{__html:props.ans}}/>
                     <button id="btn" className={style.button} onClick={move}><span className={style.inbtn} id={inbtn}>Reveal answer</span></button>
                 </div>
             </div>
