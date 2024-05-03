@@ -1,0 +1,16 @@
+.head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.TitleContainer {
+    width: 70%;
+}
+.topicTitle {
+    font-size: 75px;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+}

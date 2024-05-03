@@ -22,7 +22,7 @@ function Tasks() {
 
     return (
         <>
-            <header>
+            <header className={style.head}>
                 <Navi/>
                 <div className={style.TitleContainer}>
                     <h1 className={style.topicTitle}>{lesson}<br /> Problem</h1>
