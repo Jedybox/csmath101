@@ -3,7 +3,7 @@ import style from "./task.module.css";
 
 function Task(props) {
 
-    let down = false;
+    var down = false;
     const inbtn = "inbtn" + props.num
     const answer = "answer" + props.num
 
