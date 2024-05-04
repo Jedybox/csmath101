@@ -192,3 +192,88 @@
     top: 0%;
     left: 55%;
 }
+
+@media only screen and (max-width: 1050px) {
+    .lessonContainer {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .head {
+        gap: 100px;
+    }
+    .buttonContainer {
+        gap: 100px;
+    }
+    .lessonContainer {
+        width: 70%;
+        margin-bottom: 75px;
+    }
+    .photo1Continer {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .photo1 {
+        width: 90%;
+        height: auto;
+    }
+    .photo2Continer {
+        width: 90%;
+        height: auto;
+    }
+    .photo3 {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .lessonContainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .head {
+        gap: 30px;
+    }
+    .buttonContainer {
+        gap: 50px;
+    }
+    .lessonContainer {
+        width: 90%;
+    }
+    .photo1Continer {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .photo1 {
+        width: 90%;
+        height: auto;
+    }
+    .photo2Continer {
+        width: 90%;
+        height: auto;
+    }
+    .photo3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+    .buttonContainer {
+        gap: 10px;
+    }
+    .button {
+        font-size: 15px;
+        padding: 19.5px 5px;
+    }
+    .exercise {
+        font-size: 10px;
+    }
+}
