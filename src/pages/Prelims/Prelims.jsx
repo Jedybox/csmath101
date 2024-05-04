@@ -7,6 +7,12 @@ import pt2 from './PrelimAssets/photos/pt2.png'
 import pt3 from './PrelimAssets/photos/pt3.png'
 import pt4 from './PrelimAssets/photos/pt4.png'
 
+import bg1 from './PrelimAssets/BGs/bg1.png'
+import bg2 from './PrelimAssets/BGs/bg2.png'
+import bg3 from './PrelimAssets/BGs/bg3.png'
+import bg4 from './PrelimAssets/BGs/bg4.png'
+import bg5 from './PrelimAssets/BGs/bg5.png'
+
 import Navi from '../../widgets/nav.jsx'
 import Foot from '../../widgets/foot.jsx'
 
@@ -31,11 +37,13 @@ export default function Prelims() {
             </button>
         </div>
         <div className={style.lessonContainer}>
+            <img src={bg1} alt="" className={style.bg} id={style.bg1}/>
             <div className={style.photo1Continer}>
                 <img src={pt1} alt="" className={style.photo1}/>
             </div>
             <div className={style.lessons}>
                 <h1 className={style.lessonTitle}>Basic Number System</h1>
+                <img src={bg3} alt="" className={style.bg} id={style.bg3}/>
                 <p className={style.lessonDescription}>
                     This concept deals with the set of positive whole numbers,
                     which could also be called the set of natural numbers or 
@@ -45,10 +53,13 @@ export default function Prelims() {
                 <div className={style.photo2Continer}>
                     <img src={pt2} alt="" className={style.photo2}/>
                 </div>
-                <button className={style.button}>
-                    <Link to="/Prelims/Basic-Number" className={style.exercise}>Exercise</Link>
-                </button>
+                <div className={style.exerContainer}>
+                    <button className={style.button} id={style.pts}>
+                        <Link to="/Prelims/Basic-Number" className={style.exercise}>Exercise</Link>
+                    </button>
+                </div>
             </div>
+            <img src={bg2} alt="" className={style.bg} id={style.bg2}/>
             <div className={style.lessons}>
                 <h1 className={style.lessonTitle}>Real Number System</h1>
                 <p className={style.lessonDescription}>
@@ -63,10 +74,13 @@ export default function Prelims() {
                 <div className={style.photo2Continer}>
                     <img src={pt3} alt="" className={style.photo3}/>
                 </div>
-                <button className={style.button}>
-                    <Link   Link to="/Prelims/Real-Number" className={style.exercise}>Exercise</Link>
-                </button>
+                <div className={style.exerContainer}>
+                    <button className={style.button} id={style.pts}>
+                        <Link   Link to="/Prelims/Real-Number" className={style.exercise}>Exercise</Link>
+                    </button>
+                </div>
             </div>
+            <img src={bg4} alt="" className={style.bg} id={style.bg4}/>
             <div className={style.lessons}>
                 <h1 className={style.lessonTitle}>Complex Number System</h1>
                 <p className={style.lessonDescription}>
@@ -81,9 +95,12 @@ export default function Prelims() {
                 <div className={style.photo2Continer}>
                     <img src={pt4} alt=""className={style.photo4} />
                 </div>
-                <button className={style.button}>
-                    <Link to="/Prelims/Real-Number" className={style.exercise}>Exercise</Link>
-                </button>
+                <div className={style.exerContainer}>
+                    <button className={style.button} id={style.pts}>
+                        <Link to="/Prelims/Real-Number" className={style.exercise}>Exercise</Link>
+                    </button>
+                </div>
+                <img src={bg5} alt="" className={style.bg} id={style.bg5}/>
             </div>
         </div>
         <Foot/>

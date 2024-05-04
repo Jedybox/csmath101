@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    gap: 175px;
 }
 
 .titlecontainer {
@@ -37,7 +39,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 150px;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 .lessonContainer {
@@ -47,6 +51,7 @@
     justify-content: center;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 100px;
 
@@ -133,4 +138,57 @@
     background-color: #26292c;
     width: 100%;
     padding: 15px;
+}
+
+.exercContainer {
+    position: relative;
+    width: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+#pts {
+    position: absolute;
+    right: 15%;
+}
+
+.bg {
+    width: 1300px;
+    position: absolute;
+    z-index: -100;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#bg1 {
+    top: -20%;
+    right: 40%;
+}
+
+#bg2 {
+    top: 10%;
+    left: 55%;
+}
+
+#bg3 {
+    top: -10%;
+    width: 1000px;
+}
+
+#bg4 {
+    top: 40%;
+    right: 55%;
+}
+
+#bg5 {
+    top: 0%;
+    left: 55%;
 }
