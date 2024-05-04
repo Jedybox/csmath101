@@ -1,7 +1,14 @@
 import React from 'react'
 import style from './Prelims.module.css'
+import { Link } from 'react-router-dom'
+
+import pt1 from './PrelimAssets/photos/pt1.png'
+import pt2 from './PrelimAssets/photos/pt2.png'
+import pt3 from './PrelimAssets/photos/pt3.png'
+import pt4 from './PrelimAssets/photos/pt4.png'
 
 import Navi from '../../widgets/nav.jsx'
+import Foot from '../../widgets/foot.jsx'
 
 export default function Prelims() {
   return (
@@ -13,12 +20,20 @@ export default function Prelims() {
             </div>
         </header>
         <div className={style.buttonContainer}>
-            <button className={style.button}>Add</button>
-            <button className={style.button}>Add</button>
-            <button className={style.button}>Add</button>
+            <button className={style.button}>
+                <Link to="/Prelims/Basic-Number" className={style.exercise}>Basic Number</Link>
+            </button>
+            <button className={style.button}>
+                <Link to="/Prelims/Real-Number" className={style.exercise}>Real Number</Link>
+            </button>
+            <button className={style.button}>
+                <Link to="/Prelims/Complex-Number" className={style.exercise}>Complex Number</Link>
+            </button>
         </div>
         <div className={style.lessonContainer}>
-            <img src="" alt="" className={style.photo1}/>
+            <div className={style.photo1Continer}>
+                <img src={pt1} alt="" className={style.photo1}/>
+            </div>
             <div className={style.lessons}>
                 <h1 className={style.lessonTitle}>Basic Number System</h1>
                 <p className={style.lessonDescription}>
@@ -27,8 +42,12 @@ export default function Prelims() {
                     “higher arithmetic”. In other words, the basic number theory 
                     primarily studies integers and arithmetic functions.
                 </p>
-                <img src="" alt="" className={style.photo2}/>
-                <button className={style.exercise}></button>
+                <div className={style.photo2Continer}>
+                    <img src={pt2} alt="" className={style.photo2}/>
+                </div>
+                <button className={style.button}>
+                    <Link to="/Prelims/Basic-Number" className={style.exercise}>Exercise</Link>
+                </button>
             </div>
             <div className={style.lessons}>
                 <h1 className={style.lessonTitle}>Real Number System</h1>
@@ -41,8 +60,12 @@ export default function Prelims() {
                     number is a any real number that cannot be expressed as the
                      quotient of two integers.
                 </p>
-                <img src="" alt="" className={style.photo2}/>
-                <button className={style.exercise}></button>
+                <div className={style.photo2Continer}>
+                    <img src={pt3} alt="" className={style.photo3}/>
+                </div>
+                <button className={style.button}>
+                    <Link   Link to="/Prelims/Real-Number" className={style.exercise}>Exercise</Link>
+                </button>
             </div>
             <div className={style.lessons}>
                 <h1 className={style.lessonTitle}>Complex Number System</h1>
@@ -55,10 +78,15 @@ export default function Prelims() {
                     number that can be written as a + bi, where i is the
                      imaginary unit and a and b are real numbers.
                 </p>
-                <img src="" alt="" className={style.photo2}/>
-                <button className={style.exercise}></button>
+                <div className={style.photo2Continer}>
+                    <img src={pt4} alt=""className={style.photo4} />
+                </div>
+                <button className={style.button}>
+                    <Link to="/Prelims/Real-Number" className={style.exercise}>Exercise</Link>
+                </button>
             </div>
         </div>
+        <Foot/>
     </>
   )
 }

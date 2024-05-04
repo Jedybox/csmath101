@@ -41,10 +41,12 @@
 }
 
 .lessonContainer {
-    width: 60%;
+    position: relative;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     gap: 100px;
 
@@ -53,4 +55,82 @@
     font-family: Montserrat;
     color: #fff;
     white-space: pre-wrap;
+}
+
+.lessons {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.photo1Continer {
+    position: relative;
+    width: 980px;
+    height: 652px;
+    position: relative;
+    border-radius: 40px;
+    background-color: rgba(81, 81, 81, 0.2);
+    border: 2px solid #696c6f;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 {
+    width: 868px;
+    height: 522px;
+}
+
+.photo2Continer {
+    position: relative;
+    width: 580px;
+    height: 322px;
+    position: relative;
+    border-radius: 25px;
+    background-color: rgba(81, 81, 81, 0.2);
+    border: 2px solid #696c6f;
+    box-sizing: border-box;
+
+    align-items: center;
+}
+
+.photo2 {
+    width: 100%;
+}
+
+.photo3 {
+    width: 396px;
+    height: 298px;
+}
+
+.photo4 {
+    width: 236px;
+    height: 306px;
+}
+
+.button {
+    border-style: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #0951A6, #B413B7);
+    font-size: 18px;
+
+    padding: 20px 5px
+}
+
+.exercise {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    border-radius: 30px;
+
+    background-color: #26292c;
+    width: 100%;
+    padding: 15px;
 }

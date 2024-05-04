@@ -13,6 +13,7 @@ import ErrorPage from './pages/Error/ErrorPage.jsx'
 import SemiProblem from './pages/Semis/Semis_Problem.jsx'
 import Midterm from './pages/Midterm/Midterm.jsx'
 import Prelims from './pages/Prelims/Prelims.jsx'
+import PrelimsTask from './pages/Prelims/PrelimTasks.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/Prelims",
     element: <Prelims/>
+  },
+  {
+    path: "/Prelims/:topic",
+    element: <PrelimsTask/>
   },
   {
     path: "/Midterm",
