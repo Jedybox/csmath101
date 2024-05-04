@@ -32,15 +32,6 @@ a {
     color: inherit;
 }
 
-.haft {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-}
-
 @media only screen and (max-width: 600px){
     #root {
         overflow-x: clip !important;
