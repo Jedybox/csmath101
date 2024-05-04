@@ -1,0 +1,56 @@
+.head  {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlecontainer {
+    width: 100%;
+    text-align: center  ;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+
+.title {
+    font-size: 110px;
+    display: inline-block;
+    font-family: Montserrat;
+    margin: 0%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titleEffect {
+    background: linear-gradient(90deg, #667EEA, #764BA2);
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.lessonContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Montserrat;
+    color: #fff;
+    white-space: pre-wrap;
+}
