@@ -41,7 +41,7 @@ function App() {
           <p className='embark'>Embark on a journey of Algebraic Discovery: From fundamentals to advanced mathematical concepts</p>
         </div>
         <div className="semestrialterms">
-          <a to="/prelims" div className="term">
+          <Link to="/Prelims" div className="term">
               <div className="termIcon" id='prelim'>
                 <img src={_123} alt="123" className='_123'/>
                 <img src={_2} alt="2" className='_2'/>
@@ -51,7 +51,7 @@ function App() {
                 <li className='termItem'>Basic Number Theory Concepts</li>
                 <li className='termItem'>Real Number System and Complex Number System</li>
               </ul>
-          </a>
+          </Link>
           <Link to="midterm" className='term'>
               <div className="termIcon" id='midterm'>
                 <img src={sqrtTable} alt="table" className='sqrtTable'/>

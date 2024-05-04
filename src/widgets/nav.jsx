@@ -15,7 +15,7 @@ function Navi(){
                 </div>
                 <ul className={style.list}>
                     <li className={style.listItem}>
-                        <a to="/prelims">Prelim</a>
+                        <Link to="/Prelims">Prelim</Link>
                     </li>
                     <li className={style.listItem}>
                         <Link to="/midterm">Midterms</Link>
