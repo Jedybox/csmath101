@@ -270,3 +270,48 @@
         width: 600px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .head {
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        width: 250px;
+        font-size: 10px;
+    }
+
+    .lessons {
+        width: 90%;
+    }
+
+    .photo1 {
+        width: 300px;
+        height: 168px;
+    }
+
+    .pts {
+        width: 200px;
+        height: 112px;
+    }
+
+    .lesson {
+        font-size: 10px;
+    }
+
+    .lessonTitle {
+        font-size: 25px;
+    }
+
+    .lessonDesc {
+        font-size: 12px;
+    }
+
+    .bg1, .bg2, .bg3 {
+        width: 500px;
+    }
+}

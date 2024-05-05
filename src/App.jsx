@@ -74,7 +74,7 @@ function App() {
                 <li className="termItem">Quadratic Functions</li>
               </ul>
           </Link>
-          <a to="/finals" className="term">
+          <Link to="Finals" className="term">
               <div className="termIcon" id='finals'>
                 <img src={wave} alt="wave" className='wave'/>
               </div>
@@ -84,7 +84,7 @@ function App() {
                 <li className="termItem">Exponential Functions</li>
                 <li className="termItem">Logarithmic Functions</li>
               </ul>
-          </a>
+          </Link>
         </div>
       </div>
       <Foot/>
