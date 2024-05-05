@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    gap: 200px;
 }
 
 .titleContainer {
@@ -42,11 +44,229 @@
     color: #fff;
 }
 
+.lessons {
+    margin-top: 75px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.photo1 {
+    width: 997px;
+    height: 560px;
+}
+
+.pts {
+    width: 580px;
+    height: 322px;
+    justify-self: center;
+}  
+
 .lesson {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 5px;
+
+    font-weight: 300;
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 18px;
+}
+
+.lessonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     gap: 20px;
+}
+
+.lessonTitle {
+    margin: 5px;
+    width: 100%;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.lessonDesc {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: justify;
+}
+
+.bg1, .bg2, .bg3 {
+    position: absolute;
+    width: 1648px;
+    animation: rotate 10s linear infinite;
+    z-index: -1;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bg1 {
+    top: 0;
+    right: 40%;
+}
+
+.bg2 {
+    top: 30%;
+    left: 40%;
+}
+
+.bg3 {
+    right: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+    .head {
+        gap: 100px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .subtitle {
+        width: 500px;
+    }
+
+    .lessons {
+        width: 60%;
+    }
+
+    .photo1 {
+        width: 800px;
+        height: 450px;
+    }
+
+    .pts {
+        width: 500px;
+        height: 280px;
+    }
+
+    .lesson {
+        font-size: 16px;
+    }
+
+    .lessonTitle {
+        font-size: 40px;
+    }
+
+    .lessonDesc {
+        font-size: 18px;
+    }
+
+    .bg1, .bg2, .bg3 {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .head {
+        gap: 50px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .subtitle {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .lessons {
+        width: 70%;
+    }
+
+    .photo1 {
+        width: 600px;
+        height: 337px;
+    }
+
+    .pts {
+        width: 400px;
+        height: 224px;
+    }
+
+    .lesson {
+        font-size: 14px;
+    }
+
+    .lessonTitle {
+        font-size: 35px;
+    }
+
+    .lessonDesc {
+        font-size: 16px;
+    }
+
+    .bg1, .bg2, .bg3 {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .head {
+        gap: 25px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .lessons {
+        width: 80%;
+    }
+
+    .photo1 {
+        width: 400px;
+        height: 225px;
+    }
+
+    .pts {
+        width: 300px;
+        height: 168px;
+    }
+
+    .lesson {
+        font-size: 12px;
+    }
+
+    .lessonTitle {
+        font-size: 30px;
+    }
+
+    .lessonDesc {
+        font-size: 14px;
+    }
+
+    .bg1, .bg2, .bg3 {
+        width: 600px;
+    }
 }
