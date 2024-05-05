@@ -14,17 +14,20 @@
 .topfoot {
     height: fit-content;
     display: flex;
+    flex-direction: row;
+    gap: 20px;
     width: 100%;
 }
 
 .iconHolder {
     position: relative;
     width: fit-content;
-    height: auto;
+    height: fit-content;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
     gap: 0px;
 
@@ -86,6 +89,17 @@
     color: #fff;
     text-align: left;
     display: inline-block;
+}
+
+.aboutUsContainer {
+    width: fit-content;
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: left;
 }
 
 .bottomfoot {

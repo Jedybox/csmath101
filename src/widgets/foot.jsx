@@ -30,11 +30,13 @@ function Foot() {
                                     <Link to="/Semi">Semi</Link>
                                 </li>
                                 <li className={style.foottermItems}>
-                                    <a to="/finals">Final</a>
+                                    <Link to="/Finals">Final</Link>
                                 </li>
                             </ul>
                         </div>
-                        <p className={style.aboutUs}></p>
+                        <div className={style.aboutUsContainer}>
+                            <Link to="/AboutUs" className={style.aboutUs}>About Us</Link>
+                        </div>
                     </div>
                     <p className={style.bottomfoot}>Copyright &copy; {year} CSMAT101 - M003</p>
                 </footer>
