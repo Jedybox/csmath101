@@ -21,10 +21,10 @@ function Foot() {
                             <h1 className={style.Term}>Terms</h1>
                             <ul className={style.termlist}>
                                 <li className={style.foottermItems}>
-                                    <a to="/prelims">Prelim</a>
+                                    <Link to="/Prelims">Prelim</Link>
                                 </li>
                                 <li className={style.foottermItems}>
-                                    <a to="/midterm">Midterms</a>
+                                    <Link to="/Midterm">Midterms</Link>
                                 </li>
                                 <li className={style.foottermItems}>
                                     <Link to="/Semi">Semi</Link>

@@ -1,5 +1,4 @@
 .foot {
-    z-index: -100;
     width: 100%;
     position: relative;
     background-color: #262729;
@@ -70,6 +69,12 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.termHolder {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
 }
 
 .foottermItems {

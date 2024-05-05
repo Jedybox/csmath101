@@ -14,6 +14,7 @@ import SemiProblem from './pages/Semis/Semis_Problem.jsx'
 import Midterm from './pages/Midterm/Midterm.jsx'
 import Prelims from './pages/Prelims/Prelims.jsx'
 import PrelimsTask from './pages/Prelims/PrelimTasks.jsx'
+import Finals from './pages/Finals/Finals.jsx'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/Semi/:topic",
     element: <SemiProblem/>
+  },
+  {
+    path: "/Finals",
+    element: <Finals/>
   },
   {
     path: "*",

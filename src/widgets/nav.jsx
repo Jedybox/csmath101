@@ -9,22 +9,22 @@ function Navi(){
     return(
         <>
             <nav className={style.navi}>
-                <div className={style.iconHolder}>
+                <Link to="/" className={style.iconHolder}>
                     <img src={icon} alt="Icon" className={style.img}/>
                     <b className={style.name}>CSMath101</b>
-                </div>
+                </Link>
                 <ul className={style.list}>
                     <li className={style.listItem}>
                         <Link to="/Prelims">Prelim</Link>
                     </li>
                     <li className={style.listItem}>
-                        <Link to="/midterm">Midterms</Link>
+                        <Link to="/Midterm">Midterms</Link>
                     </li>
                     <li className={style.listItem}>
                         <Link to="/Semi">Semi</Link>
                     </li>
                     <li className={style.listItem}>
-                        <a to="/finals">Final</a>
+                        <Link to="/finals">Final</Link>
                     </li>
                 </ul>
             </nav>
