@@ -2,6 +2,11 @@ import React from 'react'
 import Navi from '../../widgets/nav'
 import Footer from '../../widgets/foot'
 
+// bg
+import bg1 from './assets/bg/bg1.png'
+import bg2 from './assets/bg/bg2.png'
+import bg3 from './assets/bg/bg3.png'
+
 // group 1
 import dave from './assets/group1/dave.jpg'
 import luke from './assets/group1/luke.jpg'
@@ -46,6 +51,7 @@ export default function AboutUs() {
             <div className={style.titleContainer}>
                 <h1 className={style.title}>About Us</h1>
             </div>
+            <img src={bg1} alt="" id={style.bg1} className={style.bg}/>
         </header>
         <div className={style.groupContainer}>
             <div className={style.group}>
@@ -189,6 +195,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </div>
+                <img src={bg2} alt="" id={style.bg2} className={style.bg}/>
             </div>
             <div className={style.group}>
                 <h1 className={style.groupNum}>Group 3: Semi-Finals</h1>
@@ -331,6 +338,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </div>
+                <img src={bg3} alt="" id={style.bg3} className={style.bg}/>
             </div>
         </div>
         <Foot/>

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
 
     gap: 150px;
 }
@@ -29,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 .group {
@@ -187,4 +188,335 @@
     width: 100%;
     position: absolute;
     top: -20px;
+}
+
+.bg {
+    position: absolute;
+    z-index: -100;
+    width: 1500px;
+
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#bg1 {
+    top: 0;
+    left: -20%;
+}
+
+#bg2 {
+    top: 30%;
+    right: -20%;
+}
+
+#bg3 {
+    top: 60%;
+    left: -20%;
+}
+
+@media only screen and (max-width: 1050px) {
+    .header {
+        gap: 100px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .groupContainer {
+        margin-bottom: 100px;
+    }
+
+    .groupNum {
+        font-size: 40px;
+    }
+
+    .members {
+        width: 900px;
+        gap: 10px;
+        grid-template-columns: auto auto;
+    }
+
+    .member {
+        width: 445px;
+        height: 176px;
+    }
+
+    .memberImg {
+        width: 50%;
+        height: 100%;
+    }
+
+    .pfpContainer {
+        width: 119px;
+        height: 119px;
+    }
+
+    .memberInfo {
+        width: 45%;
+        height: 100px;
+    }
+
+    #dave {
+        top: -15px;
+    }
+
+    #sander {
+        top: -15px;
+    }
+
+    #sayat {
+        top: -15px;
+    }
+
+    #van {
+        top: -20px;
+    }
+
+    #stephen {
+        top: -15px;
+    }
+
+    #Albos {
+        top: -50px;
+    }
+
+    #Apolonio {
+        top: -15px;
+    }
+
+    #Jerome {
+        top: -50px;
+    }
+
+    #Jp {
+        top: -15px;
+    }
+
+    #jim {
+        top: -15px;
+    }
+
+    #Alpuerto {
+        top: -20px;
+    }
+
+    #vlad {
+        top: -20px;
+    }
+
+    #Hannz {
+        top: -20px;
+    }
+
+    #kenjie {
+        top: -20px;
+    }
+
+    #adormeo {
+        top: -20px;
+    }
+
+    .bg {
+        width: 1000px;
+    }
+
+    #bg1 {
+        top: 0;
+        left: -20%;
+    }
+
+    #bg2 {
+        top: 30%;
+        right: -20%;
+    }
+
+    #bg3 {
+        top: 60%;
+        left: -20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        gap: 50px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .groupContainer {
+        gap: 50px;
+    }
+
+    .groupNum {
+        font-size: 30px;
+    }
+
+    .members {
+        width: 700px;
+        gap: 10px;
+        grid-template-columns: auto auto;
+    }
+
+    .member {
+        width: 345px;
+        height: 176px;
+    }
+
+    .memberImg {
+        width: 50%;
+        height: 100%;
+    }
+
+    .pfpContainer {
+        width: 119px;
+        height: 119px;
+    }
+
+    .memberInfo {
+        width: 45%;
+        height: 100px;
+    }
+
+    #dave {
+        top: -15px;
+    }
+
+    #sander {
+        top: -15px;
+    }
+
+    #sayat {
+        top: -15px;
+    }
+
+    #van {
+        top: -20px;
+    }
+
+    #stephen {
+        top: -15px;
+    }
+
+    #Albos {
+        top: -50px;
+    }
+
+    #Apolonio {
+        top: -15px;
+    }
+
+    #Jerome {
+        top: -50px;
+    }
+
+    #Jp {
+        top: -15px;
+    }
+
+    #jim {
+        top: -15px;
+    }
+
+    #Alpuerto {
+        top: -20px;
+    }
+
+    #vlad {
+        top: -20px;
+    }
+
+    #Hannz {
+        top: -20px;
+    }
+
+    #kenjie {
+        top: -20px;
+    }
+
+    #adormeo {
+        top: -20px;
+    }
+
+    .bg {
+        width: 800px;
+    }
+
+    #bg1 {
+        top: 0;
+        left: -20%;
+    }
+
+    #bg2 {
+        top: 30%;
+        right: -20%;
+    }
+
+    #bg3 {
+        top: 60%;
+        left: -20%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .title {
+        font-size: 40px;
+    }
+
+    .groupNum {
+        font-size: 20px;
+    }
+
+    .members {
+        width: 375px;
+        gap: 5px;
+        grid-template-columns: auto auto;
+    }
+
+    .member {
+        width: 182.5px;
+        height: 95px;
+    }
+
+    .memberRole {
+        font-size: 12px;
+    }
+
+    .memberName {
+        font-size: 10px;
+    }
+
+    .pfpContainer {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bg {
+        width: 600px;
+    }
+
+    #bg1 {
+        top: 0;
+        left: -50%;
+    }
+
+    #bg2 {
+        top: 35%;
+        right: -50%;
+    }
+
+    #bg3 {
+        top: 70%;
+        left: -50%;
+    }
 }
