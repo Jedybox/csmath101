@@ -1,0 +1,190 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    gap: 150px;
+}
+
+.titleContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 110px;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+}
+
+.groupContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.group {
+    width: 1180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groupNum {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+
+.members {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.member {
+    width: 380px;
+    border-radius: 25px;
+    background-color: #2b2828;
+    height: 176px;
+    display: flex;
+    flex-direction: row;
+}
+
+.memberImg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfpContainer {
+    width: 119px;
+    height: 119px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.memberInfo {
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+
+#dave {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#sander {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#sayat {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#van {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+#stephen {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#Albos {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+#Apolonio {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#Jerome {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+#Jp {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#jim {
+    width: 100%;
+    position: absolute;
+    top: -15px;
+}
+
+#Alpuerto {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+#vlad {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+#Hannz {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+#kenjie {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+#adormeo {
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
