@@ -196,6 +196,8 @@
     width: 1500px;
 
     animation: rotate 10s linear infinite;
+
+    pointer-events: none;
 }
 
 @keyframes rotate {
@@ -518,5 +520,13 @@
     #bg3 {
         top: 70%;
         left: -50%;
+    }
+
+    #Albos {
+        top: -30px;
+    }
+
+    #Jerome {
+        top: -30px;
     }
 }
