@@ -1,14 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
-import ErrorPage from '../Error/ErrorPage'
+import ErrorPage from '../Error/ErrorPage.jsx'
 import FinalsTFP from './FinalsTFP'
 
 
-export default function ProbleShower() {
-  const { topic } = useParams()
+export default function FinalsProbleShower() {
+  const topic = useParams()
 
-  if (topic === 'TFP') {
+  if (topic.topic === 'Transcendental-Functions') {
     return (
       <FinalsTFP/>
     )

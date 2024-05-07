@@ -15,6 +15,7 @@ import Midterm from './pages/Midterm/Midterm.jsx'
 import Prelims from './pages/Prelims/Prelims.jsx'
 import PrelimsTask from './pages/Prelims/PrelimTasks.jsx'
 import Finals from './pages/Finals/Finals.jsx'
+import FinalsProbleShower from './pages/Finals/ProbleShower.jsx'
 import AboutUs from './pages/About_us/AboutUs.jsx'
 
 const router = createBrowserRouter([
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Finals/:topic",
+    element: <FinalsProbleShower/>
   },
   {
     path: "AboutUs",
