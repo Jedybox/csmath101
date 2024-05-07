@@ -47,6 +47,9 @@ const router = createBrowserRouter([
     element: <Finals/>
   },
   {
+    path: "/Finals/:topic",
+  },
+  {
     path: "AboutUs",
     element: <AboutUs/>
   },

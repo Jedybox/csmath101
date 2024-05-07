@@ -114,6 +114,41 @@
     z-index: -1;
 }
 
+.btnContainer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.btn {
+    width: max-content;
+    height: max-content;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    background: linear-gradient(90deg, #FF1B1B, #2DC8EA);
+}
+
+.inbtn {
+    width: 173px;
+    height: 47px;
+    border-radius: 25px;
+    background-color: #26292c;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);

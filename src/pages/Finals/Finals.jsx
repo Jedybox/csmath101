@@ -1,6 +1,7 @@
 import React from 'react'
 import Foot from '../../widgets/foot.jsx'
 import Navi from '../../widgets/nav.jsx'
+import { Link } from 'react-router-dom'
 
 import style from "./Finals.module.css"
 
@@ -44,6 +45,11 @@ export default function Finals() {
                     </p>
                     <img src={bg2} alt="" className={style.bg2}/>
                     <img src={photo2} alt="" className={style.pts}/>
+                    <div className={style.btnContainer}>
+                        <button className={style.btn}>
+                            <Link to="/Finals/Transcendental-Functions" className={style.inbtn}>Problems</Link>
+                        </button>
+                    </div>
                 </div>
                 <div className={style.lesson}>
                     <h2 className={style.lessonTitle}>Logarithmic Functions </h2>
@@ -57,6 +63,11 @@ export default function Finals() {
                         intensity and pH levels.
                     </p>
                     <img src={photo3} alt="" className={style.pts}/>
+                    <div className={style.btnContainer}>
+                        <button className={style.btn}>
+                            <Link to="/Finals/Logarithmic-Functions" className={style.inbtn}>Problems</Link>
+                        </button>
+                    </div>
                 </div>
                 <div className={style.lesson}>
                     <img src={bg3} alt="" className={style.bg3}/>
@@ -71,6 +82,11 @@ export default function Finals() {
                         applications in science, engineering, and finance.
                     </p>
                     <img src={photo4} alt="" className={style.pts}/>
+                    <div className={style.btnContainer}>
+                        <button className={style.btn}>
+                            <Link to="/Finals/Exponential-Functions" className={style.inbtn}>Problems</Link>
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
