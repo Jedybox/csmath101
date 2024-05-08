@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 import ErrorPage from '../Error/ErrorPage.jsx'
 import FinalsTFP from './FinalsTFP'
-
+import FinalsLFP from './FinalsLFP.jsx'
 
 export default function FinalsProbleShower() {
   const topic = useParams()
@@ -12,7 +12,11 @@ export default function FinalsProbleShower() {
     return (
       <FinalsTFP/>
     )
-  } else {
+  } else if(topic.topic === 'Logarithmic-Functions') {
+    return (
+      <FinalsLFP/>
+    )
+  }else {
     return (
       <ErrorPage/>
     )

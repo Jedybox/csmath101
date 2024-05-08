@@ -36,7 +36,7 @@ import bg5 from './assests/bg/TFP/bg5.png'
 import bg6 from './assests/bg/TFP/bg6.png'
 import bg7 from './assests/bg/TFP/bg7.png'
 
-export default function FinalsTFP() {
+export default function FinalsLFP() {
 
   const [show, setShow] = useState(false)
 
@@ -403,28 +403,11 @@ export default function FinalsTFP() {
               <img src={one} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Evalute <br />
-                f(x) = e<sup>(-x) cos (x)</sup>  from 0 to <sup>π</sup>/<sub>2</sub> <br /> <br />
+                Evaluate the logarithmic function log(100) to the base 10
                 Solution: <br />
-                We can use integration by parts to solve this problem. <br />
-                Let u = cos(x) and dv = e<sup>-x</sup> dx <br /> <br />
-                Then we find du = -sin(x) dx and v = -e<sup>-x</sup>. <br /> <br />
-                Using the integration by parts formula ∫ udv = uv -  ∫ vdu, we have: <br />
-                ∫(e<sup>(-x)cos(x)</sup>)dx = -e<sup>(-x)cos(x)</sup> -  ∫(e<sup>(x)(sin(x)</sup>)) <br /> <br />
-                Now let’s find the anti derivative of e<sup>(x)(-sin(x))</sup>. <br />
-                Let u = -sin(x) and dv = e<sup>-x</sup> dx. <br /> <br />
-                Then we find = -cos(x) dx and v = -e<sup>-x</sup> <br /> <br />
-                Using the integration by parts formula again, we have: <br />
-                ∫(e<sup>(-x)(-sin(x))</sup>)dx  = e<sup>(-x)sin(x)</sup> + ∫(e<sup>(-x)cos(x)</sup>)dx <br /> <br />
-                Substituting this back into our original equation, we get: <br />
-                ∫(e<sup>(-x)cos(x)</sup>)dx = -e<sup>(-x)cos(x)</sup> + e<sup>(-x)sin(x)</sup> + ∫(e<sup>(-x)cos(x)</sup>)dx <br /> <br />
-                Subtracting ∫ (e<sup>(-x)cos(x)</sup>)dx from both sides, we get: <br />
-                0 = e<sup>(-x)cos(x)</sup> + e<sup>(-x)sin(x)</sup> <br /> <br />
-                So the anti derivative of e<sup>(-x)cos(x)</sup> is F(x) = e<sup>(-x)(sin(x)-cos())</sup>. <br /> <br />
-                Now we can evaluate the definite integral: <br />
-                ∫ (e<sup>(-x)cos(x)</sup>)dx from 0 to <sup>π</sup>/<sub>2</sub> = F(<sup>π</sup>/<sub>2</sub>) - F(0) <br />
-                = e(<sup>π</sup>/<sub>2</sub>)(sin(<sup>π</sup>/<sub>2</sub>) - cos(<sup>π</sup>/<sub>2</sub>)) - e(-0)(<sup>sin(x=0)-cos(0)</sup>)
-                = e(<sup>π</sup>/<sub>2</sub>)(1-0) - e<sup>(-0)(0-1)</sup>
-                = e<sup>π</sup>/<sub>2</sub> - 1
+                log(100) to the base 10 is equal to 2, since <br />
+                10<sup>2</sup> = 100
+
               </p>
               <div className={style.close} onClick={showHandler}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -437,26 +420,12 @@ export default function FinalsTFP() {
               <div className={style.pop}>
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.popContent}>
-                  Evaluate <br />
-                  ∑(n = 1)<sup>∞</sup> (sin<sup>n)</sup>/<sub>n<sup>3</sup></sub>). <br /> <br />
-                  Solution: <br />
-                  We can use intergration by parts to solve this problem. <i>Let u</i> = cos(x) and dv = e<sup>-x</sup> dx <br /> <br />
-                  Then we <i>find du</i> = -sin(x) dx and v = -e<sup>-x</sup>. <br /> <br />
-                  Using the integration by parts formula ∫ udv = uv -  ∫ vdu, we have: <br />
-                  ∫(e<sup>(-x)cos(x)</sup>)dx = -e<sup>(-x)cos(x)</sup> -  ∫(e<sup>(-x)(sin(x)</sup>))dx <br /> <br />
-                  Now let’s find the anti derivative of e<sup>(-x)(-sin(x))</sup>. Then we find = -cos(x) dx and v = -e<sup>-x</sup> <br /> <br />
-                  Using the integration by parts formula again, we have: <br />
-                  ∫(e<sup>(-x)(-sin(x))</sup>)dx  = e<sup>(-x)sin(x)</sup> + ∫(e<sup>(-x)cos(x)</sup>)dx <br /> <br />
-                  Substituting this back into our original equation, we get: <br />
-                  ∫(e<sup>(-x)cos(x)</sup>)dx = -e<sup>(-x)cos(x)</sup> + e<sup>(-x)sin(x)</sup> + ∫(e<sup>(-x)cos(x)</sup>)dx <br /> <br />
-                  Subtracting ∫ (e<sup>(-x)cos(x)</sup>)dx from both sides, we get: <br />
-                  0 = e<sup>(-x)cos(x)</sup> + e<sup>(-x)sin(x)</sup> <br /> <br />
-                  So the anti derivative of e<sup>(-x)cos(x)</sup> is F(x) = e<sup>(-x)(sin(x)-cos())</sup>. <br /> <br />
-                  Now we can evaluate the definite integral: <br />
-                  ∫ (e<sup>(-x)cos(x)</sup>)dx from 0 to <sup>π</sup>/<sub>2</sub> = F(<sup>π</sup>/<sub>2</sub>) - F(0) <br />
-                  = e(<sup>π</sup>/<sub>2</sub>)(sin(<sup>π</sup>/<sub>2</sub>) - cos(<sup>π</sup>/<sub>2</sub>)) - e(-0)(<sup>sin(x=0)-cos(0)</sup>) <br />
-                  = e(<sup>π</sup>/<sub>2</sub>)(1-0) - e<sup>(-0)(0-1)</sup>
-                  = e<sup>π</sup>/<sub>2</sub> - 1
+                    Evaluate <br />
+                    Evaluate the logarithmic function
+                    log(1/8) to the base 2
+                    Solution: <br />
+                    log(1/8) to the base 2 is equal to -3, since <br />
+                    2<sup>-3</sup> = 1/2<sup>3</sup> = 1/8
                 </p>
                 <div className={style.close} onClick={showHandler1}>
                   <img src={closeeye} alt="" id={style.closer}/>
@@ -470,18 +439,10 @@ export default function FinalsTFP() {
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Evaluate <br />
-                tan(x) = √3 for x in the interval [0,2π]. <br /> <br />
+                Evaluate the logarithmic function log(125) to the base 5
                 Solution: <br />
-                We know that the tangent function has a period of π,
-                so we can find all solutions by finding the solutions in the interval [0,<sup>π</sup>/<sub>2</sub>]
-                and adding integer multiples of π.<br />
-                In the interval [0,<sup>π</sup>/<sub>2</sub>], the equation tan(x) = √3 has only one solution, which is x = <sup>π</sup>/<sub>6</sub>. <br />
-                So, the solutions in the interval [0,2π] are: <br />
-                x = <sup>π</sup>/<sub>6</sub> + nπ for n = 0, 1, 2, ... <br />
-                x = <sup>π</sup>/<sub>6</sub> + πn for n = 0, 1, 2, ... <br /> <br />
-                These solutions can be simplified to: <br />
-                x = <sup>π</sup>/<sub>6</sub> + nπ for n = 0, 1, 2, ... <br />
-                x = (<sup>5π</sup>/6) nπ for n = 0, 1, 2, ... <br />
+                log(125) to the base 5 is equal to 3, since
+                    5<sup>3</sup> = 125
               </p>
               <div className={style.close} onClick={showHandler2}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -495,12 +456,11 @@ export default function FinalsTFP() {
               <img src={four} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Find the Derivative <br />
-                g(x) = x<sup>2</sup> + 3x + 1 <br /> <br />
+                Find the derivative of the logarithmic function
+                f(x) = log(x) with respect to x
                 Solution: <br />
-                To find the derivative of g(x) = x<sup>2</sup> + 3x + 1, we can use the power rule for differentiation,
-                which states that if f(x) = x<sup>n</sup>, then f'(x) = nx<sup>n-1</sup>. <br />
-                Therefore, the derivative of g(x) is: <br />
-                g'(x) = 2x + 3 <br />
+                The derivative of f(x) = log(x) with respect to x is <br />
+                f(x) = 1/x
               </p>
               <div className={style.close} onClick={showHandler3}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -514,12 +474,12 @@ export default function FinalsTFP() {
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Find the Integral <br />
-                ∫(x<sup>2</sup> + 3x + 1)dx <br /> <br />
-                To find the integral of x<sup>2</sup> + 3x + 1 with respect to x, we can use the power rule for integration,
-                which states that if f(x) = x<sup>n</sup>, then ∫(n<sup>x</sup>)dx = <sup>x<sup>n+1</sup></sup>/<sub>n+1</sub> + C,
-                where C is the constant of integration. <br />
-                Therefore the integral of x<sup>2</sup> + 3x + 1 is: <br />
-                ∫(x<sup>2</sup> + 3x + 1)dx = <sup>x<sup>3</sup></sup>/<sub>3</sub> + <sup>3x<sup>2</sup></sup>/<sub>2</sub> + x + C
+                Find the integral of the logarithmic function
+                g(x) = 1/x dx with respect to x
+                Solution: <br />
+                The integral of g(x) = 1/xdx with respect to x is <br />
+                ∫ (1/x)dx = log(x) + C <br />
+                where C is a constant
               </p>
               <div className={style.close} onClick={showHandler4}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -533,21 +493,12 @@ export default function FinalsTFP() {
               <img src={six} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Find the Solution <br />
-                <sup>dy</sup>/<sub>dx</sub> = y tan(x) <br /> <br />
+                Solve the logarithmic equation log(x) = 3
                 Solution: <br />
-                To find the solution of the first-order differential equation <sup>dy</sup>/<sub>dx</sub> = y tan(x),
-                we can use the method of separation of variables. <br />
-                First, we can rewrite the equation as: <br />
-                <sup>dy</sup>/<sub>y</sub> = tan(x) dx <br />
-                Nextm, integrade both sides: <br />
-                ∫ (<sup>1</sup>/<sub>y</sub>)dy = tan ∫ (x)dx <br /> <br />
-                The left side integrates to ln|y|, and the right side integrates to -ln|cos(x)| + C,
-                where C is the constant of integration. <br />
-                Therefore, the solution is: <br />
-                ln|y| = -ln|cos(x)| + C <br />
-                Taking the exponential of both sides, we get: <br />
-                y = <sup>e</sup>/|cos(x)| <br />
-                where K is an arbitrary constant.
+                To solve for x, we can take the exponential of both sides of the equation: <br />
+                e<sup>log(x)</sup> = e<sup>3</sup> <br />
+                x = e<sup>3</sup> <br />
+                So, the solution is x = e<sup>3</sup>
               </p>
               <div className={style.close} onClick={showHandler5}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -560,33 +511,12 @@ export default function FinalsTFP() {
               <div className={style.pop}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.popContent}>
-                  Find the Maximum Value <br />
-                  f(x) = x In(x) on the interval [1,e] <br /> <br />
-                  To find the maximum value of the function f(x) = x ln(x) on the interval [1,e],
-                  we can use calculus. <br />
-                  First, find the derivative of f(x) with respect to x: <br />
-                  f'(x) = ln(x) + 1 <br />
-                  Simplify for x: <br />
-                  f'(x) = ln(x) + 1<br /> 
-                  Next, find the critical points by setting the derivative equal to zero: <br />
-                  ln(x) + 1 = 0 <br />
-                  Solve for zero: <br />
-                  ln(x) = -1 <br />
-                  Exponentiate both sides: <br />
-                  x = e<sup>-1</sup>
-                  Since x = e<sup>-1</sup> is in the interval [1,e], it is a critical point. <br />
-                  To determine whether it is a maximum or minimum, we can use the second derivative test. <br />
-                  First, find the second derivative of f(x) with respect to x: <br />
-                  f''(x) = 1/x <br />
-                  Next, evaluate the second derivative at the critical point: <br />
-                  f''(e<sup>-1</sup>) = <sup>1</sup>/<sub>e<sup>-1</sup></sub> = e<br />
-                  Since the second  f''(e<sup>-1</sup>) is positive, the critical point x = e<sup>-1</sup>
-                  corresponds to a local minimum. <br />
-                  Therefore, the maximum value of f(x) on the interval [1,e] occurs at this end points, <br />
-                  Evaluate f(1) and f(e): <br />
-                  f(1) = 1 ln(1) = 0 <br />
-                  f(e) = e ln(e) = e <br />
-                  Since f(e) is greater than f(1), the maximum value of f(x) on the interval [1,e] is f(e) = e.
+                    Find the Maximum Value <br />
+                    Find the maximum value of the logarithmic function f(x) = log(x) on the interval (0,1)
+                    Solution: <br />
+                    The logarithmic function f(x) = log(x) is undefined for x ≤ 0,
+                    so the maximum value of f(x) on the interval (0,1) is at x = 1 <br /> <br />
+                    Therefore, the maximum value of f(x) is log(1) = 0
                 </p>
                 <div className={style.close} onClick={showHandler6}>
                   <img src={closeeye} alt="" id={style.closer}/>
@@ -599,23 +529,18 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                A farmer from Philippines wants to maximize the
-                yield of his crop, which is modeled by the
-                transcendental function f(x) = sin(x) + cos(x),
-                where x is the angle of the sun's rays.
-                What is the optimal angle of the sun's rays to
-                maximize the crop yield? <br /> <br />
+                A mad scientist is studying the pH level of a river in the Philippines.
+                The pH level is measured using a logarithmic scale,
+                where a pH level of 7 is neutral, and a pH level below 7 is acidic.
+                If the pH level of the river is 4, what is the hydrogen ion concentration in the river?
                 Solution: <br />
-                To find the optinal angle, we need to find maximum value of the function f(x) = sin(x) + cos(x).
-                We can use the derivative to find the critical points. <br />
-                The deriviative of f(x) is f'(x) = cos(x) - sin(x). Setting this equal to zero, we get: <br />
-                cos(x) - sin(x) = 0 <br />
-                cos(x) = sin(x) <br />
-                We can solve for x by dividing both sides by cos(x): <br />
-                1 = tan(x) <br />
-                x = arctan(1)
-                x = <sup>π</sup>/<sub>4</sub> <br />
-                Therefore, the optimal angle of the sun's rays to maximize the crop yield is x = <sup>π</sup>/<sub>4</sub> or 45 degrees.
+                The pH level is related to the hydrogen ion concentration [H +] by the formula: <br /> <br />
+                pH = -log[H +] <br />  <br />
+                To find the hydrogen ion concentration, we need to take the negative logarithm of the pH level: <br /> <br />
+                [H+] = 10<sup>-pH</sup> <br /> <br />
+                Substituting the given pH level of 4, we get: <br /> <br />
+                [H+] = 10<sup>-4</sup>
+                So, the hydrogen ion concentration is 10<sup>-4</sup>M
               </p>
               <div className={style.close} onClick={showHandler7}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -628,21 +553,37 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                A Filipino fisherman is trying to determine the optimal depth
-                to drop his net to catch the most fish. The number of fish in
-                the area is modeled by the transcendental f(x) = ex/10 ,
-                where    is the depth in meters. What is the optimal depth
-                to drop the net to catch the most fish? <br /> <br />
+                Marsh, a Filipino engineer, is designing a building
+                with a height of 100 meters. The engineer wants to
+                calculate the time it takes for sound to travel from
+                the top of the building to the ground using the formula: <br /> <br />
+                t = d/v <br /> <br />
+                where d is the distance between the top of the building
+                and the ground, and v is the speed of sound in air.
+                The distance d can be calculated using the logarithmic formula: <br /> <br />
+                d = h * log(b/a) <br /> <br />
+                where h is the height of the building, a is the height of the
+                observer above the ground, and b is the height of the source
+                above the ground. If the engineer wants to calculate the timeit
+                takes for sound to travel from the top of the building to the
+                ground when the observer is on the ground (a = 0),
+                what is the time it takes for the sound to travel? <br /> <br />
                 Solution: <br />
-                To find the optimal depth, we need to find the maximum value of the function f(x) = e<sup>x/10</sup>.
-                We can use the derivative to find the critical points. <br />
-                The derivative of f(x) is f'(x) = (<sup>1</sup>/<sub>10</sub>)e<sup>x/10</sup>. Setting this equal to zero, we get: <br />
-                (<sup>1</sup>/<sub>10</sub>)e<sup>x/10</sup> = 0 <br />
-                This equation has no solution since e<sup>x/10</sup> is never equal to zero. <br />
-                Therefore, the maximum value of the function occurs at the boundary of the domain. <br />
-                Since x is the depth in meters, the domain of the function is x ≥ 0. 
-                Therefore, the optimal depth to drop the net to catch the most fish is 0 meters, which means
-                dropping the net at the surface of the water.
+                First, we need to calculate the distance d using the logarithmic formula: <br /> <br />
+                d = h * log(b/a) <br /> <br />
+                Since the observer is on the ground, we have a = 0. Therefore, we can simplify the formula as: <br /> <br />
+                d = h * log(b) <br /> <br />
+                Substituting the given values, we have: <br /> <br />
+                d = 100 * log(100) <br />
+                d = 100 * 2 <br />
+                d = 200 meters <br /> <br />
+                Next, we need to calculate the time it takes for sound
+                to travel from the top of the building to the ground using the formula: <br /> <br />
+                t = d/v <br /> <br />
+                The speed of sound in the air is approximately 343 meters per second. Therefore, we have: <br /> <br />
+                t = 200 / 343 <br />
+                t = 0.583 seconds <br /> <br />
+                So, it takes approximately 0.583 seconds for sound to travel from the top of the building to the ground.
               </p>
               <div className={style.close} onClick={showHandler8}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -655,26 +596,113 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.popContent}>
-                An engineer is designing a building with a roof that is modeled
-                by the transcendental f(x) = tan(x), where x is the angle of the roof.
-                The engineer wants to determine the optimal angle of the roof to maximize
-                the amount of sunlight that enters the building. What is the optimal angle
-                of the roof to maximize the amount of sunlight? <br /> <br />
-
+                A very famous mathematician from Philippines is
+                studying the growth of a population of bacteria
+                in a laboratory. The mathematician models the growth
+                of the bacteria using the logistic function: <br /> <br />
+                <div className={style.equation}>
+                    P(t) =
+                    <div className={style.fraction}>
+                        <div className={style.topf}>P<sub>max</sub></div>
+                        <div className={style.bottomf}>1 + A * e<sup>-kt</sup></div>
+                    </div>
+                </div>
+                is the population at time t, Pmax the carrying capacity
+                of the environment, A is a constant, and k is the growth rate.
+                If the mathematician observes that the population is growing
+                at a rate of 0.2 per hour, and the carrying capacity of the
+                environment is 1000 bacteria, what is the population of
+                bacteria after 10 hours? <br /> <br />
                 Solution: <br />
-                To find the optimal angle of the roof, we need to find the maximum value of the function f(x) = tan(x)
-                in the interval 0 {"<"} x {"<"} <sup>π</sup>/<sub>2</sub>.<br />
-                The derivative of f(x) is f'(x) = sec<sup>2</sup>(x). Since sec(x) is always positive
-                in the interval 0 {"<"} x {"<"} <sup>π</sup>/<sub>2</sub>, the derivative f'(x) is always positive
-                in this interval. Therefore, the function f(x) is increasing in this interval
-                and does not have a maximum value. <br />
-                However, we are interested in the angle that maximizes the amount of sunlight that enters the building,
-                which is related to the vertical angle of the sun's rays. The vertical angle of the sun's rays is given
-                by the function g(x) = tan(<sup>π</sup>/<sub>2</sub>-x), where x is the angle of the roof. <br />
-                The derivative of g(x) is g'(x) = sec<sup>2</sup>(<sup>π</sup>/<sub>2</sub>-x). Since sec(<sup>π</sup>/<sub>2</sub>-x)
-                is always positive, g'(x) is always negative. Therefore, the function g(x) is decreasing in the interval
-                in the interval 0 {"<"} x {"<"} <sup>π</sup>/<sub>2</sub>. <br />
-                The optional angle of the roof to maximize the amount of sunlight is 0 degrees, which means the flat roof.
+                First, we need to find the value of the constant. <i>A</i> using 
+                the given growth rate. Differentaiting the logistic function with respect to time <i>t</i>, we get: <br /> <br />
+                <div className={style.equation}>
+                    P'(t) = -P * A * k *
+                    <div className={style.fraction}>
+                        <div className={style.topf}>e<sup>-kt</sup></div>
+                        <div className={style.bottomf}>(1 + A * e<sup>-kt</sup>)<sup>2</sup></div>
+                    </div>
+                </div>
+                Substituting the given growth rate of 0.2 per hour, we have: <br /> <br />
+                <div className={style.equation}>
+                    0.2 = -1000 * A * k *
+                    <div className={style.fraction}>
+                        <div className={style.topf}>e<sup>-k * 0</sup></div>
+                        <div className={style.bottomf}>(1 + A * e<sup>-k * 0</sup>)<sup>2</sup></div>
+                    </div>
+                </div> <br />
+                <div className={style.equation}>
+                    0.2 = -1000 * A * k *
+                    <div className={style.fraction}>
+                        <div className={style.topf}>e<sup>-k * 0</sup></div>
+                        <div className={style.bottomf}>(1 + A * e<sup>-k * 0</sup>)<sup>2</sup></div>
+                    </div>
+                </div>
+                solving for A, we get: <br /> <br />
+                <div className={style.equation}>
+                    A = 
+                    <div className={style.fraction}>
+                        <div className={style.topf}>0.02 * (1 + A)<sup>2</sup></div>
+                        <div className={style.bottomf}>P<sub>max</sub> * k</div>
+                    </div>
+                </div>
+                Next, we need to find the value of the value of the constant <i>k</i> using the given carrying capacity of 1000 bacteria.
+                At the carrying capacity, the growth rate is zero. Therefore, we have: <br /> <br />
+                <div className={style.equation}>
+                    P'<sub>max</sub> =
+                    <div className={style.fraction}>
+                        <div className={style.topf}>P<sub>max</sub></div>
+                        <div className={style.bottomf}>1 + A * e<sup>-k * t<sub>max</sub></sup></div>
+                    </div>
+                </div>
+                Substituting for k, we get: <br /> <br />
+                <div className={style.equation}>
+                    k = -
+                    <div className={style.fraction}>
+                        <div className={style.topf}>ln(A)</div>
+                        <div className={style.bottomf}>t<sub>max</sub></div>
+                    </div>
+                </div>
+                Substituting the given carrying capacity of 1000 bacteria we have: <br /> <br />
+                <div className={style.equation}>
+                    1000 = 
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1000</div>
+                        <div className={style.bottomf}>1 + A * e<sup>-k * t<sub>max</sub></sup></div>
+                    </div>
+                    =
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1</div>
+                        <div className={style.bottomf}>1 + A</div>
+                    </div>
+                </div>
+                1 + A = 1 <br />
+                A = 0 <br /> <br />
+                Substituting the value of A = 0 into the equation for k, we get: <br /> <br />
+                <div className={style.equation}>
+                    k = -
+                    <div className={style.fraction}>
+                        <div className={style.topf}>ln(0)</div>
+                        <div className={style.bottomf}>t<sub>max</sub></div>
+                    </div>
+                </div>
+                is undefined, but we can use the growth rate 0.2 per hour to find the value of k.
+                Substituting the given growth rate into the equation for P'(t), we have: <br /> <br />
+                <div className={style.equation}>
+                    0.2 = -P<sub>max</sub> * A *
+                    <div className={style.fraction}>
+                        <div className={style.topf}>k</div>
+                        <div className={style.bottomf}>(1 + A)<sup>2</sup></div>
+                    </div>
+                </div> <br />
+                <div className={style.equation}>
+                    0.2 = -1000 * 0 *
+                    <div className={style.fraction}>
+                        <div className={style.topf}>k</div>
+                        <div className={style.bottomf}>(1 + 0)<sup>2</sup></div>
+                    </div>
+                </div>
+                0.2 = 0
               </p>
               <div className={style.close} onClick={showHandler9}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -688,9 +716,10 @@ export default function FinalsTFP() {
               <img src={one} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Evaluate <br />
-                f(x) = sin(2x) at x= <sup>π</sup>/<sub>6</sub> <br /> <br />
+                log<sub>2</sub>(x) = 3 <br />  <br />
                 Solution: <br />
-                f(<sup>π</sup>/<sub>6</sub>) = sin(2(<sup>π</sup>/<sub>6</sub>)) = <sup>√3</sup>/<sub>2</sub> or 0.87
+                x = 2<sup>3</sup> <br />
+                x = 8   
               </p>
               <div className={style.close} onClick={showHandler10}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -704,9 +733,9 @@ export default function FinalsTFP() {
               <img src={two} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Evaluate <br />
-                tan(x) = √3 for x in the interval (0,2π). <br /> <br />
+                log<sub>10</sub>(1000)
                 Solution: <br />
-                x = <sup>π</sup>/<sub>4</sub> and x = <sup>5π</sup>/<sub>4</sub>
+                log<sub>10</sub>(1000) = 3
               </p>
               <div className={style.close} onClick={showHandler11}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -719,10 +748,12 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                lim<sup><sup>ln(x)</sup>/<sub>x</sub></sup> <br />
-                x→∞ <br /> <br />
+                Evaluete <br />
+                log<sub>5</sub>(x) + 2 = 4 <br /> <br />
                 Solution: <br />
-                0, any non-zero divided is equal to zero.
+                log<sub>5</sub>(x) = 2
+                x = 5<sup>2</sup>
+                x = 25
               </p>
               <div className={style.close} onClick={showHandler12}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -735,9 +766,13 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={four} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                sin(x) = 0.5 for x in the interval of [0,2π]<br /> <br />
+                Evaluate <br />
+                if log<sub>3</sub>(a) = 2 and log<sub>3</sub>(b) = 4, <br />
+                find log<sub>3</sub>(ab) <br /> <br />
                 Solution: <br />
-                x = <sup>π</sup>/<sub>6</sub>
+                log<sub>3</sub>(ab) = log<sub>3</sub>(a) + log<sub>3</sub>(b) <br />
+                = 2 + 4 <br />
+                = 6
               </p>
               <div className={style.close} onClick={showHandler13}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -750,11 +785,12 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                e<sup>x</sup> =10 <br /> <br />
+                Evaluate <br />
+                if log<sub>2</sub>(x) = 5 and log<sub>2</sub>(y) = 3, find log<sub>2</sub>(x/y) <br /> <br />
                 Solution: <br />
-                ln(e<sup>x</sup>) = ln(10) <br />
-                1x = ln(10) <br />
-                x = ln(10)
+                log<sub>2</sub>(x/y) = log<sub>2</sub>(x) - log<sub>2</sub>(y) <br />
+                = 5 - 3 <br />
+                = 2
               </p>
               <div className={style.close} onClick={showHandler14}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -767,13 +803,12 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={six} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                g(x) = e<sup>3x</sup> <br /> <br />
+                Evaluate <br />
+                if log<sub>a</sub>(x) = 4 and log<sub>b</sub>(y) = 2, express log<sub>ab</sub>(x) in terms of a and b <br /> <br />
                 Solution: <br />
-                1.e<sup>3x</sup><sup>d</sup>/<sub>dx</sub>(3x) <br />
-                e<sup>3x</sup>3 <br /> ❋ 3<sup>d</sup>/<sub>dx</sub>x <br />
-                e<sup>3x</sup>3 <br /> ❋ 3 ❋ 1 <br />
-                e<sup>3x</sup>3 <br /> ❋ 3
-                3e<sup>3x</sup>
+                4 = 2 * log<sub>ab</sub>(x) <br />
+                log<sub>ab</sub>(x) = 4/2 <br />
+                = 2
               </p>
               <div className={style.close} onClick={showHandler15}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -786,9 +821,88 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={seven} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                f(x) = ln(x) on the interval [1,e] <br /> <br />
+                Find x <br />
+                2log2(x) - log2 (x + 4) = 3 <br /> <br />
                 Solution: <br />
-                e
+                log<sub>2</sub>(x<sup>2</sup>) - log<sub>2</sub>(x + 4) = 3 <br />
+                <div className={style.equation}>
+                    <p>log<sub>2</sub>(x<sup>2</sup>) - (log<sub>2</sub>(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1</div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p>)) = 3</p>
+                </div>
+                <div className={style.equation}>
+                    <p>log<sub>2</sub>(x<sup>2</sup>) - (x<sup>2</sup> * </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1</div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p>) = 3</p>
+                </div>
+                <div className={style.equation}>
+                    <p>log<sub>2</sub></p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>2</sup> * 1</div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p> = 3</p>
+                </div>
+                <div className={style.equation}>
+                    <p>log<sub>2</sub></p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>2</sup></div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p> = 3</p>
+                </div>
+                <div className={style.equation}>
+                    <p>(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>2</sup></div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p>) = 2<sup>3</sup></p>
+                </div>
+                <div className={style.equation}>
+                    <p>(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>2</sup></div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p>) = 8</p>
+                </div>
+                <div className={style.equation}>
+                    <p>(x + 4) </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>2</sup></div>
+                        <div className={style.bottomf}>x + 4</div>
+                    </div>
+                    <p>=8(x + 4)</p>
+                </div>
+                x<sup>2</sup> = 8(x + 4) <br />
+                x<sup>2</sup> = 8x + 32 <br />
+                x<sup>2</sup> - 8x - 32 = 0 <br />
+                <div className={style.equation}>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>-b±√b<sup>2</sup>-4ac</div>
+                        <div className={style.bottomf}>2a</div>
+                    </div>
+                    <p> x = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>-(-8)±√8<sup>2</sup>-4(1)(-32)</div>
+                        <div className={style.bottomf}>2(1)</div>
+                    </div>
+                </div>
+                <div className={style.equation}>
+                    <p>x = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>8±8√3</div>
+                        <div className={style.bottomf}>2</div>
+                    </div>
+                </div>
+                x = 4 + 4 √3
               </p>
               <div className={style.close} onClick={showHandler16}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -801,12 +915,33 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                In the Philippines, population growth is modeled uing the
-                exponential function. Let's say the population of a city is growing
-                exponentially at a rate of 3% per year, starting with an initial
-                population of 1 million people. The population growth is modeled by
-                function P(t) over time t can be modeled as: <br />
-                P(t) = 1,000,000 * (1 + 0.03)<sup>t</sup> <br />
+                The 2020 Taal Volcano eruption released a tremendous amount of energy.  
+                Volcanologists use the decibel (dB) scale to measure the sound pressure 
+                of volcanic eruptions.  We know the standard reference sound pressure (P₀) 
+                is 20 micro-Pascals (µPa). If a recent eruption measured 120 dB at a monitoring
+                station. <br /> <br />
+                Solution: <br />
+                <div className={style.equation}>
+                    <p>dB = 10 * log(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>I</div>
+                        <div className={style.bottomf}>P₀</div>
+                    </div>
+                    <p>)</p>
+                </div>
+                I = P₀ * 10 <sup>dB/10</sup>
+                First Convert the dB value to a ratio by dividing 10
+                and taking the power of 10. <br /> <br />
+                I = 10 * 120 <sup>dB/10</sup> = 10<sup>12</sup>
+                <div className={style.equation}>
+                    <p>= </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>10<sup>12</sup></div>
+                        <div className={style.bottomf}>20x 10<sup>-6</sup>P<i>a</i></div>
+                    </div>
+                    <p> = 5 x 10<sup>17</sup></p>
+                </div>
+
               </p>
               <div className={style.close} onClick={showHandler17}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -819,14 +954,18 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                The population of a province in the Philippines grows
-                exponentially with a doubling time of 10 years.
-                If the current population is 1,000,000,
-                what will be the population after 20 years? <br /> <br />
+                The Philippines is located in the Pacific Ring of Fire,
+                an area known for frequent earthquakes.
+                The Richter scale is a logarithmic scale used to
+                measure earthquake magnitude (M).  An increase of
+                1 unit on the Richter scale represents a 10-fold
+                increase in ground motion.  If a recent earthquake
+                measured 6.5 on the Richter scale, how much stronger
+                was this earthquake in ground motion compared to a
+                5.0 magnitude earthquake? <br /> <br />
                 Solution: <br />
-                P(t) = P<sub>0</sub> * (growth factor)<sup>t</sup> <br />
-                growth factor(20years) = (Growth factor in 10years)<sup>2</sup> = 2<sup>2</sup> = 4 <br />
-                P(20) = 1,000,000 * 4 = 4,000,000
+                Ground Motion Ratio = 10<sup>(difference in Richer Magnitudes)</sup> <br />
+                Ground Motion Ratio = 10<sup>(6.5-5.0)</sup> = 10<sup>1.5</sup> = 31.62
               </p>
               <div className={style.close} onClick={showHandler18}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -839,18 +978,21 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.popContent}>
-                The tidal variation in coastal areas of the Philippines
-                can be modeled using trigonometric functions. For instance,
-                the height of the tide throughout the day can be modeled using a
-                sinusoidal function. Let's say the average tidal height is
-                1.5 meters and the tide varies sinusoidal with a maximum
-                height of 2 meters and a period of 12 hours. The tidal height
-                function ℎ(t) at time can be modeled as: <br /> <br />
+                Mangroves are a vital ecosystem in the Philippines,
+                protecting coastlines and providing habitats for various species. 
+                The growth of mangrove forests can be modeled using an exponential
+                function. Let's say a particular mangrove forest has an initial
+                area of 1 square kilometer (km²) and a growth rate of 5% per year. 
+                We can use logarithms to find how many years it would take for the
+                forest to double in size. <br /> <br />
                 Solution: <br />
-                ℎ(t) = d + A * sin(ω(t - a)) <br />
-                ℎ(t) = 1.5 + 0.5 * sin(ωt) <br />
-                ω = 2π/T &ensp;&ensp;ω = 2π/12 hours = π/6 radians per hour<br />
-                ℎ(t) = 1.5 + 0.5 * sin(π/6)
+                A(t) = A(0) * e<sup>rt</sup> <br />
+                where r is the growth rate (as a decimal).
+                We can set up a proportion to find t: <br /> <br />
+                2km² = 1km² * e<sup>(0.05t)</sup> <br />
+                Divided both sides by 1 km² and simplify using logarithms: <br /> <br />
+                log(2) = 0.05t <br />
+                t = log(2) / 0.05 years ≈ 6.02 years<br />
               </p>
               <div className={style.close} onClick={showHandler19}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -864,10 +1006,10 @@ export default function FinalsTFP() {
               <img src={one} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Solve <br />
-                2<sup>x</sup> = 8 <br /> <br />
+                f(x) = log<sub>2</sub>(x) = 4 <br /> <br />
                 Solution: <br />
-                Since 2<sup>3</sup> = 8, we can rewrite the equation as x = 3. <br />
-                The solution is x = 3.
+                x = 2<sup>4</sup> <br />
+                x = 16
               </p>
               <div className={style.close} onClick={showHandler20}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -880,13 +1022,13 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={two} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-              Solve <br />
-              cos(2x -  <sup>π</sup>/<sub>3</sub>) = 1/2 <br /> <br />
-              Solution: <br />
-              2x - <sup>π</sup>/<sub>3</sub> = cos<sup>-1</sup>(1/2) <br />
-              Which is approximately <sup>π</sup>/<sub>6</sub>. <br />
-              Solving for x, we get: <br />
-              x = <sup>π</sup>/<sub>12</sub>
+                Solve for x<br />
+                log<sub>2</sub>(x) = 5 <br /> <br />
+                Solution: <br />
+                log<sub>2</sub>(x) = 5
+                2<sup>log2</sup>(x) = 2<sup>5</sup>
+                x = 2<sup>5</sup>
+                x = 32
               </p>
               <div className={style.close} onClick={showHandler21}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -899,14 +1041,14 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Solve <br />
-                A population of bacteria doubles every hour.
-                If the initial population is 100, write a
-                function to model the population growth over
-                time (t in hours). <br /> <br />
+                Find <br />
+                g(x) = log3 (x + 1) = 2 <br /> <br />
                 Solution: <br />
-                P(t) = P(0) * a<sup>t</sup> <br />
-                P(t) = 100 * 2<sup>t</sup>
+                3<sup>log3</sup>(x + 1) = 3<sup>2</sup> <br />
+                x + 1 = 3<sup>2</sup> <br />
+                x = 3<sup>2</sup> - 1 <br />
+                x = 9 - 1 <br />
+                x = 8
               </p>
               <div className={style.close} onClick={showHandler22}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -917,17 +1059,32 @@ export default function FinalsTFP() {
         {show23 && (
           <div className={style.popContainer}>
             <div className={style.pop}>
-              <img src={four} alt="" className={style.problemNum}/>
-              <p className={style.popContent}>
-              Evaluate <br />
-              10x = 0.001 <br /> <br />
-              Solution: <br />
-              log(0.001) = x * log(10) <br />
-              x = -3
-              </p>
-              <div className={style.close} onClick={showHandler23}>
+                <img src={four} alt="" className={style.problemNum}/>
+                <p className={style.popContent}>
+                    Find the derivative <br />
+                    f(x) = d/dx ln(3x<sup>2</sup>) <br /> <br />
+                    Solution: <br />
+                    <div className={style.equation}>
+                        <p>f'(x) = </p>
+                        <div className={style.fraction}>
+                            <div className={style.topf}>d</div>
+                            <div className={style.bottomf}>dx<sup>2</sup></div>
+                        </div>
+                        <p>(ln(3x<sup>2</sup>)) = </p>
+                        <div className={style.fraction}>
+                            <div className={style.topf}>1</div>
+                            <div className={style.bottomf}>3x<sup>2</sup></div>
+                        </div>
+                        <p> * 6x = </p>
+                        <div className={style.fraction}>
+                            <div className={style.topf}>6</div>
+                            <div className={style.bottomf}>x</div>
+                        </div>
+                    </div>
+                </p>
+                <div className={style.close} onClick={showHandler23}>
                 <img src={closeeye} alt="" id={style.closer}/>
-              </div>
+                </div>
             </div>
           </div>
         )}
@@ -936,17 +1093,25 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-              Solve <br />
-              Analyze the function f(x) = <sup>sin(x)</sup>/x as x approaches 0.
-              Does the limit exist, and is the function continuous at x = 0?
-              <br /> <br />
-              Solution: <br />
-              This is a common limit where direct substitution leads to <sup>0</sup>/<sub>0</sub>
-              (indeterminate form). Using L'Hopital's rule
-              (taking the derivative of both numerator and denominator and evaluating the limit again),
-              we can show that the limit of f(x) as x approaches 0 is 1.
-              However, the function itself is undefined at x = 0 (since we cannot divide by zero).
-              Therefore, the function is not continuous at x = 0.
+                Calculte <br />
+                ∫ 1/x dx<br /> <br />
+                Solution: <br />
+                <div className={style.equation}>
+                    <p>∫ 1/x dx = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>-1+1</sup></div>
+                        <div className={style.bottomf}>-1+1</div>
+                    </div>
+                    <p> + C</p>
+                </div>
+                <div className={style.equation}>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>x<sup>0</sup></div>
+                        <div className={style.bottomf}>0</div>
+                    </div>
+                    <p> + C = ln(|x|) + C</p>
+                </div>
+                ln(|x|) + C
               </p>
               <div className={style.close} onClick={showHandler24}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -957,39 +1122,36 @@ export default function FinalsTFP() {
         {show25 && (
           <div className={style.popContainer}>
             <div className={style.pop}>
-              <img src={six} alt="" className={style.problemNum}/>
-              <p className={style.popContent}>
-                Find the Derivative <br />
-                f(x) = 3<sup>x</sup> <br /> <br />
-                Solution: <br />
-                The derivative of the general exponential function a<sup>x</sup> (where
-                a is any positive constant) is ln(z) * a<sup>x</sup>. <br />
-                Therefore f(x) = ln(3) * 3<sup>x</sup>
-              </p>
-              <div className={style.close} onClick={showHandler25}>
-                <img src={closeeye} alt="" id={style.closer}/>
-              </div>
+                <img src={six} alt="" className={style.problemNum}/>
+                <p className={style.popContent}>
+                    Solve the equation for x <br />
+                    In(x) = 2 <br /> <br />
+                    Solution: <br />
+                    ln(x) = b ⇔ e <sup>ln(x)</sup> = e<sup>b</sup> <br />
+                    e<sup>ln(x)</sup> = e<sup>2</sup> <br />
+                    x = e<sup>2</sup> <br />
+                </p>
+                <div className={style.close} onClick={showHandler25}>
+                  <img src={closeeye} alt="" id={style.closer}/>
+                </div>
             </div>
           </div>
         )}
         {show26 && (
           <div className={style.popContainer}>
             <div className={style.pop}>
-              <img src={seven} alt="" className={style.problemNum}/>
-              <p className={style.popContent}>
-              Find the Inverse of the Function <br />
-              f(x) = sin(x) <br /> <br />
-              Solution: <br />
-                The inverse of sine is arc sine
-                (written as sin<sup>-1(x)</sup> or asin(x)).
-                However it’s important to remember that sine
-                is not one to one across its entire domain. <br />
-                Therefore, the inverse sine function is defined
-                only for the range of -<sup>π</sup>/<sub>2</sub> to <sup>π</sup>/<sub>2</sub>
-              </p>
-              <div className={style.close} onClick={showHandler26}>
-                <img src={closeeye} alt="" id={style.closer}/>
-              </div>
+                <img src={seven} alt="" className={style.problemNum}/>
+                <p className={style.popContent}>
+                    Find the domain <br />
+                    g(x) = log<sub>5</sub> (x<sup>2</sup> - 4) <br /> <br />
+                    Solution: <br />
+                    x<sup>2</sup> - 4 {">"} 0 <br />
+                    (x - 2)(x + 2) {">"} 0 <br />
+                    This inequality is true when either x -2 or x {">"} 2
+                </p>
+                <div className={style.close} onClick={showHandler26}>
+                  <img src={closeeye} alt="" id={style.closer}/>
+                </div>
             </div>
           </div>
         )}
@@ -998,17 +1160,11 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Answer this <br />
-                Coconut is a major crop in the Philippines.
-                Farmers want to maximize the amount of coconut
-                oil they extract from a fixed amount of coconuts. <br /> <br />
-                Solution: <br />
-                The relationship between the amount of copra (dried coconut kernel)
-                used and the resulting oil yield can be modeled using an exponential
-                function. By analyzing this function,
-                farmers can determine the optimal amount of copra to use
-                for maximum oil extraction. The specific function would
-                depend on factors like coconut variety and processing techniques.
+                The Richter scale measures earthquake intensity using a logarithmic scale.
+                If an earthquake measure 7 on the Richter scale,
+                how many times more intense is it than an earthquake measuring 5 on the same scale? <br /> <br />
+                Answer: <br />
+                Intensity difference: 10<sup>7.0-5.0</sup> = 10<sup>2</sup> = 100 more intensity
               </p>
               <div className={style.close} onClick={showHandler27}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1021,16 +1177,23 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-              Answer this <br /> <br />
-              The Philippines is prone to typhoons.
-              Predicting their intensity is crucial for disaster preparedness. <br /> <br />
-              Solution: <br />
-              Some models use trigonometric functions
-              to describe the relationship between a typhoon's
-              central pressure and its wind speed.
-              By analyzing these models with real-time data,
-              meteorologists can estimate a typhoon's intensity and
-              predict its potential impact.
+                pH in chemistry measures the acidity of a solution on a logarithmic scale.
+                If a solution has a pH of 3 and another has a pH of 6,
+                how many times more acidic is the first solution than the second? <br /> <br />
+                Answer: <br />
+                Lower pH = More acidic: The pH scale runs from 0 (very acidic) to 14 (very basic). <br />
+                Logarithmic scale: Each whole number decrease in pH represents a 10-fold increase in hydrogen
+                ion concentration. <br />
+                Applying the Math: In this case, there's a difference of 3 (6-3) between the two pH values.
+                So, the solution with a pH of 3 has a hydrogen ion concentration that is 10<sup>(difference of pH)</sup>
+                = 10<sup>3</sup> = 1000 times more acidic than the solution with a pH of 6. <br />
+                Therefore, the solution with a pH of 3 is 1000 times more concentrated in hydrogen ions, making
+                it 
+                <div className={style.fraction}>
+                    <div className={style.topf}>1000</div>
+                    <div className={style.bottomf}>10</div>
+                </div>
+                = 100 times more acidic
               </p>
               <div className={style.close} onClick={showHandler28}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1043,9 +1206,15 @@ export default function FinalsTFP() {
             <div className={style.pop}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.popContent}>
-              Answer this <br />
-              Filipinos rely heavily on loans for businesses and personal needs.
-              Understanding interest rates is crucial for financial planning.
+                Sound intensity is measured in decibels (dB), 
+                which is a logarithmic scale. If the sound intensity 
+                level is 60 dB and doubles, what is the new sound intensity level? <br /> <br />
+                Answer: <br /> <br />
+                the new sound intensity level will likely be around 63 dB 
+                (depending on the exact nature of the sound). 
+                It won't be double the original 60 dB because the decibel scale 
+                is logarithmic and reflects a perceived loudness change, 
+                not a simple linear increase in intensity.
               </p>
               <div className={style.close} onClick={showHandler29}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1068,7 +1237,7 @@ export default function FinalsTFP() {
                 <img src={one} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evalute <br />
-                  f(x) = e<sup>(-x) cos (x)</sup>  from 0 to <sup>π</sup>/<sub>2</sub>
+                  Evaluate the logarithmic function log(100) to the base 10
                 </p>
                 <div className={style.showContainer} onClick={showHandler}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1078,7 +1247,7 @@ export default function FinalsTFP() {
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                 Evaluate <br />
-                ∑(n = 1)<sup>∞</sup> (<sup>sin(n)</sup>/<sub>n<sup>3</sup></sub>).
+                Evaluate the logarithmic function log(<sup>1</sup>/<sub>8</sub>) to the base 2 
                 </p>
                 <div className={style.showContainer} onClick={showHandler1}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1088,7 +1257,7 @@ export default function FinalsTFP() {
                 <img src={three} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  tan(x) = √3 for x in the interval (0,2π).
+                  Evaluate the logarithmic function log(125) to the base 5
                 </p>
                 <div className={style.showContainer} onClick={showHandler2}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1098,7 +1267,8 @@ export default function FinalsTFP() {
                 <img src={four} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Find the Derivative <br />
-                  g(x) = x<sup>2</sup> + 3x + 1
+                  Find the derivative of the logarithmic function 
+                  f(x) = log(x) with respect to x
                 </p>
                 <div className={style.showContainer} onClick={showHandler3}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1108,7 +1278,7 @@ export default function FinalsTFP() {
                 <img src={five} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Find the Integral <br />
-                  ∫(x<sup>2</sup> + 3x + 1)dx
+                  Find the integral of the logarithmic function g(x) = <sup>1</sup>/<sub>2</sub> dx with respect to x
                 </p>
                 <div className={style.showContainer} onClick={showHandler4}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1118,7 +1288,7 @@ export default function FinalsTFP() {
                 <img src={six} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Find the Solution <br />
-                  <sup>dy</sup>/<sub>dx</sub> = y tan(x)
+                  Solve the logarithmic equation log(x) = 3
                 </p>
                 <div className={style.showContainer} onClick={showHandler5}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1128,7 +1298,7 @@ export default function FinalsTFP() {
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Find the Maximum Value <br />
-                  f(x) = x In(x) on the interval [1,e]
+                  Find the maximum value of the logarithmic function f(x) = log(x) on the interval (0,1)
                 </p>
                 <div className={style.showContainer}  onClick={showHandler6}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1143,12 +1313,10 @@ export default function FinalsTFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={eight} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                  A farmer from Philippines wants to maximize the
-                  yield of his crop, which is modeled by the
-                  transcendental function f(x) = sin(x) + cos(x),
-                  where x is the angle of the sun's rays.
-                  What is the optimal angle of the sun's rays to
-                  maximize the crop yield?
+                    A mad scientist is studying the pH level of a river in the Philippines.
+                    The pH level is measured using a logarithmic scale, where a pH level of
+                    7 is neutral, and a pH level below 7 is acidic. If the pH level of the
+                    river is 4, what is the hydrogen ion concentration in the river?
                 </p>
                 <div className={style.showContainer} onClick={showHandler7}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1157,11 +1325,19 @@ export default function FinalsTFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={nine} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                  A Filipino fisherman is trying to determine the
-                  optimal depth to drop his net to catch the most fish.
-                  The number of fish in the area is modeled by the transcendental
-                  f(x) = e<sup><sup>x</sup>/<sub>10</sub></sup>,
-                  where    is the depth in meters. What is the optimal depth to drop the net to catch the most fish?
+                    Marsh, a Filipino engineer, is designing a building with a height of 100 meters.
+                    The engineer wants to calculate the time it takes for sound to travel from the
+                    top of the building to the ground using the formula: <br />
+                    t = <sup>d</sup>/<sub>v</sub> <br />
+                    where d is the distance between the top of the building and the ground,
+                    and v is the speed of sound in air. The distance d can be calculated using
+                    the logarithmic formula: <br />
+                    d = h * log(<sup>b</sup>/<sub>a</sub>) <br />
+                    where h is the height of the building, a is the height of the observer above
+                    the ground, and b is the height of the source above the ground.
+                    If the engineer wants to calculate the time it takes for sound to
+                    travel from the top of the building to the ground when the observer
+                    is on the ground (a = 0), what is the time it takes for the sound to travel?
                 </p>
                 <div className={style.showContainer} onClick={showHandler8}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1170,13 +1346,23 @@ export default function FinalsTFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={ten} alt="" className={style._10}/>
                 <p className={style.question}>
-                  An engineer is designing a building with a roof that
-                  is modeled by the transcendental f(x) = tan(x),
-                  where x is the angle of the roof.
-                  The engineer wants to determine the optimal angle
-                  of the roof to maximize the amount of sunlight that
-                  enters the building. What is the optimal angle of
-                  the roof to maximize the amount of sunlight?
+                    A very famous mathematician from Philippines is
+                    studying the growth of a population of bacteria
+                    in a laboratory. The mathematician models the growth
+                    of the bacteria using the logistic function: <br /> <br />
+                    <div className={style.equation}>
+                        P(t) =
+                        <div className={style.fraction}>
+                            <div className={style.topf}>P<sub>max</sub></div>
+                            <div className={style.bottomf}>1 + A * e<sup>-kt</sup></div>
+                        </div>
+                    </div>
+                    is the population at time t, Pmax the carrying capacity
+                    of the environment, A is a constant, and k is the growth rate.
+                    If the mathematician observes that the population is growing
+                    at a rate of 0.2 per hour, and the carrying capacity of the
+                    environment is 1000 bacteria, what is the population of
+                    bacteria after 10 hours?
                 </p>
                 <div className={style.showContainer} onClick={showHandler9}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1191,8 +1377,8 @@ export default function FinalsTFP() {
               <div className={style.problemHaft}>
                 <img src={one} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evaluate <br />
-                  f(x) = sin(2x) at x = <sup>π</sup>/<sub>6</sub>
+                    Evaluate <br />
+                    log<sub>2</sub>(x) = 3
                 </p>
                 <div className={style.showContainer} onClick={showHandler10}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1202,8 +1388,7 @@ export default function FinalsTFP() {
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  tan(x) = 1 for x in the interval of 
-                  [0,2π].
+                  log<sub>10</sub>(1000)
                 </p>
                 <div className={style.showContainer} onClick={showHandler11}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1213,8 +1398,7 @@ export default function FinalsTFP() {
                 <img src={three} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  lim <sup>In(x)</sup>/<sub>x</sub> <br />
-                  <sup>x {"->"} ∞</sup>
+                  log<sub>5</sub>(x) + 2 = 4
                 </p>
                 <div className={style.showContainer} onClick={showHandler12}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1224,7 +1408,8 @@ export default function FinalsTFP() {
                 <img src={four} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  sin(x) = 0.5 for x in the interval of [0,2π].
+                  if log<sub>3</sub>(a) = 2 and log<sub>3</sub>(b) = 4,
+                  find log<sub>3</sub>(ab)
                 </p>
                 <div className={style.showContainer} onClick={showHandler13}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1234,7 +1419,8 @@ export default function FinalsTFP() {
                 <img src={five} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  e<sup>x</sup> = 10
+                  if log<sup>2</sup>(x) = 5 and log<sup>2</sup>(y) = 3, 
+                  find log<sup>2</sup>(x/y)
                 </p>
                 <div className={style.showContainer} onClick={showHandler14}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1243,8 +1429,9 @@ export default function FinalsTFP() {
               <div className={style.problemHaft}>
                 <img src={six} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Derivative <br />
-                  g(x) = e<sup>3x</sup>
+                  Evaluate <br />
+                  if log<sup>a</sup>(x) = 4 and log<sup>b</sup>(x) = 2,
+                  express log<sub>ab</sub>(x) in terms of a and b
                 </p>
                 <div className={style.showContainer} onClick={showHandler15}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1256,8 +1443,8 @@ export default function FinalsTFP() {
               <div className={style.problemHaft}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Maximum Value <br />
-                  f(x) = x In(x) on the interval [1,e]
+                  Find x <br />
+                  2log<sup>2</sup>(x) - log<sup>2</sup> (x + 4) = 3
                 </p>
                 <div className={style.showContainer} onClick={showHandler16}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1269,11 +1456,12 @@ export default function FinalsTFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={eight} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                  In the Philippines, population growth can be modeled
-                  using the exponential function. Let's say the population
-                  of a city is growing exponentially at a rate of 3% per year,
-                  starting with an initial population of 1 million people.
-                  The population growth function P(t) over time t can be modeled as:
+                    The 2020 Taal Volcano eruption released a tremendous amount
+                    of energy.  Volcanologists use the decibel (dB) scale to
+                    measure the sound pressure of volcanic eruptions.
+                    We know the standard reference sound pressure (P₀) is
+                    20 micro-Pascals (µPa). If a recent eruption measured
+                    120 dB at a monitoring station.
                 </p>
                 <div className={style.showContainer} onClick={showHandler17}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1282,10 +1470,15 @@ export default function FinalsTFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={nine} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                  The population of a province in the Philippines grows
-                  exponentially with a doubling time of 10 years.
-                  If the current population is 1,000,000, what will
-                  be the population after 20 years?
+                    The Philippines is located in the Pacific Ring of Fire,
+                    an area known for frequent earthquakes.
+                    The Richter scale is a logarithmic scale
+                    used to measure earthquake magnitude (M).
+                    An increase of 1 unit on the Richter scale
+                    represents a 10-fold increase in ground motion.
+                    If a recent earthquake measured 6.5 on the Richter
+                    scale, how much stronger was this earthquake in
+                    ground motion compared to a 5.0 magnitude earthquake?
                 </p>
                 <div className={style.showContainer} onClick={showHandler18}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1294,14 +1487,13 @@ export default function FinalsTFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={ten} alt="" className={style._10}/>
                 <p className={style.question}>
-                  The tidal variation in coastal areas of the
-                  Philippines can be modeled using trigonometric functions.
-                  For instance, the height of the tide throughout the day
-                  can be modeled using a sinusoidal function.
-                  Let's say the average tidal height is 1.5 meters and
-                  the tide varies sinusoidal with a maximum height of
-                  2 meters and a period of 12 hours. The tidal height
-                  function ℎ(t) at time can be modeled as:
+                  Mangroves are a vital ecosystem in the Philippines,
+                  protecting coastlines and providing habitats for various species.
+                  The growth of mangrove forests can be modeled using an exponential
+                  function. Let's say a particular mangrove forest has an initial
+                  area of 1 square kilometer (km²) and a growth rate of 5% per year.
+                  We can use logarithms to find how many years it would take for the
+                  forest to double in size.
                 </p>
                 <div className={style.showContainer} onClick={showHandler19}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1318,7 +1510,7 @@ export default function FinalsTFP() {
                 <img src={one} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Solve <br />
-                  2<sup>x</sup> = 8
+                  f(x) = log<sub>2</sub>(x) = 4
                 </p>
                 <div className={style.showContainer} onClick={showHandler20}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1328,7 +1520,7 @@ export default function FinalsTFP() {
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Solve <br />
-                  cos(2x -  <sup>π</sup>/<sub>3</sub>) = <sup>1</sup>/<sub>2</sub>
+                  log<sub>2</sub>(x) = 5
                 </p>
                 <div className={style.showContainer} onClick={showHandler21}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1338,10 +1530,8 @@ export default function FinalsTFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                Solve <br />
-                A population of bacteria doubles every hour.
-                If the initial population is 100, write a function
-                to model the population growth over time (t in hours)
+                Find <br />
+                g(x) = log3 (x + 1) = 2
               </p>
               <div className={style.showContainer} onClick={showHandler22}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1351,8 +1541,8 @@ export default function FinalsTFP() {
               <div className={style.halvesChild}>
                 <img src={four} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evaluate <br />
-                  10<sup>x</sup> = 0.001
+                    Find the derivative <br />
+                    f(x) = <sup>d</sup>/dx ln(3x2)
                 </p>
                 <div className={style.showContainer} onClick={showHandler23}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1365,8 +1555,8 @@ export default function FinalsTFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                Solve <br />
-                Analyze the function f(x) = <sup>sin(x)</sup>/<sub>x</sub> as x approaches 0. Does the limit exist, and is the function continuous at x = 0?
+                Calculate
+                ∫<sup>1</sup>/<sub>x</sub> dx
               </p>
               <div className={style.showContainer} onClick={showHandler24}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1376,8 +1566,8 @@ export default function FinalsTFP() {
               <div className={style.halvesChild}>
                 <img src={six} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Derivative <br />
-                  f(x) = 3<sup>x</sup>
+                    Solve the equation for x <br />
+                    In(x) = 2 
                 </p>
                 <div className={style.showContainer} onClick={showHandler25}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1386,8 +1576,8 @@ export default function FinalsTFP() {
               <div className={style.halvesChild}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                Find the Inverse of the Function <br />
-                f(x) = sin(x)
+                    Find the domain <br />
+                    g(x) = log<sub>5</sub> (x<sup>2</sup> - 4)
                 </p>
                 <div className={style.showContainer} onClick={showHandler26}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1397,8 +1587,10 @@ export default function FinalsTFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                Solve <br />
-                Analyze the function f(x) = <sup>sin(x)</sup>/<sub>x</sub> as x approaches 0. Does the limit exist, and is the function continuous at x = 0?
+                The Richter scale measures earthquake intensity using
+                a logarithmic scale. If an earthquake measure 7 on the
+                Richter scale, how many times more intense is it than
+                an earthquake measuring 5 on the same scale?
               </p>
               <div className={style.showContainer} onClick={showHandler27}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1407,10 +1599,10 @@ export default function FinalsTFP() {
             <div className={style.lasfthaftQuestion}>                 
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                Answer this <br />
-                Coconut is a major crop in the Philippines.
-                Farmers want to maximize the amount of coconut
-                oil they extract from a fixed amount of coconuts.
+                pH in chemistry measures the acidity of a solution
+                on a logarithmic scale. If a solution has a pH of 3
+                and another has a pH of 6, how many times more acidic
+                is the first solution than the second?
               </p>
               <div className={style.showContainer} onClick={showHandler28}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1419,10 +1611,10 @@ export default function FinalsTFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.question}>
-                Answer this <br />
-                Filipinos rely heavily on loans for businesses
-                and personal needs. Understanding interest rates
-                is crucial for financial planning.
+                Sound intensity is measured in decibels (dB),
+                which is a logarithmic scale.
+                If the sound intensity level is 60 dB and doubles,
+                what is the new sound intensity level?
               </p>
               <div className={style.showContainer} onClick={showHandler29}>
                 <img src={eye} alt="" id={style.eye}/>

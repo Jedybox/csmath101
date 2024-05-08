@@ -68,11 +68,14 @@
 
 .question {
     width: 90%;
+    height: 90%;
     font-size: 25px;
     font-weight: 500;
     font-family: Montserrat;
     color: #fff;
     text-align: justify;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 #null {
@@ -98,7 +101,8 @@
     position: absolute;
     width: 228px;
     top: -100px;
-    left: 40px
+    left: 40px;
+    pointer-events: none;
 }
 
 .TPFpart1lasthaft {
@@ -242,9 +246,7 @@
     font-family: Montserrat;
     color: #fff;
     text-align: justify;
-
     overflow: scroll;
-    scrollbar-width: none;
 }
 
 .close {
@@ -257,4 +259,39 @@
 #closer {
     width: 30px;
     height: 30px;
+}
+
+
+.equation {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.fraction {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.topf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.bottomf{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
