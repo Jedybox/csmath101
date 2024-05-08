@@ -13,7 +13,7 @@ import ErrorPage from './pages/Error/ErrorPage.jsx'
 import SemiProblem from './pages/Semis/Semis_Problem.jsx'
 import Midterm from './pages/Midterm/Midterm.jsx'
 import Prelims from './pages/Prelims/Prelims.jsx'
-import PrelimsTask from './pages/Prelims/PrelimTasks.jsx'
+import PrelimProblemshower from './pages/Prelims/PrelimProblemshower.jsx'
 import Finals from './pages/Finals/Finals.jsx'
 import FinalsProbleShower from './pages/Finals/ProbleShower.jsx'
 import AboutUs from './pages/About_us/AboutUs.jsx'
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Prelims/:topic",
-    element: <PrelimsTask/>
+    element: <PrelimProblemshower/>
   },
   {
     path: "/Midterm",
