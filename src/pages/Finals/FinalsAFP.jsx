@@ -36,7 +36,7 @@ import bg5 from './assests/bg/TFP/bg5.png'
 import bg6 from './assests/bg/TFP/bg6.png'
 import bg7 from './assests/bg/TFP/bg7.png'
 
-export default function FinalsLFP() {
+export default function FinalsAFP() {
 
   const [show, setShow] = useState(false)
 
@@ -402,12 +402,14 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={one} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Evalute <br />
-                Evaluate the logarithmic function log(100) to the base 10
-                Solution: <br />
-                log(100) to the base 10 is equal to 2, since <br />
-                10<sup>2</sup> = 100
-
+                Answer this <br />
+                The annual rice production in the Philippines is 
+                increasing at a rate of 5% per year. 
+                If the current annual production is 10 million metric tons, 
+                write an exponential function to represent the rice 
+                production after t years.
+                Answer: <br />
+                P(t) = 10(1 + 0.05)<sup>t</sup>
               </p>
               <div className={style.close} onClick={showHandler}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -420,12 +422,12 @@ export default function FinalsLFP() {
               <div className={style.pop}>
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.popContent}>
-                    Evaluate <br />
-                    Evaluate the logarithmic function
-                    log(1/8) to the base 2
-                    Solution: <br />
-                    log(1/8) to the base 2 is equal to -3, since <br />
-                    2<sup>-3</sup> = 1/2<sup>3</sup> = 1/8
+                    Answer this <br />
+                    The population of the Philippines is growing exponentially 
+                    at a rate of 1.5% per year. If the current population is 
+                    110 million, write an exponential function to represent the population after t years.
+                    Answer: <br />
+                    P(t) = 110(1 + 0.015)<sup>t</sup>
                 </p>
                 <div className={style.close} onClick={showHandler1}>
                   <img src={closeeye} alt="" id={style.closer}/>
@@ -438,11 +440,13 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Evaluate <br />
-                Evaluate the logarithmic function log(125) to the base 5
-                Solution: <br />
-                log(125) to the base 5 is equal to 3, since
-                    5<sup>3</sup> = 125
+                Answer this <br />
+                The electricity consumption in the Philippines is increasing 
+                at a rate of 8% per year. If the current consumption is 
+                100,000 megawatt-hours per year, write an exponential 
+                function to represent the consumption after t years.
+                Answer: <br />
+                P(t) = 100,000(1 + 0.08)<sup>t</sup>
               </p>
               <div className={style.close} onClick={showHandler2}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -455,12 +459,14 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={four} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Find the Derivative <br />
-                Find the derivative of the logarithmic function
-                f(x) = log(x) with respect to x
-                Solution: <br />
-                The derivative of f(x) = log(x) with respect to x is <br />
-                f(x) = 1/x
+                Answer this <br />
+                The number of internet users in the Philippines 
+                is growing exponentially at a rate of 10% per year. 
+                If there are currently 70 million internet users, 
+                write an exponential function to represent 
+                the number of users after t years.
+                Answer: <br />
+                P(t) = 70(1 + 0.10)<sup>t</sup>
               </p>
               <div className={style.close} onClick={showHandler3}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -474,12 +480,16 @@ export default function FinalsLFP() {
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Find the Integral <br />
-                Find the integral of the logarithmic function
-                g(x) = 1/x dx with respect to x
+                The number of COVID-19 cases in the Philippines is 
+                growing exponentially with a doubling time of 10 days. 
+                If there are currently 10,000 confirmed cases, 
+                estimate the number of cases after 30 days.
                 Solution: <br />
-                The integral of g(x) = 1/xdx with respect to x is <br />
-                ∫ (1/x)dx = log(x) + C <br />
-                where C is a constant
+                P(t) = P(0) x (2)<sup>t/10</sup> <br />
+                P(30) = 10,000 x (2)<sup>30/10</sup> <br />
+                P(30) = 10,000 x 2<sup>3</sup> <br />
+                P(30) = 10,000 x 8 <br />
+                P(30) = 80,000
               </p>
               <div className={style.close} onClick={showHandler4}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -492,13 +502,13 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={six} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Find the Solution <br />
-                Solve the logarithmic equation log(x) = 3
-                Solution: <br />
-                To solve for x, we can take the exponential of both sides of the equation: <br />
-                e<sup>log(x)</sup> = e<sup>3</sup> <br />
-                x = e<sup>3</sup> <br />
-                So, the solution is x = e<sup>3</sup>
+                Answer this <br />
+                The inflation rate in the Philippines is 4% per year. 
+                If the current inflation rate continues, 
+                write an exponential function to represent 
+                the increase in prices after t years.
+                Answer: <br />
+                P(t) = 1(1 + 0.04)<sup>t</sup>
               </p>
               <div className={style.close} onClick={showHandler5}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -511,12 +521,13 @@ export default function FinalsLFP() {
               <div className={style.pop}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.popContent}>
-                    Find the Maximum Value <br />
-                    Find the maximum value of the logarithmic function f(x) = log(x) on the interval (0,1)
-                    Solution: <br />
-                    The logarithmic function f(x) = log(x) is undefined for x ≤ 0,
-                    so the maximum value of f(x) on the interval (0,1) is at x = 1 <br /> <br />
-                    Therefore, the maximum value of f(x) is log(1) = 0
+                  Answer this <br />
+                  The number of tourist arrivals in the Philippines is increasing 
+                  exponentially at a rate of 7% per year. In 2019, 
+                  there were 8 million tourist arrivals. Assuming this growth rate continues, 
+                  predict the number of tourist arrivals in 2025. <br />
+                  Answer: <br />
+                    P(t) = 8,00,00 x (1 + 0.07)<sup>t</sup>
                 </p>
                 <div className={style.close} onClick={showHandler6}>
                   <img src={closeeye} alt="" id={style.closer}/>
@@ -529,18 +540,18 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                A mad scientist is studying the pH level of a river in the Philippines.
-                The pH level is measured using a logarithmic scale,
-                where a pH level of 7 is neutral, and a pH level below 7 is acidic.
-                If the pH level of the river is 4, what is the hydrogen ion concentration in the river?
-                Solution: <br />
-                The pH level is related to the hydrogen ion concentration [H +] by the formula: <br /> <br />
-                pH = -log[H +] <br />  <br />
-                To find the hydrogen ion concentration, we need to take the negative logarithm of the pH level: <br /> <br />
-                [H+] = 10<sup>-pH</sup> <br /> <br />
-                Substituting the given pH level of 4, we get: <br /> <br />
-                [H+] = 10<sup>-4</sup>
-                So, the hydrogen ion concentration is 10<sup>-4</sup>M
+                Answer this <br />
+                The number of mobile phone subscribers in the 
+                Philippines has been growing exponentially over the 
+                past decade. In 2010, there were 70 million subscribers, 
+                and by 2020, this number had increased to 120 million. 
+                Assuming this growth rate continues, 
+                predict the number of mobile phone subscribers in 2030.
+                SOLUTION: <br />
+                we can estimate a high-end possibility based on the exponential growth assumption. <br />
+                Growth factor = (New number) / (Old number) <br />
+                Growth factor = 120/5 = 1.17    <br />
+                120(1.17) = 205.2 million.
               </p>
               <div className={style.close} onClick={showHandler7}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -553,37 +564,14 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Marsh, a Filipino engineer, is designing a building
-                with a height of 100 meters. The engineer wants to
-                calculate the time it takes for sound to travel from
-                the top of the building to the ground using the formula: <br /> <br />
-                t = d/v <br /> <br />
-                where d is the distance between the top of the building
-                and the ground, and v is the speed of sound in air.
-                The distance d can be calculated using the logarithmic formula: <br /> <br />
-                d = h * log(b/a) <br /> <br />
-                where h is the height of the building, a is the height of the
-                observer above the ground, and b is the height of the source
-                above the ground. If the engineer wants to calculate the timeit
-                takes for sound to travel from the top of the building to the
-                ground when the observer is on the ground (a = 0),
-                what is the time it takes for the sound to travel? <br /> <br />
-                Solution: <br />
-                First, we need to calculate the distance d using the logarithmic formula: <br /> <br />
-                d = h * log(b/a) <br /> <br />
-                Since the observer is on the ground, we have a = 0. Therefore, we can simplify the formula as: <br /> <br />
-                d = h * log(b) <br /> <br />
-                Substituting the given values, we have: <br /> <br />
-                d = 100 * log(100) <br />
-                d = 100 * 2 <br />
-                d = 200 meters <br /> <br />
-                Next, we need to calculate the time it takes for sound
-                to travel from the top of the building to the ground using the formula: <br /> <br />
-                t = d/v <br /> <br />
-                The speed of sound in the air is approximately 343 meters per second. Therefore, we have: <br /> <br />
-                t = 200 / 343 <br />
-                t = 0.583 seconds <br /> <br />
-                So, it takes approximately 0.583 seconds for sound to travel from the top of the building to the ground.
+                Answer this <br />
+                Imagine you have a mango tree that produces 100 mangoes this year. 
+                Every year, the number of mangoes doubles. 
+                How many mangoes can you expect to harvest in 3 years?
+                SOLUTION: <br />
+                M(y) = A * B<sup>y-1</sup> <br />
+                M(3) = 100 * 2<sup>3</sup> <br />
+                M(3) = 800 mangoes <br />
               </p>
               <div className={style.close} onClick={showHandler8}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -596,113 +584,16 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.popContent}>
-                A very famous mathematician from Philippines is
-                studying the growth of a population of bacteria
-                in a laboratory. The mathematician models the growth
-                of the bacteria using the logistic function: <br /> <br />
-                <div className={style.equation}>
-                    P(t) =
-                    <div className={style.fraction}>
-                        <div className={style.topf}>P<sub>max</sub></div>
-                        <div className={style.bottomf}>1 + A * e<sup>-kt</sup></div>
-                    </div>
-                </div>
-                is the population at time t, Pmax the carrying capacity
-                of the environment, A is a constant, and k is the growth rate.
-                If the mathematician observes that the population is growing
-                at a rate of 0.2 per hour, and the carrying capacity of the
-                environment is 1000 bacteria, what is the population of
-                bacteria after 10 hours? <br /> <br />
-                Solution: <br />
-                First, we need to find the value of the constant. <i>A</i> using 
-                the given growth rate. Differentaiting the logistic function with respect to time <i>t</i>, we get: <br /> <br />
-                <div className={style.equation}>
-                    P'(t) = -P * A * k *
-                    <div className={style.fraction}>
-                        <div className={style.topf}>e<sup>-kt</sup></div>
-                        <div className={style.bottomf}>(1 + A * e<sup>-kt</sup>)<sup>2</sup></div>
-                    </div>
-                </div>
-                Substituting the given growth rate of 0.2 per hour, we have: <br /> <br />
-                <div className={style.equation}>
-                    0.2 = -1000 * A * k *
-                    <div className={style.fraction}>
-                        <div className={style.topf}>e<sup>-k * 0</sup></div>
-                        <div className={style.bottomf}>(1 + A * e<sup>-k * 0</sup>)<sup>2</sup></div>
-                    </div>
-                </div> <br />
-                <div className={style.equation}>
-                    0.2 = -1000 * A * k *
-                    <div className={style.fraction}>
-                        <div className={style.topf}>e<sup>-k * 0</sup></div>
-                        <div className={style.bottomf}>(1 + A * e<sup>-k * 0</sup>)<sup>2</sup></div>
-                    </div>
-                </div>
-                solving for A, we get: <br /> <br />
-                <div className={style.equation}>
-                    A = 
-                    <div className={style.fraction}>
-                        <div className={style.topf}>0.02 * (1 + A)<sup>2</sup></div>
-                        <div className={style.bottomf}>P<sub>max</sub> * k</div>
-                    </div>
-                </div>
-                Next, we need to find the value of the value of the constant <i>k</i> using the given carrying capacity of 1000 bacteria.
-                At the carrying capacity, the growth rate is zero. Therefore, we have: <br /> <br />
-                <div className={style.equation}>
-                    P'<sub>max</sub> =
-                    <div className={style.fraction}>
-                        <div className={style.topf}>P<sub>max</sub></div>
-                        <div className={style.bottomf}>1 + A * e<sup>-k * t<sub>max</sub></sup></div>
-                    </div>
-                </div>
-                Substituting for k, we get: <br /> <br />
-                <div className={style.equation}>
-                    k = -
-                    <div className={style.fraction}>
-                        <div className={style.topf}>ln(A)</div>
-                        <div className={style.bottomf}>t<sub>max</sub></div>
-                    </div>
-                </div>
-                Substituting the given carrying capacity of 1000 bacteria we have: <br /> <br />
-                <div className={style.equation}>
-                    1000 = 
-                    <div className={style.fraction}>
-                        <div className={style.topf}>1000</div>
-                        <div className={style.bottomf}>1 + A * e<sup>-k * t<sub>max</sub></sup></div>
-                    </div>
-                    =
-                    <div className={style.fraction}>
-                        <div className={style.topf}>1</div>
-                        <div className={style.bottomf}>1 + A</div>
-                    </div>
-                </div>
-                1 + A = 1 <br />
-                A = 0 <br /> <br />
-                Substituting the value of A = 0 into the equation for k, we get: <br /> <br />
-                <div className={style.equation}>
-                    k = -
-                    <div className={style.fraction}>
-                        <div className={style.topf}>ln(0)</div>
-                        <div className={style.bottomf}>t<sub>max</sub></div>
-                    </div>
-                </div>
-                is undefined, but we can use the growth rate 0.2 per hour to find the value of k.
-                Substituting the given growth rate into the equation for P'(t), we have: <br /> <br />
-                <div className={style.equation}>
-                    0.2 = -P<sub>max</sub> * A *
-                    <div className={style.fraction}>
-                        <div className={style.topf}>k</div>
-                        <div className={style.bottomf}>(1 + A)<sup>2</sup></div>
-                    </div>
-                </div> <br />
-                <div className={style.equation}>
-                    0.2 = -1000 * 0 *
-                    <div className={style.fraction}>
-                        <div className={style.topf}>k</div>
-                        <div className={style.bottomf}>(1 + 0)<sup>2</sup></div>
-                    </div>
-                </div>
-                0.2 = 0
+                Answer this <br />
+                The number of vehicles in the Philippines has been growing exponentially. 
+                In 2010, there were 5 million vehicles registered, and by 2020, 
+                this number had increased to 12 million. Assuming this growth rate continues, 
+                predict the number of vehicles registered in 2030. <br /> <br />
+                SOLUTION: <br />
+                we can estimate a high-end possibility based on the exponential growth assumption. <br />
+                Growth factor = (New number) / (Old number) <br />
+                Growth factor = 12/5 = 2.4 <br />
+                12(2.4) = 28.8 million
               </p>
               <div className={style.close} onClick={showHandler9}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -716,10 +607,12 @@ export default function FinalsLFP() {
               <img src={one} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Evaluate <br />
-                log<sub>2</sub>(x) = 3 <br />  <br />
+                f(x) = e<sup>2x</sup> at x = 0
                 Solution: <br />
-                x = 2<sup>3</sup> <br />
-                x = 8   
+                Substitute x = 0 into the function: <br />
+                f(0) = e<sup>2(0)</sup> <br />
+                = e<sup>0</sup> <br />
+                = 1
               </p>
               <div className={style.close} onClick={showHandler10}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -733,9 +626,12 @@ export default function FinalsLFP() {
               <img src={two} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
                 Evaluate <br />
-                log<sub>10</sub>(1000)
+                g(x) = 3e<sup>x</sup> at x = In(3)
                 Solution: <br />
-                log<sub>10</sub>(1000) = 3
+                Substitute x = In(3) into the function: <br />
+                g(In(3)) = 3e<sup>In(3)</sup> <br />
+                = 3*3 <br />
+                = 9
               </p>
               <div className={style.close} onClick={showHandler11}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -748,12 +644,13 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Evaluete <br />
-                log<sub>5</sub>(x) + 2 = 4 <br /> <br />
+                Evaluate <br />
+                h(x) = e<sup>2x</sup> at x = 1
                 Solution: <br />
-                log<sub>5</sub>(x) = 2
-                x = 5<sup>2</sup>
-                x = 25
+                Substitute x = 2 into the function: <br />
+                h(2) = 2<sup>2+1</sup> <br />
+                = 2<sup>3</sup>
+                = 8
               </p>
               <div className={style.close} onClick={showHandler12}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -766,13 +663,11 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={four} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Evaluate <br />
-                if log<sub>3</sub>(a) = 2 and log<sub>3</sub>(b) = 4, <br />
-                find log<sub>3</sub>(ab) <br /> <br />
+                Find the Derivative <br />
+                h(x) = e<sup>3x</sup> <br /> <br />
                 Solution: <br />
-                log<sub>3</sub>(ab) = log<sub>3</sub>(a) + log<sub>3</sub>(b) <br />
-                = 2 + 4 <br />
-                = 6
+                Using the chain rule for differentiation, the derivative of e<sup>3x</sup> is: <br />
+                f(x) = 3e<sup>3x</sup>
               </p>
               <div className={style.close} onClick={showHandler13}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -785,12 +680,11 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Evaluate <br />
-                if log<sub>2</sub>(x) = 5 and log<sub>2</sub>(y) = 3, find log<sub>2</sub>(x/y) <br /> <br />
+                Find the Derivative <br />
+                g(x) = e<sup>-3x</sup>
                 Solution: <br />
-                log<sub>2</sub>(x/y) = log<sub>2</sub>(x) - log<sub>2</sub>(y) <br />
-                = 5 - 3 <br />
-                = 2
+                Apply the chain rule: <br />
+                g(x) = -3e<sup>-3x</sup>
               </p>
               <div className={style.close} onClick={showHandler14}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -803,12 +697,11 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={six} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Evaluate <br />
-                if log<sub>a</sub>(x) = 4 and log<sub>b</sub>(y) = 2, express log<sub>ab</sub>(x) in terms of a and b <br /> <br />
+                Solve for x <br />
+                e<sup>x</sup> = 10 <br /> <br />
                 Solution: <br />
-                4 = 2 * log<sub>ab</sub>(x) <br />
-                log<sub>ab</sub>(x) = 4/2 <br />
-                = 2
+                Take the natural logarithm of both sides: <br />
+                x = In(10)
               </p>
               <div className={style.close} onClick={showHandler15}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -821,88 +714,16 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={seven} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Find x <br />
-                2log2(x) - log2 (x + 4) = 3 <br /> <br />
+                Find the Maximum Value <br />
+                f(x) = 5e-x on the interval [0,∞] <br /> <br />
                 Solution: <br />
-                log<sub>2</sub>(x<sup>2</sup>) - log<sub>2</sub>(x + 4) = 3 <br />
-                <div className={style.equation}>
-                    <p>log<sub>2</sub>(x<sup>2</sup>) - (log<sub>2</sub>(</p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>1</div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p>)) = 3</p>
-                </div>
-                <div className={style.equation}>
-                    <p>log<sub>2</sub>(x<sup>2</sup>) - (x<sup>2</sup> * </p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>1</div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p>) = 3</p>
-                </div>
-                <div className={style.equation}>
-                    <p>log<sub>2</sub></p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>2</sup> * 1</div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p> = 3</p>
-                </div>
-                <div className={style.equation}>
-                    <p>log<sub>2</sub></p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>2</sup></div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p> = 3</p>
-                </div>
-                <div className={style.equation}>
-                    <p>(</p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>2</sup></div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p>) = 2<sup>3</sup></p>
-                </div>
-                <div className={style.equation}>
-                    <p>(</p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>2</sup></div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p>) = 8</p>
-                </div>
-                <div className={style.equation}>
-                    <p>(x + 4) </p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>2</sup></div>
-                        <div className={style.bottomf}>x + 4</div>
-                    </div>
-                    <p>=8(x + 4)</p>
-                </div>
-                x<sup>2</sup> = 8(x + 4) <br />
-                x<sup>2</sup> = 8x + 32 <br />
-                x<sup>2</sup> - 8x - 32 = 0 <br />
-                <div className={style.equation}>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>-b±√b<sup>2</sup>-4ac</div>
-                        <div className={style.bottomf}>2a</div>
-                    </div>
-                    <p> x = </p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>-(-8)±√8<sup>2</sup>-4(1)(-32)</div>
-                        <div className={style.bottomf}>2(1)</div>
-                    </div>
-                </div>
-                <div className={style.equation}>
-                    <p>x = </p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>8±8√3</div>
-                        <div className={style.bottomf}>2</div>
-                    </div>
-                </div>
-                x = 4 + 4 √3
+                To find the maximum value, we take the derivative of f(x) 
+                = 5e<sup>-x</sup> and set it to zero: <br />
+                f(x) = -5e<sup>-x</sup>
+                5e<sup>-x</sup> = 0 <br />
+                e<sup>-x</sup> = 0 <br />
+                There is no real solution for e<sup>-x</sup> = 0, 
+                so the function does not have a maximum value on the interval [0,∞).
               </p>
               <div className={style.close} onClick={showHandler16}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -915,33 +736,17 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                The 2020 Taal Volcano eruption released a tremendous amount of energy.  
-                Volcanologists use the decibel (dB) scale to measure the sound pressure 
-                of volcanic eruptions.  We know the standard reference sound pressure (P₀) 
-                is 20 micro-Pascals (µPa). If a recent eruption measured 120 dB at a monitoring
-                station. <br /> <br />
+                A business entrepreneur invested P10,000 in a business that grows 
+                exponentially at a rate of 5% per year. 
+                How much will the investment be worth after 10 years? <br /> <br />
                 Solution: <br />
-                <div className={style.equation}>
-                    <p>dB = 10 * log(</p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>I</div>
-                        <div className={style.bottomf}>P₀</div>
-                    </div>
-                    <p>)</p>
-                </div>
-                I = P₀ * 10 <sup>dB/10</sup>
-                First Convert the dB value to a ratio by dividing 10
-                and taking the power of 10. <br /> <br />
-                I = 10 * 120 <sup>dB/10</sup> = 10<sup>12</sup>
-                <div className={style.equation}>
-                    <p>= </p>
-                    <div className={style.fraction}>
-                        <div className={style.topf}>10<sup>12</sup></div>
-                        <div className={style.bottomf}>20x 10<sup>-6</sup>P<i>a</i></div>
-                    </div>
-                    <p> = 5 x 10<sup>17</sup></p>
-                </div>
-
+                Let the amount of the money after t years br represented by A(t) = 
+                P(1 + r)<sup>t</sup>, where P is initial investment, r is the rate of growth. <br />
+                Here P = 10,000, r = 0.05,<br />
+                Therefore, A(10) = 10,000(1 + 0.05)<sup>10</sup> <br />
+                = 10,000(1.05)<sup>10</sup> <br />
+                = 16,288.95
+                So, the investment will be worth P16,288.95 after 10 years.
               </p>
               <div className={style.close} onClick={showHandler17}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -954,18 +759,18 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                The Philippines is located in the Pacific Ring of Fire,
-                an area known for frequent earthquakes.
-                The Richter scale is a logarithmic scale used to
-                measure earthquake magnitude (M).  An increase of
-                1 unit on the Richter scale represents a 10-fold
-                increase in ground motion.  If a recent earthquake
-                measured 6.5 on the Richter scale, how much stronger
-                was this earthquake in ground motion compared to a
-                5.0 magnitude earthquake? <br /> <br />
+                The population of a certain province in the Philippines is growing 
+                exponentially at a rate of 2.5% per year. 
+                If the current population is 10 million, 
+                what will the population be in 5 years?
                 Solution: <br />
-                Ground Motion Ratio = 10<sup>(difference in Richer Magnitudes)</sup> <br />
-                Ground Motion Ratio = 10<sup>(6.5-5.0)</sup> = 10<sup>1.5</sup> = 31.62
+                Let the population after t years be represented by P(t) = P<sub>0</sub>(1 + r)<sup>t</sup>,
+                where P<sub>0</sub> is the initial population of the growth rate. <br />
+                Here P<sub>0</sub> = 10,000,000, r = 0.025, <br />
+                Therefore, P(5) = 10,000,000(1 + 0.025)<sup>5</sup> <br />
+                = 10,000,000(1.025)<sup>5</sup> <br />
+                = 11.314 million
+                So, the population will be approximately 11.314 million in 5 years.
               </p>
               <div className={style.close} onClick={showHandler18}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -978,21 +783,39 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.popContent}>
-                Mangroves are a vital ecosystem in the Philippines,
-                protecting coastlines and providing habitats for various species. 
-                The growth of mangrove forests can be modeled using an exponential
-                function. Let's say a particular mangrove forest has an initial
-                area of 1 square kilometer (km²) and a growth rate of 5% per year. 
-                We can use logarithms to find how many years it would take for the
-                forest to double in size. <br /> <br />
+                A radioactive isotope used in medicine has a half-life of 12 years.
+                If a sample of this isotope has an initial activity of 1000 counts 
+                per minute, what will its activity be after 36 years? <br /> <br />
                 Solution: <br />
-                A(t) = A(0) * e<sup>rt</sup> <br />
-                where r is the growth rate (as a decimal).
-                We can set up a proportion to find t: <br /> <br />
-                2km² = 1km² * e<sup>(0.05t)</sup> <br />
-                Divided both sides by 1 km² and simplify using logarithms: <br /> <br />
-                log(2) = 0.05t <br />
-                t = log(2) / 0.05 years ≈ 6.02 years<br />
+                Let the activity of the isotope after t years be represented by
+                <div className={style.equation}>
+                    <p>A(t) = A0(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1</div>
+                        <div className={style.bottomf}>2</div>
+                    </div>
+                    <p>) <sup>t/h</sup>,</p>
+                </div>
+                where A0 is the initial activity and h is the half-life. <br />
+                Here, A0 = 1000, h = 12, <br />
+                <div className={style.equation}>
+                    <p>Therefore, A(36) = 1000(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1</div>
+                        <div className={style.bottomf}>2</div>
+                    </div>
+                    <p>) <sup>36/12</sup>,</p>
+                </div>
+                <div className={style.equation}>
+                    <p>= 1000(</p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>1</div>
+                        <div className={style.bottomf}>2</div>
+                    </div>
+                    <p>)<sup>3</sup></p>
+                </div>
+                = 125
+                So, the activity of the isotope will be approximately 125 counts per minute after 36 years.
               </p>
               <div className={style.close} onClick={showHandler19}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1005,11 +828,12 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={one} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Solve <br />
-                f(x) = log<sub>2</sub>(x) = 4 <br /> <br />
+                Evaluate <br />
+                f(x) = e<sup>2x</sup> at x = 0
                 Solution: <br />
-                x = 2<sup>4</sup> <br />
-                x = 16
+                f(0) = e<sup>2*0</sup>
+                = e<sup>0</sup>
+                = 1
               </p>
               <div className={style.close} onClick={showHandler20}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1022,13 +846,11 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={two} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Solve for x<br />
-                log<sub>2</sub>(x) = 5 <br /> <br />
+                Find the Derivative <br />
+                g(x) = e<sup>-3x</sup> <br /> <br />
                 Solution: <br />
-                log<sub>2</sub>(x) = 5
-                2<sup>log2</sup>(x) = 2<sup>5</sup>
-                x = 2<sup>5</sup>
-                x = 32
+                Apply the chain rule <br />
+                g(x) = -3e<sup>-3x</sup>
               </p>
               <div className={style.close} onClick={showHandler21}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1041,14 +863,11 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Find <br />
-                g(x) = log3 (x + 1) = 2 <br /> <br />
+                Calculate <br />
+                ∫e<sup>4x</sup> dx <br /> <br />
                 Solution: <br />
-                3<sup>log3</sup>(x + 1) = 3<sup>2</sup> <br />
-                x + 1 = 3<sup>2</sup> <br />
-                x = 3<sup>2</sup> - 1 <br />
-                x = 9 - 1 <br />
-                x = 8
+                Use the power rule for integration <br />
+                ∫ e<sup>4x</sup> dx = 1/4 e<sup>4x</sup> + C
               </p>
               <div className={style.close} onClick={showHandler22}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1059,32 +878,17 @@ export default function FinalsLFP() {
         {show23 && (
           <div className={style.popContainer}>
             <div className={style.pop}>
-                <img src={four} alt="" className={style.problemNum}/>
-                <p className={style.popContent}>
-                    Find the derivative <br />
-                    f(x) = d/dx ln(3x<sup>2</sup>) <br /> <br />
-                    Solution: <br />
-                    <div className={style.equation}>
-                        <p>f'(x) = </p>
-                        <div className={style.fraction}>
-                            <div className={style.topf}>d</div>
-                            <div className={style.bottomf}>dx<sup>2</sup></div>
-                        </div>
-                        <p>(ln(3x<sup>2</sup>)) = </p>
-                        <div className={style.fraction}>
-                            <div className={style.topf}>1</div>
-                            <div className={style.bottomf}>3x<sup>2</sup></div>
-                        </div>
-                        <p> * 6x = </p>
-                        <div className={style.fraction}>
-                            <div className={style.topf}>6</div>
-                            <div className={style.bottomf}>x</div>
-                        </div>
-                    </div>
-                </p>
-                <div className={style.close} onClick={showHandler23}>
+              <img src={four} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Solve for x <br />
+                e<sup>x</sup> = 10 <br /> <br />
+                Solution: <br />
+                Take the natural logarithm of both sides <br />
+                x = ln(10)
+              </p>
+              <div className={style.close} onClick={showHandler23}>
                 <img src={closeeye} alt="" id={style.closer}/>
-                </div>
+              </div>
             </div>
           </div>
         )}
@@ -1093,25 +897,29 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                Calculte <br />
-                ∫ 1/x dx<br /> <br />
+                Find the General Solution <br /> 
+                Find the general solution to the differential equation dy/dx = ky, where k is a constant <br /> <br />
                 Solution: <br />
                 <div className={style.equation}>
-                    <p>∫ 1/x dx = </p>
+                    <p>This is a seperable differtial equation. Rearrange it:</p>
                     <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>-1+1</sup></div>
-                        <div className={style.bottomf}>-1+1</div>
+                        <div className={style.topf}>dy</div>
+                        <div className={style.bottomf}>y</div>
                     </div>
-                    <p> + C</p>
+                    <p> = kx * dx.</p>
                 </div>
                 <div className={style.equation}>
+                    <p>∫</p>
                     <div className={style.fraction}>
-                        <div className={style.topf}>x<sup>0</sup></div>
-                        <div className={style.bottomf}>0</div>
+                        <div className={style.topf}>dy</div>
+                        <div className={style.bottomf}>y</div>
                     </div>
-                    <p> + C = ln(|x|) + C</p>
+                    <p> = ∫ kx dx.</p>
                 </div>
-                ln(|x|) + C
+                ln|y| = kx + C <br />
+                e<sup>ln|y|</sup> = e<sup>kx + C</sup> <br />
+                y = e<sup>kx + C</sup><br />
+                y(x) = C * e<sup>kx</sup>
               </p>
               <div className={style.close} onClick={showHandler24}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1122,36 +930,77 @@ export default function FinalsLFP() {
         {show25 && (
           <div className={style.popContainer}>
             <div className={style.pop}>
-                <img src={six} alt="" className={style.problemNum}/>
-                <p className={style.popContent}>
-                    Solve the equation for x <br />
-                    In(x) = 2 <br /> <br />
-                    Solution: <br />
-                    ln(x) = b ⇔ e <sup>ln(x)</sup> = e<sup>b</sup> <br />
-                    e<sup>ln(x)</sup> = e<sup>2</sup> <br />
-                    x = e<sup>2</sup> <br />
-                </p>
-                <div className={style.close} onClick={showHandler25}>
-                  <img src={closeeye} alt="" id={style.closer}/>
-                </div>
+              <img src={six} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Find the Value <br />       
+                Determine the value of f(x) = 3e<sup>kx</sup> such that the function passes through point (1,9) <br /> <br />
+                Solution: <br />
+                Substitute x = 1 and y = 9 into f(x) = 3e<sup>kx</sup> <br />
+                9 = 3e<sup>k*1</sup> <br />
+                9 = 3e<sup>k</sup> <br />
+                ln(3) = ln(e<sup>k</sup>) <br />
+                ln(3) = k <br />
+                k = ln(3)
+              </p>
+              <div className={style.close} onClick={showHandler25}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
             </div>
           </div>
         )}
         {show26 && (
           <div className={style.popContainer}>
             <div className={style.pop}>
-                <img src={seven} alt="" className={style.problemNum}/>
-                <p className={style.popContent}>
-                    Find the domain <br />
-                    g(x) = log<sub>5</sub> (x<sup>2</sup> - 4) <br /> <br />
-                    Solution: <br />
-                    x<sup>2</sup> - 4 {">"} 0 <br />
-                    (x - 2)(x + 2) {">"} 0 <br />
-                    This inequality is true when either x -2 or x {">"} 2
-                </p>
-                <div className={style.close} onClick={showHandler26}>
-                  <img src={closeeye} alt="" id={style.closer}/>
+              <img src={seven} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                If an investment grows at an annual rate of 5%, 
+                compounded continuously, 
+                how long will it take for the initial investment to double? <br /> <br />
+                Solution: <br />
+                Use the continuous compound interest formula: <br />
+                A = Pe<sup>rt</sup> <br />
+                where A is the amount, P is the principal amount, 
+                r is the annual interest rate (as a decimal), t is the time in years. <br />
+                <div className={style.equation}>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>A</div>
+                        <div className={style.bottomf}>P</div>
+                    </div>
+                    <p> = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>P * e<sup>rt</sup></div>
+                        <div className={style.bottomf}>P</div>
+                    </div>
                 </div>
+                2 = e<sup>rt</sup> <br />
+                ln(2) = ln(e<sup>rt</sup>) <br />
+                ln(2) = rt <br />
+                <div className={style.equation}>
+                    <p>t = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>ln(2)</div>
+                        <div className={style.bottomf}>r</div>
+                    </div>
+                </div>
+                <div className={style.equation}>
+                    <p>t = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>ln(2)</div>
+                        <div className={style.bottomf}>r</div>
+                    </div>
+                </div>
+                <div className={style.equation}>
+                    <p>t = </p>
+                    <div className={style.fraction}>
+                        <div className={style.topf}>ln(2)</div>
+                        <div className={style.bottomf}>0.05</div>
+                    </div>
+                </div>
+                t = 13.86 years
+              </p>
+              <div className={style.close} onClick={showHandler26}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
             </div>
           </div>
         )}
@@ -1160,11 +1009,14 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                The Richter scale measures earthquake intensity using a logarithmic scale.
-                If an earthquake measure 7 on the Richter scale,
-                how many times more intense is it than an earthquake measuring 5 on the same scale? <br /> <br />
-                Answer: <br />
-                Intensity difference: 10<sup>7.0-5.0</sup> = 10<sup>2</sup> = 100 more intensity
+                Financial investments often grow exponentially. 
+                If you invest Php 1000 in an account with an annual 
+                interest rate of 8%, compounded annually, 
+                how much money will you have after 10 years? <br /> <br />
+                Solution: <br />
+                Use the continuous compound interest formula with P = 1000, r = 0.08, and t = 10 <br />
+                FV = 1000(1 + 0.08)<sup>10</sup> <br />
+                Php 2158.92
               </p>
               <div className={style.close} onClick={showHandler27}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1172,28 +1024,20 @@ export default function FinalsLFP() {
             </div>
           </div>
         )}
-        {show28 && (
+        {show28 && (    
           <div className={style.popContainer}>
             <div className={style.pop}>
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.popContent}>
-                pH in chemistry measures the acidity of a solution on a logarithmic scale.
-                If a solution has a pH of 3 and another has a pH of 6,
-                how many times more acidic is the first solution than the second? <br /> <br />
-                Answer: <br />
-                Lower pH = More acidic: The pH scale runs from 0 (very acidic) to 14 (very basic). <br />
-                Logarithmic scale: Each whole number decrease in pH represents a 10-fold increase in hydrogen
-                ion concentration. <br />
-                Applying the Math: In this case, there's a difference of 3 (6-3) between the two pH values.
-                So, the solution with a pH of 3 has a hydrogen ion concentration that is 10<sup>(difference of pH)</sup>
-                = 10<sup>3</sup> = 1000 times more acidic than the solution with a pH of 6. <br />
-                Therefore, the solution with a pH of 3 is 1000 times more concentrated in hydrogen ions, making
-                it 
-                <div className={style.fraction}>
-                    <div className={style.topf}>1000</div>
-                    <div className={style.bottomf}>10</div>
-                </div>
-                = 100 times more acidic
+              The spread of a virus can be modeled using exponential growth. 
+              If the number of infected individuals doubles every day, 
+              and there are initially 100 infected individuals, 
+              how many will there be after 5 days? <br /> <br />
+              Solution: <br />
+              Final number (F) = P * (growth factor)<sup>t</sup> <br />
+                F = 100 * 2<sup>5</sup> <br />
+                F = 100 * 32 <br />
+                F = 3200 infected individuals
               </p>
               <div className={style.close} onClick={showHandler28}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1206,15 +1050,15 @@ export default function FinalsLFP() {
             <div className={style.pop}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.popContent}>
-                Sound intensity is measured in decibels (dB), 
-                which is a logarithmic scale. If the sound intensity 
-                level is 60 dB and doubles, what is the new sound intensity level? <br /> <br />
-                Answer: <br /> <br />
-                the new sound intensity level will likely be around 63 dB 
-                (depending on the exact nature of the sound). 
-                It won't be double the original 60 dB because the decibel scale 
-                is logarithmic and reflects a perceived loudness change, 
-                not a simple linear increase in intensity.
+                Radioactive decay is a natural process that follows an exponential model. 
+                If a sample of a radioactive element has a half-life of 30 years, 
+                how much of the sample will remain after 90 years? <br /> <br />
+                Solution: <br />
+                N(t) = N<sub>0</sub>(haft - life)<sup>-t/T<sub>1/2</sub></sup> <br />
+                N(t) = N<sub>0</sub>(0.5)<sup>-t/T<sub>1/2</sub></sup> <br />
+                N(90 years) = N<sub>0</sub>(haft - life)<sup>-90years/30years</sup> <br />
+                N(90 years) = N<sub>0</sub>(0.5)<sup>-3</sup> <br />
+                N(90 years) = N<sub>0</sub> * 0.125
               </p>
               <div className={style.close} onClick={showHandler29}>
                 <img src={closeeye} alt="" id={style.closer}/>
@@ -1225,7 +1069,7 @@ export default function FinalsLFP() {
         <header className={style.header}>
             <Navi/>
             <div className={style.TitleContainer}>
-                <h1 className={style.Title}>Logarithmic Function <br />Problems</h1>
+                <h1 className={style.Title}>Transcendental Function <br />Problems</h1>
             </div>
         </header>
         <main className={style.TasksContainer}>
@@ -1236,8 +1080,10 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={one} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evalute <br />
-                  Evaluate the logarithmic function log(100) to the base 10
+                  Asnwer this<br />
+                  The annual rice production in the Philippines is increasing at a 
+                  rate of 5% per year. If the current annual production is 10 million metric tons, 
+                  write an exponential function to represent the rice production after t years.
                 </p>
                 <div className={style.showContainer} onClick={showHandler}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1246,8 +1092,10 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                Evaluate <br />
-                Evaluate the logarithmic function log(<sup>1</sup>/<sub>8</sub>) to the base 2 
+                    Answer this <br />
+                    The population of the Philippines is growing exponentially at a rate 
+                    of 1.5% per year. If the current population is 110 million, 
+                    write an exponential function to represent the population after t years.
                 </p>
                 <div className={style.showContainer} onClick={showHandler1}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1256,8 +1104,11 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={three} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evaluate <br />
-                  Evaluate the logarithmic function log(125) to the base 5
+                  Answer this <br />
+                  The electricity consumption in the Philippines is increasing at 
+                  a rate of 8% per year. If the current consumption is 100,000 
+                  megawatt-hours per year, write an exponential function to 
+                  represent the consumption after t years.
                 </p>
                 <div className={style.showContainer} onClick={showHandler2}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1266,9 +1117,11 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={four} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Derivative <br />
-                  Find the derivative of the logarithmic function 
-                  f(x) = log(x) with respect to x
+                  Answer this <br />
+                  The number of internet users in the Philippines is growing 
+                  exponentially at a rate of 10% per year. If there are 
+                  currently 70 million internet users, write an exponential 
+                  function to represent the number of users after t years.
                 </p>
                 <div className={style.showContainer} onClick={showHandler3}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1277,8 +1130,11 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={five} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Integral <br />
-                  Find the integral of the logarithmic function g(x) = <sup>1</sup>/<sub>2</sub> dx with respect to x
+                  Answer this <br />
+                  The number of COVID-19 cases in the Philippines is growing 
+                  exponentially with a doubling time of 10 days. If there are 
+                  currently 10,000 confirmed cases, estimate the number of 
+                  cases after 30 days.
                 </p>
                 <div className={style.showContainer} onClick={showHandler4}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1287,8 +1143,11 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={six} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Solution <br />
-                  Solve the logarithmic equation log(x) = 3
+                  Answer this <br />
+                  The inflation rate in the Philippines is 4% per year. 
+                  If the current inflation rate continues, 
+                  write an exponential function to represent 
+                  the increase in prices after t years.
                 </p>
                 <div className={style.showContainer} onClick={showHandler5}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1297,8 +1156,12 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find the Maximum Value <br />
-                  Find the maximum value of the logarithmic function f(x) = log(x) on the interval (0,1)
+                  Answer this <br />
+                  The number of tourist arrivals in the Philippines is 
+                  increasing exponentially at a rate of 7% per year. 
+                  In 2019, there were 8 million tourist arrivals. 
+                  Assuming this growth rate continues, 
+                  predict the number of tourist arrivals in 2025.
                 </p>
                 <div className={style.showContainer}  onClick={showHandler6}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1313,10 +1176,12 @@ export default function FinalsLFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={eight} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                    A mad scientist is studying the pH level of a river in the Philippines.
-                    The pH level is measured using a logarithmic scale, where a pH level of
-                    7 is neutral, and a pH level below 7 is acidic. If the pH level of the
-                    river is 4, what is the hydrogen ion concentration in the river?
+                    Answer this <br />
+                  The number of mobile phone subscribers in the Philippines has 
+                  been growing exponentially over the past decade. In 2010, 
+                  there were 70 million subscribers, and by 2020, this number 
+                  had increased to 120 million. Assuming this growth rate continues, 
+                  predict the number of mobile phone subscribers in 2030.
                 </p>
                 <div className={style.showContainer} onClick={showHandler7}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1325,19 +1190,10 @@ export default function FinalsLFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={nine} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                    Marsh, a Filipino engineer, is designing a building with a height of 100 meters.
-                    The engineer wants to calculate the time it takes for sound to travel from the
-                    top of the building to the ground using the formula: <br />
-                    t = <sup>d</sup>/<sub>v</sub> <br />
-                    where d is the distance between the top of the building and the ground,
-                    and v is the speed of sound in air. The distance d can be calculated using
-                    the logarithmic formula: <br />
-                    d = h * log(<sup>b</sup>/<sub>a</sub>) <br />
-                    where h is the height of the building, a is the height of the observer above
-                    the ground, and b is the height of the source above the ground.
-                    If the engineer wants to calculate the time it takes for sound to
-                    travel from the top of the building to the ground when the observer
-                    is on the ground (a = 0), what is the time it takes for the sound to travel?
+                    Answer this <br />
+                  Imagine you have a mango tree that produces 100 mangoes this year. 
+                  Every year, the number of mangoes doubles. 
+                  How many mangoes can you expect to harvest in 3 years?
                 </p>
                 <div className={style.showContainer} onClick={showHandler8}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1346,23 +1202,12 @@ export default function FinalsLFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={ten} alt="" className={style._10}/>
                 <p className={style.question}>
-                    A very famous mathematician from Philippines is
-                    studying the growth of a population of bacteria
-                    in a laboratory. The mathematician models the growth
-                    of the bacteria using the logistic function: <br /> <br />
-                    <div className={style.equation}>
-                        P(t) =
-                        <div className={style.fraction}>
-                            <div className={style.topf}>P<sub>max</sub></div>
-                            <div className={style.bottomf}>1 + A * e<sup>-kt</sup></div>
-                        </div>
-                    </div>
-                    is the population at time t, Pmax the carrying capacity
-                    of the environment, A is a constant, and k is the growth rate.
-                    If the mathematician observes that the population is growing
-                    at a rate of 0.2 per hour, and the carrying capacity of the
-                    environment is 1000 bacteria, what is the population of
-                    bacteria after 10 hours?
+                    Answer this <br />
+                    The number of vehicles in the Philippines has been growing 
+                    exponentially. In 2010, there were 5 million vehicles 
+                    registered, and by 2020, this number had increased to 
+                    12 million. Assuming this growth rate continues, 
+                    predict the number of vehicles registered in 2030.
                 </p>
                 <div className={style.showContainer} onClick={showHandler9}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1377,8 +1222,8 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={one} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                    Evaluate <br />
-                    log<sub>2</sub>(x) = 3
+                  Evaluate <br />
+                  f(x) = e<sup>2x</sup> at x = 0
                 </p>
                 <div className={style.showContainer} onClick={showHandler10}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1388,7 +1233,7 @@ export default function FinalsLFP() {
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  log<sub>10</sub>(1000)
+                  g(x) = 3e<sup>x</sup> at x = In(3)
                 </p>
                 <div className={style.showContainer} onClick={showHandler11}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1398,7 +1243,7 @@ export default function FinalsLFP() {
                 <img src={three} alt="" className={style.problemNum}/>
                 <p className={style.question}>
                   Evaluate <br />
-                  log<sub>5</sub>(x) + 2 = 4
+                  h(x) = 2<sup>x + 1</sup> at x = 2
                 </p>
                 <div className={style.showContainer} onClick={showHandler12}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1407,9 +1252,8 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={four} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evaluate <br />
-                  if log<sub>3</sub>(a) = 2 and log<sub>3</sub>(b) = 4,
-                  find log<sub>3</sub>(ab)
+                  Find the Derivative <br />
+                  h(x) = e<sup>3x</sup>
                 </p>
                 <div className={style.showContainer} onClick={showHandler13}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1418,9 +1262,8 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={five} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evaluate <br />
-                  if log<sup>2</sup>(x) = 5 and log<sup>2</sup>(y) = 3, 
-                  find log<sup>2</sup>(x/y)
+                    Find the Derivative <br />
+                    g(x) = e<sup>-3x</sup>
                 </p>
                 <div className={style.showContainer} onClick={showHandler14}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1429,9 +1272,8 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={six} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Evaluate <br />
-                  if log<sup>a</sup>(x) = 4 and log<sup>b</sup>(x) = 2,
-                  express log<sub>ab</sub>(x) in terms of a and b
+                  Solve for x <br />
+                  e<sup>x</sup> = 10
                 </p>
                 <div className={style.showContainer} onClick={showHandler15}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1443,8 +1285,8 @@ export default function FinalsLFP() {
               <div className={style.problemHaft}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Find x <br />
-                  2log<sup>2</sup>(x) - log<sup>2</sup> (x + 4) = 3
+                  Find the Maximum Value <br />
+                  f(x) = 5e-x on the interval [0,∞]
                 </p>
                 <div className={style.showContainer} onClick={showHandler16}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1456,12 +1298,8 @@ export default function FinalsLFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={eight} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                    The 2020 Taal Volcano eruption released a tremendous amount
-                    of energy.  Volcanologists use the decibel (dB) scale to
-                    measure the sound pressure of volcanic eruptions.
-                    We know the standard reference sound pressure (P₀) is
-                    20 micro-Pascals (µPa). If a recent eruption measured
-                    120 dB at a monitoring station.
+                    A business entrepreneur invested P10,000 in a business that grows exponentially 
+                    at a rate of 5% per year. How much will the investment be worth after 10 years?
                 </p>
                 <div className={style.showContainer} onClick={showHandler17}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1470,15 +1308,10 @@ export default function FinalsLFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={nine} alt="" className={style.problemNumhaft}/>
                 <p className={style.question}>
-                    The Philippines is located in the Pacific Ring of Fire,
-                    an area known for frequent earthquakes.
-                    The Richter scale is a logarithmic scale
-                    used to measure earthquake magnitude (M).
-                    An increase of 1 unit on the Richter scale
-                    represents a 10-fold increase in ground motion.
-                    If a recent earthquake measured 6.5 on the Richter
-                    scale, how much stronger was this earthquake in
-                    ground motion compared to a 5.0 magnitude earthquake?
+                    The population of a certain province in the Philippines is 
+                    growing exponentially at a rate of 2.5% per year. 
+                    If the current population is 10 million, 
+                    what will the population be in 5 years?
                 </p>
                 <div className={style.showContainer} onClick={showHandler18}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1487,13 +1320,9 @@ export default function FinalsLFP() {
               <div className={style.lasfthaftQuestion}>
                 <img src={ten} alt="" className={style._10}/>
                 <p className={style.question}>
-                  Mangroves are a vital ecosystem in the Philippines,
-                  protecting coastlines and providing habitats for various species.
-                  The growth of mangrove forests can be modeled using an exponential
-                  function. Let's say a particular mangrove forest has an initial
-                  area of 1 square kilometer (km²) and a growth rate of 5% per year.
-                  We can use logarithms to find how many years it would take for the
-                  forest to double in size.
+                    A radioactive isotope used in medicine has a half-life of 12 years. 
+                    If a sample of this isotope has an initial activity of 1000 counts per minute, 
+                    what will its activity be after 36 years?
                 </p>
                 <div className={style.showContainer} onClick={showHandler19}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1509,8 +1338,8 @@ export default function FinalsLFP() {
               <div className={style.halvesChild}>
                 <img src={one} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Solve <br />
-                  f(x) = log<sub>2</sub>(x) = 4
+                    Evaluate <br />
+                    f(x) = e<sup>2x</sup> at x = 0
                 </p>
                 <div className={style.showContainer} onClick={showHandler20}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1519,8 +1348,8 @@ export default function FinalsLFP() {
               <div className={style.halvesChild}>
                 <img src={two} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                  Solve <br />
-                  log<sub>2</sub>(x) = 5
+                    Find the Derivative <br />
+                    g(x) = e<sup>-3x</sup>
                 </p>
                 <div className={style.showContainer} onClick={showHandler21}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1530,8 +1359,8 @@ export default function FinalsLFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={three} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                Find <br />
-                g(x) = log3 (x + 1) = 2
+                Calculate <br />
+                ∫e4x dx
               </p>
               <div className={style.showContainer} onClick={showHandler22}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1541,8 +1370,8 @@ export default function FinalsLFP() {
               <div className={style.halvesChild}>
                 <img src={four} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                    Find the derivative <br />
-                    f(x) = <sup>d</sup>/dx ln(3x2)
+                  Solve for x <br />
+                  e<sup>x</sup> = 10
                 </p>
                 <div className={style.showContainer} onClick={showHandler23}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1555,8 +1384,8 @@ export default function FinalsLFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={five} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                Calculate
-                ∫<sup>1</sup>/<sub>x</sub> dx
+                Find the General Solution <br />
+                Find the general solution to the differential equation dy/dx = ky, where k is a constant
               </p>
               <div className={style.showContainer} onClick={showHandler24}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1566,8 +1395,8 @@ export default function FinalsLFP() {
               <div className={style.halvesChild}>
                 <img src={six} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                    Solve the equation for x <br />
-                    In(x) = 2 
+                  Find the value <br />
+                  Determine the value of f(x) = 3e<sup>kx</sup> such that the function passes through point (1,9)
                 </p>
                 <div className={style.showContainer} onClick={showHandler25}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1576,8 +1405,9 @@ export default function FinalsLFP() {
               <div className={style.halvesChild}>
                 <img src={seven} alt="" className={style.problemNum}/>
                 <p className={style.question}>
-                    Find the domain <br />
-                    g(x) = log<sub>5</sub> (x<sup>2</sup> - 4)
+                    If an investment grows at an annual rate of 5%, 
+                    compounded continuously, how long will it take 
+                    for the initial investment to double?
                 </p>
                 <div className={style.showContainer} onClick={showHandler26}>
                   <img src={eye} alt="" id={style.eye}/>
@@ -1587,10 +1417,10 @@ export default function FinalsLFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={eight} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                The Richter scale measures earthquake intensity using
-                a logarithmic scale. If an earthquake measure 7 on the
-                Richter scale, how many times more intense is it than
-                an earthquake measuring 5 on the same scale?
+                Financial investments often grow exponentially. 
+                If you invest Php 1000 in an account with an annual 
+                interest rate of 8%, compounded annually, 
+                how much money will you have after 10 years?
               </p>
               <div className={style.showContainer} onClick={showHandler27}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1599,10 +1429,10 @@ export default function FinalsLFP() {
             <div className={style.lasfthaftQuestion}>                 
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.question}>
-                pH in chemistry measures the acidity of a solution
-                on a logarithmic scale. If a solution has a pH of 3
-                and another has a pH of 6, how many times more acidic
-                is the first solution than the second?
+                The spread of a virus can be modeled using exponential growth. 
+                If the number of infected individuals doubles every day, 
+                and there are initially 100 infected individuals, 
+                how many will there be after 5 days?
               </p>
               <div className={style.showContainer} onClick={showHandler28}>
                 <img src={eye} alt="" id={style.eye}/>
@@ -1611,10 +1441,9 @@ export default function FinalsLFP() {
             <div className={style.lasfthaftQuestion}>
               <img src={ten} alt="" className={style._10}/>
               <p className={style.question}>
-                Sound intensity is measured in decibels (dB),
-                which is a logarithmic scale.
-                If the sound intensity level is 60 dB and doubles,
-                what is the new sound intensity level?
+                Radioactive decay is a natural process that follows an exponential model.
+                If a sample of a radioactive element has a half-life of 30 years, 
+                how much of the sample will remain after 90 years?
               </p>
               <div className={style.showContainer} onClick={showHandler29}>
                 <img src={eye} alt="" id={style.eye}/>
