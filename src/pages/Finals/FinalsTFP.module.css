@@ -210,18 +210,20 @@
 
 .popContainer {
     z-index: 100;
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: 1000px;
+    overflow: hidden;
 }
 
 .pop {
     width: 580px;
+    height: 600px;
     max-width: 580px;
     background-color: #2B2828;
-    margin-top: 100px;
+    margin-top: 50px;
     max-height: 900px;
     border-radius: 40px;
     display: flex;
@@ -242,8 +244,7 @@
     text-align: justify;
 
     overflow: scroll;
-
-    
+    scrollbar-width: none;
 }
 
 .close {

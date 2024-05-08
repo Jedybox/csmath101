@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import Navi from '../../widgets/nav.jsx'
 import Foot from '../../widgets/foot.jsx'
 
+import './FinalsTFP.module.css'
 import style from './FinalsTFP.module.css'
 
 // nulls are for the empty divs
@@ -142,6 +143,257 @@ export default function FinalsTFP() {
   if (show8) {
     document.body.style.overflow = 'hidden'
   }
+
+  const [show9, setShow9] = useState(false)
+
+  const showHandler9 = () => {
+    setShow9(!show9)
+  }
+
+  if (show9) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show10, setShow10] = useState(false)
+
+  const showHandler10 = () => {
+    setShow10(!show10)
+  }
+
+  if (show10) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show11, setShow11] = useState(false)
+
+  const showHandler11 = () => {
+    setShow11(!show11)
+  }
+
+  if (show11) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show12, setShow12] = useState(false)
+
+  const showHandler12 = () => {
+    setShow12(!show12)
+  }
+
+  if (show12) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show13, setShow13] = useState(false)
+
+  const showHandler13 = () => {
+    setShow13(!show13)
+  }
+
+  if (show13) {
+    document.body.style.overflow = 'hidden'
+  }
+
+  const [show14, setShow14] = useState(false)
+
+  const showHandler14 = () => {
+    setShow14(!show14)
+  }
+
+  if (show14) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show15, setShow15] = useState(false)
+
+  const showHandler15 = () => {
+    setShow15(!show15)
+  }
+
+  if (show15) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show16, setShow16] = useState(false)
+
+  const showHandler16 = () => {
+    setShow16(!show16)
+  }
+
+  if (show16) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show17, setShow17] = useState(false)
+
+  const showHandler17 = () => {
+    setShow17(!show17)
+  }
+
+  if (show17) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show18, setShow18] = useState(false)
+
+  const showHandler18 = () => {
+    setShow18(!show18)
+  }
+
+  if (show18) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show19, setShow19] = useState(false)
+
+  const showHandler19 = () => {
+    setShow19(!show19)
+  }
+
+  if (show19) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show20, setShow20] = useState(false)
+
+  const showHandler20 = () => {
+    setShow20(!show20)
+  }
+
+  if (show20) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show21, setShow21] = useState(false)
+
+  const showHandler21 = () => {
+    setShow21(!show21)
+  }
+
+  if (show21) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show22, setShow22] = useState(false)
+
+  const showHandler22 = () => {
+    setShow22(!show22)
+  }
+
+  if (show22) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show23, setShow23] = useState(false)
+
+  const showHandler23 = () => {
+    setShow23(!show23)
+  }
+
+  if (show23) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show24, setShow24] = useState(false)
+
+  const showHandler24 = () => {
+    setShow24(!show24)
+  }
+
+  if (show24) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show25, setShow25] = useState(false)
+
+  const showHandler25 = () => {
+    setShow25(!show25)
+  }
+
+  if (show25) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show26, setShow26] = useState(false)
+
+  const showHandler26 = () => {
+    setShow26(!show26)
+  }
+
+  if (show26) {
+    document.body.style.overflow = 'hidden'
+  } else {  
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show27, setShow27] = useState(false)
+
+  const showHandler27 = () => {
+    setShow27(!show27)
+  }
+
+  if (show27) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show28, setShow28] = useState(false)
+
+  const showHandler28 = () => {
+    setShow28(!show28)
+  }
+
+  if (show28) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
+  const [show29, setShow29] = useState(false)
+
+  const showHandler29 = () => {
+    setShow29(!show29)
+  }
+
+  if (show29) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
+
 
   return (
     <>  
@@ -398,6 +650,409 @@ export default function FinalsTFP() {
             </div>
           </div>
         )}
+        {show9 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={ten} alt="" className={style._10}/>
+              <p className={style.popContent}>
+                An engineer is designing a building with a roof that is modeled
+                by the transcendental f(x) = tan(x), where x is the angle of the roof.
+                The engineer wants to determine the optimal angle of the roof to maximize
+                the amount of sunlight that enters the building. What is the optimal angle
+                of the roof to maximize the amount of sunlight? <br /> <br />
+
+                Solution: <br />
+                To find the optimal angle of the roof, we need to find the maximum value of the function f(x) = tan(x)
+                in the interval 0 {"<"} x {"<"} <sup>π</sup>/<sub>2</sub>.<br />
+                The derivative of f(x) is f'(x) = sec<sup>2</sup>(x). Since sec(x) is always positive
+                in the interval 0 {"<"} x {"<"} <sup>π</sup>/<sub>2</sub>, the derivative f'(x) is always positive
+                in this interval. Therefore, the function f(x) is increasing in this interval
+                and does not have a maximum value. <br />
+                However, we are interested in the angle that maximizes the amount of sunlight that enters the building,
+                which is related to the vertical angle of the sun's rays. The vertical angle of the sun's rays is given
+                by the function g(x) = tan(<sup>π</sup>/<sub>2</sub>-x), where x is the angle of the roof. <br />
+                The derivative of g(x) is g'(x) = sec<sup>2</sup>(<sup>π</sup>/<sub>2</sub>-x). Since sec(<sup>π</sup>/<sub>2</sub>-x)
+                is always positive, g'(x) is always negative. Therefore, the function g(x) is decreasing in the interval
+                in the interval 0 {"<"} x {"<"} <sup>π</sup>/<sub>2</sub>. <br />
+                The optional angle of the roof to maximize the amount of sunlight is 0 degrees, which means the flat roof.
+              </p>
+              <div className={style.close} onClick={showHandler9}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show10 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={one} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Evaluate <br />
+                f(x) = sin(2x) at x= <sup>π</sup>/<sub>6</sub> <br /> <br />
+                Solution: <br />
+                f(<sup>π</sup>/<sub>6</sub>) = sin(2(<sup>π</sup>/<sub>6</sub>)) = <sup>√3</sup>/<sub>2</sub> or 0.87
+              </p>
+              <div className={style.close} onClick={showHandler10}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show11 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={two} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Evaluate <br />
+                tan(x) = √3 for x in the interval (0,2π). <br /> <br />
+                Solution: <br />
+                x = <sup>π</sup>/<sub>4</sub> and x = <sup>5π</sup>/<sub>4</sub>
+              </p>
+              <div className={style.close} onClick={showHandler11}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show12 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={three} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                lim<sup><sup>ln(x)</sup>/<sub>x</sub></sup> <br />
+                x→∞ <br /> <br />
+                Solution: <br />
+                0, any non-zero divided is equal to zero.
+              </p>
+              <div className={style.close} onClick={showHandler12}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show13 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={four} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                sin(x) = 0.5 for x in the interval of [0,2π]<br /> <br />
+                Solution: <br />
+                x = <sup>π</sup>/<sub>6</sub>
+              </p>
+              <div className={style.close} onClick={showHandler13}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show14 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={five} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                e<sup>x</sup> =10 <br /> <br />
+                Solution: <br />
+                ln(e<sup>x</sup>) = ln(10) <br />
+                1x = ln(10) <br />
+                x = ln(10)
+              </p>
+              <div className={style.close} onClick={showHandler14}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show15 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={six} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                g(x) = e<sup>3x</sup> <br /> <br />
+                Solution: <br />
+                1.e<sup>3x</sup><sup>d</sup>/<sub>dx</sub>(3x) <br />
+                e<sup>3x</sup>3 <br /> ❋ 3<sup>d</sup>/<sub>dx</sub>x <br />
+                e<sup>3x</sup>3 <br /> ❋ 3 ❋ 1 <br />
+                e<sup>3x</sup>3 <br /> ❋ 3
+                3e<sup>3x</sup>
+              </p>
+              <div className={style.close} onClick={showHandler15}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show16 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={seven} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                f(x) = ln(x) on the interval [1,e] <br /> <br />
+                Solution: <br />
+                e
+              </p>
+              <div className={style.close} onClick={showHandler16}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show17 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={eight} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                In the Philippines, population growth is modeled uing the
+                exponential function. Let's say the population of a city is growing
+                exponentially at a rate of 3% per year, starting with an initial
+                population of 1 million people. The population growth is modeled by
+                function P(t) over time t can be modeled as: <br />
+                P(t) = 1,000,000 * (1 + 0.03)<sup>t</sup> <br />
+              </p>
+              <div className={style.close} onClick={showHandler17}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show18 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={nine} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                The population of a province in the Philippines grows
+                exponentially with a doubling time of 10 years.
+                If the current population is 1,000,000,
+                what will be the population after 20 years? <br /> <br />
+                Solution: <br />
+                P(t) = P<sub>0</sub> * (growth factor)<sup>t</sup> <br />
+                growth factor(20years) = (Growth factor in 10years)<sup>2</sup> = 2<sup>2</sup> = 4 <br />
+                P(20) = 1,000,000 * 4 = 4,000,000
+              </p>
+              <div className={style.close} onClick={showHandler18}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show19 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={ten} alt="" className={style._10}/>
+              <p className={style.popContent}>
+                The tidal variation in coastal areas of the Philippines
+                can be modeled using trigonometric functions. For instance,
+                the height of the tide throughout the day can be modeled using a
+                sinusoidal function. Let's say the average tidal height is
+                1.5 meters and the tide varies sinusoidal with a maximum
+                height of 2 meters and a period of 12 hours. The tidal height
+                function ℎ(t) at time can be modeled as: <br /> <br />
+                Solution: <br />
+                ℎ(t) = d + A * sin(ω(t - a)) <br />
+                ℎ(t) = 1.5 + 0.5 * sin(ωt) <br />
+                ω = 2π/T &ensp;&ensp;ω = 2π/12 hours = π/6 radians per hour<br />
+                ℎ(t) = 1.5 + 0.5 * sin(π/6)
+              </p>
+              <div className={style.close} onClick={showHandler19}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show20 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={one} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Solve <br />
+                2<sup>x</sup> = 8 <br /> <br />
+                Solution: <br />
+                Since 2<sup>3</sup> = 8, we can rewrite the equation as x = 3. <br />
+                The solution is x = 3.
+              </p>
+              <div className={style.close} onClick={showHandler20}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show21 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={two} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+              Solve <br />
+              cos(2x -  <sup>π</sup>/<sub>3</sub>) = 1/2 <br /> <br />
+              Solution: <br />
+              2x - <sup>π</sup>/<sub>3</sub> = cos<sup>-1</sup>(1/2) <br />
+              Which is approximately <sup>π</sup>/<sub>6</sub>. <br />
+              Solving for x, we get: <br />
+              x = <sup>π</sup>/<sub>12</sub>
+              </p>
+              <div className={style.close} onClick={showHandler21}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show22 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={three} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Solve <br />
+                A population of bacteria doubles every hour.
+                If the initial population is 100, write a
+                function to model the population growth over
+                time (t in hours). <br /> <br />
+                Solution: <br />
+                P(t) = P(0) * a<sup>t</sup> <br />
+                P(t) = 100 * 2<sup>t</sup>
+              </p>
+              <div className={style.close} onClick={showHandler22}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show23 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={four} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+              Evaluate <br />
+              10x = 0.001 <br /> <br />
+              Solution: <br />
+              log(0.001) = x * log(10) <br />
+              x = -3
+              </p>
+              <div className={style.close} onClick={showHandler23}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show24 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={five} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+              Solve <br />
+              Analyze the function f(x) = <sup>sin(x)</sup>/x as x approaches 0.
+              Does the limit exist, and is the function continuous at x = 0?
+              <br /> <br />
+              Solution: <br />
+              This is a common limit where direct substitution leads to <sup>0</sup>/<sub>0</sub>
+              (indeterminate form). Using L'Hopital's rule
+              (taking the derivative of both numerator and denominator and evaluating the limit again),
+              we can show that the limit of f(x) as x approaches 0 is 1.
+              However, the function itself is undefined at x = 0 (since we cannot divide by zero).
+              Therefore, the function is not continuous at x = 0.
+              </p>
+              <div className={style.close} onClick={showHandler24}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show25 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={six} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Find the Derivative <br />
+                f(x) = 3<sup>x</sup> <br /> <br />
+                Solution: <br />
+                The derivative of the general exponential function a<sup>x</sup> (where
+                a is any positive constant) is ln(z) * a<sup>x</sup>. <br />
+                Therefore f(x) = ln(3) * 3<sup>x</sup>
+              </p>
+              <div className={style.close} onClick={showHandler25}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show26 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={seven} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+              Find the Inverse of the Function <br />
+              f(x) = sin(x) <br /> <br />
+              Solution: <br />
+                The inverse of sine is arc sine
+                (written as sin<sup>-1(x)</sup> or asin(x)).
+                However it’s important to remember that sine
+                is not one to one across its entire domain. <br />
+                Therefore, the inverse sine function is defined
+                only for the range of -<sup>π</sup>/<sub>2</sub> to <sup>π</sup>/<sub>2</sub>
+              </p>
+              <div className={style.close} onClick={showHandler26}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show27 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={eight} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+                Answer this <br />
+                Coconut is a major crop in the Philippines.
+                Farmers want to maximize the amount of coconut
+                oil they extract from a fixed amount of coconuts. <br /> <br />
+                Solution: <br />
+                The relationship between the amount of copra (dried coconut kernel)
+                used and the resulting oil yield can be modeled using an exponential
+                function. By analyzing this function,
+                farmers can determine the optimal amount of copra to use
+                for maximum oil extraction. The specific function would
+                depend on factors like coconut variety and processing techniques.
+              </p>
+              <div className={style.close} onClick={showHandler27}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show28 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={nine} alt="" className={style.problemNum}/>
+              <p className={style.popContent}>
+              Answer this <br /> <br />
+              The Philippines is prone to typhoons.
+              Predicting their intensity is crucial for disaster preparedness. <br /> <br />
+              Solution: <br />
+              Some models use trigonometric functions
+              to describe the relationship between a typhoon's
+              central pressure and its wind speed.
+              By analyzing these models with real-time data,
+              meteorologists can estimate a typhoon's intensity and
+              predict its potential impact.
+              </p>
+              <div className={style.close} onClick={showHandler28}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
+        {show29 && (
+          <div className={style.popContainer}>
+            <div className={style.pop}>
+              <img src={ten} alt="" className={style._10}/>
+              <p className={style.popContent}>
+              Answer this <br />
+              Filipinos rely heavily on loans for businesses and personal needs.
+              Understanding interest rates is crucial for financial planning.
+              </p>
+              <div className={style.close} onClick={showHandler29}>
+                <img src={closeeye} alt="" id={style.closer}/>
+              </div>
+            </div>
+          </div>
+        )}
         <header className={style.header}>
             <Navi/>
             <div className={style.TitleContainer}>
@@ -435,7 +1090,7 @@ export default function FinalsTFP() {
                   Evaluate <br />
                   tan(x) = √3 for x in the interval (0,2π).
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler2}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -445,7 +1100,7 @@ export default function FinalsTFP() {
                   Find the Derivative <br />
                   g(x) = x<sup>2</sup> + 3x + 1
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler3}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -455,7 +1110,7 @@ export default function FinalsTFP() {
                   Find the Integral <br />
                   ∫(x<sup>2</sup> + 3x + 1)dx
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler4}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -465,7 +1120,7 @@ export default function FinalsTFP() {
                   Find the Solution <br />
                   <sup>dy</sup>/<sub>dx</sub> = y tan(x)
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler5}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -475,7 +1130,7 @@ export default function FinalsTFP() {
                   Find the Maximum Value <br />
                   f(x) = x In(x) on the interval [1,e]
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer}  onClick={showHandler6}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -495,7 +1150,7 @@ export default function FinalsTFP() {
                   What is the optimal angle of the sun's rays to
                   maximize the crop yield?
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler7}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -508,7 +1163,7 @@ export default function FinalsTFP() {
                   f(x) = e<sup><sup>x</sup>/<sub>10</sub></sup>,
                   where    is the depth in meters. What is the optimal depth to drop the net to catch the most fish?
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler8}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -523,7 +1178,7 @@ export default function FinalsTFP() {
                   enters the building. What is the optimal angle of
                   the roof to maximize the amount of sunlight?
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler9}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -539,7 +1194,7 @@ export default function FinalsTFP() {
                   Evaluate <br />
                   f(x) = sin(2x) at x = <sup>π</sup>/<sub>6</sub>
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler10}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -550,7 +1205,7 @@ export default function FinalsTFP() {
                   tan(x) = 1 for x in the interval of 
                   [0,2π].
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler11}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -561,7 +1216,7 @@ export default function FinalsTFP() {
                   lim <sup>In(x)</sup>/<sub>x</sub> <br />
                   <sup>x {"->"} ∞</sup>
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler12}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -571,7 +1226,7 @@ export default function FinalsTFP() {
                   Evaluate <br />
                   sin(x) = 0.5 for x in the interval of [0,2π].
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler13}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -581,7 +1236,7 @@ export default function FinalsTFP() {
                   Evaluate <br />
                   e<sup>x</sup> = 10
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler14}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -591,7 +1246,7 @@ export default function FinalsTFP() {
                   Find the Derivative <br />
                   g(x) = e<sup>3x</sup>
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler15}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -604,7 +1259,7 @@ export default function FinalsTFP() {
                   Find the Maximum Value <br />
                   f(x) = x In(x) on the interval [1,e]
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler16}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -620,7 +1275,7 @@ export default function FinalsTFP() {
                   starting with an initial population of 1 million people.
                   The population growth function P(t) over time t can be modeled as:
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler17}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -632,7 +1287,7 @@ export default function FinalsTFP() {
                   If the current population is 1,000,000, what will
                   be the population after 20 years?
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler18}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -648,7 +1303,7 @@ export default function FinalsTFP() {
                   2 meters and a period of 12 hours. The tidal height
                   function ℎ(t) at time can be modeled as:
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler19}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -665,7 +1320,7 @@ export default function FinalsTFP() {
                   Solve <br />
                   2<sup>x</sup> = 8
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler20}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -675,7 +1330,7 @@ export default function FinalsTFP() {
                   Solve <br />
                   cos(2x -  <sup>π</sup>/<sub>3</sub>) = <sup>1</sup>/<sub>2</sub>
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler21}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -688,7 +1343,7 @@ export default function FinalsTFP() {
                 If the initial population is 100, write a function
                 to model the population growth over time (t in hours)
               </p>
-              <div className={style.showContainer}>
+              <div className={style.showContainer} onClick={showHandler22}>
                 <img src={eye} alt="" id={style.eye}/>
               </div>
             </div>
@@ -699,7 +1354,7 @@ export default function FinalsTFP() {
                   Evaluate <br />
                   10<sup>x</sup> = 0.001
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler23}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -713,7 +1368,7 @@ export default function FinalsTFP() {
                 Solve <br />
                 Analyze the function f(x) = <sup>sin(x)</sup>/<sub>x</sub> as x approaches 0. Does the limit exist, and is the function continuous at x = 0?
               </p>
-              <div className={style.showContainer}>
+              <div className={style.showContainer} onClick={showHandler24}>
                 <img src={eye} alt="" id={style.eye}/>
               </div>
             </div>
@@ -724,7 +1379,7 @@ export default function FinalsTFP() {
                   Find the Derivative <br />
                   f(x) = 3<sup>x</sup>
                 </p>
-                <div className={style.showContainer}>
+                <div className={style.showContainer} onClick={showHandler25}>
                   <img src={eye} alt="" id={style.eye}/>
                 </div>
               </div>
@@ -745,11 +1400,11 @@ export default function FinalsTFP() {
                 Solve <br />
                 Analyze the function f(x) = <sup>sin(x)</sup>/<sub>x</sub> as x approaches 0. Does the limit exist, and is the function continuous at x = 0?
               </p>
-              <div className={style.showContainer}>
+              <div className={style.showContainer} onClick={showHandler27}>
                 <img src={eye} alt="" id={style.eye}/>
               </div>
             </div>
-            <div className={style.lasfthaftQuestion}>
+            <div className={style.lasfthaftQuestion}>                 
               <img src={nine} alt="" className={style.problemNum}/>
               <p className={style.question}>
                 Answer this <br />
@@ -757,7 +1412,7 @@ export default function FinalsTFP() {
                 Farmers want to maximize the amount of coconut
                 oil they extract from a fixed amount of coconuts.
               </p>
-              <div className={style.showContainer}>
+              <div className={style.showContainer} onClick={showHandler28}>
                 <img src={eye} alt="" id={style.eye}/>
               </div>
             </div>
@@ -769,7 +1424,7 @@ export default function FinalsTFP() {
                 and personal needs. Understanding interest rates
                 is crucial for financial planning.
               </p>
-              <div className={style.showContainer}>
+              <div className={style.showContainer} onClick={showHandler29}>
                 <img src={eye} alt="" id={style.eye}/>
               </div>
             </div>
