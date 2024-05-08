@@ -2,21 +2,15 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import ErrorPage from '../Error/ErrorPage'
 
+import BasicNum from './BasicNum.jsx'
+
 export default function PrelimProblemshower() {
 
     const topic = useParams()
 
     if (topic.topic === 'Basic-Number') {
         return (
-            <div>
-                <h1>Basic Number System</h1>
-                <p>
-                    This concept deals with the set of positive whole numbers,
-                    which could also be called the set of natural numbers or 
-                    “higher arithmetic”. In other words, the basic number theory 
-                    primarily studies integers and arithmetic functions.
-                </p>
-            </div>
+            <BasicNum />
         )
     } else if (topic.topic === 'Real-Number') {
         return (
