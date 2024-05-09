@@ -4,6 +4,7 @@ import ErrorPage from '../Error/ErrorPage'
 
 import BasicNum from './BasicNum.jsx'
 import RealNum from './RealNum.jsx'
+import ComplexNum from './ComplexNum.jsx'
 
 export default function PrelimProblemshower() {
 
@@ -19,15 +20,7 @@ export default function PrelimProblemshower() {
         )
     } else if (topic.topic === 'Complex-Number') {
         return (
-            <div>
-                <h1>Complex Number System</h1>
-                <p>
-                    Complex numbers are numbers that consist of a real part and an 
-                    imaginary part. The imaginary part is a real number multiplied by 
-                    the imaginary unit i. The real part of the complex number is any 
-                    real number.
-                </p>
-            </div>
+            <ComplexNum />
         )
     } else {
         return (
