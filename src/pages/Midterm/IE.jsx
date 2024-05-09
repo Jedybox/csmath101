@@ -306,7 +306,7 @@ export default function IE() {
             <img src={bg3} alt="" className={style.bg} id={style.bg9}/>
             <header className={style.header}>
                 <Navi/>
-                <h1 className={style.title}>Basic Algebraic Concepts <br /> Problems</h1>
+                <h1 className={style.title}>Equations and Inequalities <br /> Problems</h1>
             </header>
             <main className={style.TaskContainer}>
                 <div className={style.prob} id='1'>
