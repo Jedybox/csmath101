@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import ErrorPage from '../Error/ErrorPage'
 
 import BasicNum from './BasicNum.jsx'
+import RealNum from './RealNum.jsx'
 
 export default function PrelimProblemshower() {
 
@@ -14,14 +15,7 @@ export default function PrelimProblemshower() {
         )
     } else if (topic.topic === 'Real-Number') {
         return (
-            <div>
-                <h1>Real Number System</h1>
-                <p>
-                    The real number system is a set of numbers that includes all 
-                    rational and irrational numbers, which can be positive or negative. 
-                    This system is denoted by the symbol R. 
-                </p>
-            </div>
+            <RealNum />
         )
     } else if (topic.topic === 'Complex-Number') {
         return (

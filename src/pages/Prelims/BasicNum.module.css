@@ -37,12 +37,13 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
 .question {
-    width: 90%;
-    font-size: 25px;
+    max-width: 90%;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     font-family: Montserrat;
@@ -112,7 +113,7 @@
     padding: 5px;
     z-index: 1000;
     margin-top: 100px;
-    position: absolute;
+    position: fixed;
     width: 768px;
     height: 460px;
     border-radius: 40px;
@@ -127,20 +128,43 @@
     background: linear-gradient(270deg,#0A51A6,#B413B7);
 }
 
+.popContent {
+    position: relative;
+    max-width: 100%;
+}
+
 .cover {
     width: 768px;
     height: 460px; 
     background-color: #2b2828;
     border-radius: 35px;
 
+    position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: unset;
     overflow-y: scroll;
     scrollbar-width: none;
 }
 
 .ContentOfPop {
     margin: 0;
-    max-width: 95%;
+    max-width: 768px;
+}
+
+#_2 {
+    width: 230px;
+    position: absolute;
+}
+
+#pie2 {
+    width: 462px;
+    position: absolute;
+}
+
+#_3 {
+    width: 230px;
+    position: absolute;
 }
