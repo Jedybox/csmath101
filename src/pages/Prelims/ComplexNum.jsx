@@ -20,9 +20,6 @@ import bg1 from './PrelimAssets/BGs/bg1.png'
 import bg2 from './PrelimAssets/BGs/bg2.png'
 import bg4 from './PrelimAssets/BGs/bg4.png'
 
-import _2 from './PrelimAssets/photos/2.png'
-import _3 from './PrelimAssets/photos/3.png'
-import pie2 from './PrelimAssets/photos/pie2.png'
 
 export default function ComplexNum() {
 
