@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Navi from '../../widgets/nav.jsx'
-import Foot from '../../widgets/foot'
+import Foot from '../../widgets/foot.jsx'
 
 import style from './BAC.module.css'
 
@@ -11,7 +11,7 @@ import bg2 from "../../assets/bgGradients/bg2.png"
 import bg3 from "../../assets/bgGradients/bg3.png"
 
 
-export default function BAC() {
+export default function IE() {
 
     var down1 = false;
 
@@ -313,26 +313,26 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 1</h3>
                         <p className={style.questionContent}>
-                            Solve for x in the equation 2x+5=11
+                            Imagine you have $7, and you want to buy some items at a store. However, you also owe $5 to the store from a previous purchase. If each item costs $3, how many items can you buy with the money you have? Let 𝑥 represent the number of items you can buy. Solve for x in the equation 3x – 5 = 7.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                2x+5=11 <br />
-                                2x=11-5 <br />
-                                2x=6 <br />
+                                3x-5=7 <br />
+                                3x = 7+5 <br />
+                                3x + 12
                                 <div className={style.equation}>
                                     <p>x = </p>
                                     <div className={style.fraction}>
-                                        <div className={style.topf}>6</div>
-                                        <div className={style.bottomf}>2</div>
+                                        <div className={style.topf}>12</div>
+                                        <div className={style.bottomf}>3</div>
                                     </div>
                                 </div>
-                                x=3 <br /> <br />
+                                x = 4 <br /> <br />
                                 Answer: <br />
-                                x=3
+                                x = 4
                             </p>
                         </div>
                     </div>
@@ -342,19 +342,26 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 2</h3>
                         <p className={style.questionContent}>
-                            If y=3x-2, find the value of y when x=4.
+                            Julia is saving up to buy a new smartphone. She knows she needs to have at least $9 left in her savings account after purchasing it. If each day she earns $2 for completing chores and receives a $3 allowance from her parents, how many days will it take for Julia to afford the smartphone? Solve the inequality 2𝑥 + 3 {'>'} 9.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution: <br />
-	                            Substitute x=4 into the equation: <br />
-                                y=3(4)-2 <br />
-                                =12-2 <br />
-                                =10 <br />  <br />
+	                            2x + 3 {">"} 9  <br />
+                                2x {">"} 9 – 3 <br />
+                                2x {">"} 6 
+                                <div className={style.equation}>
+                                    <p>x {">"} </p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>6</div>
+                                        <div className={style.bottomf}>2</div>
+                                    </div>
+                                </div>
+                                x = 3
                                 Answer:  <br />
-                                y=10
+                                x = 3
                             </p>
                         </div>
                     </div>
@@ -364,19 +371,26 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 3</h3>
                         <p className={style.questionContent}>
-                            Simplify  2(x+3)-4.
+                            Marie went shopping for school supplies. She bought twice the number of notebooks as her friend Alice, plus three more, which translates to 2(x+3). Where 𝑥 represents the number of notebooks Alice bought. If she spent $10 in total, how many notebooks did Marie buy? Find the solution to 2(𝑥 + 3) = 10.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution: <br />
-                                Apply the Distributive property and then simplify: <br />
-                                2(x+3)-4 <br />
-                                =2x+6-4 <br />
-                                =2x+2 <br /><br />
+                                2(x + 3) = 10 <br />
+                                2x + 6 = 10 <br />
+                                2x = 10 – 6
+                                <div className={style.equation}>
+                                    <p>x = </p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>4</div>
+                                        <div className={style.bottomf}>2</div>
+                                    </div>
+                                </div>
+                                x = 2 <br /> <br />
                                 Answer: <br /> 
-                                2x+2
+                                x = 2
                             </p>
                         </div>
                     </div>
@@ -386,27 +400,20 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 4</h3>
                         <p className={style.questionContent}>
-                            Solve for x in the equation  3(x-2)=15.
+                            Jessica has $4 in her wallet. She wants to buy some snacks for her friends, but she knows she can't spend more than $7. If each snack costs $3, how many snacks can Jessica buy without exceeding her budget? Solve the inequality 4 − 3𝑥 ≤ 7.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution: <br />
-                                3(x-2)=15 <br />
-                                3x-6=15 <br />
-                                3x=15+6 <br />
-                                3x=21 <br />
-                                <div className={style.equation}>
-                                    <p>x = </p>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>21</div>
-                                        <div className={style.bottomf}>3</div>
-                                    </div>
-                                </div>
-                                x = 7 <br /> <br />
+                                4 – 3x ≤ 7 <br />
+                                – 3x ≤ 7 – 4 <br />
+                                – 3x ≤ 3 <br />
+                                x ≥ 3/(-3) <br />
+                                x ≥ – 1 <br /> <br />
                                 Answer: <br />
-                                x=7
+                                x ≥ – 1
                             </p>
                         </div>
                     </div>
@@ -416,19 +423,26 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 5</h3>
                         <p className={style.questionContent}>
-                            If  y=2x²+3x-1, find the value of y when x = 2
+                            Susie is saving up money for a new bike. She already has $5 saved up, and she plans to save $2 each day from her allowance. After some days, she notices that she has a total of $17 saved. How many days did Susie save money to reach her goal of $17? Determine the value of 𝑦 in the equation 2𝑦 + 5 = 17.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
-                                Solution <br />
-                                y=2(2)²+3(2)-1 <br />
-                                =2(4)+6-1 <br />
-                                =8+6-1 <br />
-                                =13 <br /><br />
+                                Solution: <br />
+                                2y + 5 = 17  <br />
+                                2y = 17 – 5 <br />
+                                2y = 12 <br />
+                                <div className={style.equation}>
+                                    <p>y = </p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>12</div>
+                                        <div className={style.bottomf}>2</div>
+                                    </div>
+                                </div>
+                                y = 6 <br /> <br />
                                 Answer: <br />
-                                y = 13
+                                y = 6
                             </p>
                         </div>
                     </div>
@@ -438,26 +452,38 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 6</h3>
                         <p className={style.questionContent}>
-                            Solve the inequality  4x-3{">"}9.
+                            Samantha is saving money to buy a new phone. She already has $4 saved up, and she plans to save $x each week from her allowance. She knows she needs to have at least $9 saved to buy the phone. Write an inequality to represent Samantha's savings situation, and then solve it to determine how many weeks she needs to save to have enough money to buy the phone. Solve the inequality x/2 + 4 {'<'} 9.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                4x-3{">"}9 <br />
-                                4x{">"}9+3 <br />
-                                4x{">"}12 <br />
                                 <div className={style.equation}>
-                                    <p>x {">"} </p>
                                     <div className={style.fraction}>
-                                        <div className={style.topf}>12</div>
-                                        <div className={style.bottomf}>4</div>
+                                        <div className={style.topf}>x</div>
+                                        <div className={style.bottomf}>2</div>
                                     </div>
+                                    <p> + 4 {"<"} 9</p>
                                 </div>
-                                x {">"} 3 <br /> <br />
+                                <div className={style.equation}>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>x</div>
+                                        <div className={style.bottomf}>2</div>
+                                    </div>
+                                    <p> 9 - 4</p>
+                                </div>
+                                <div className={style.equation}>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>x</div>
+                                        <div className={style.bottomf}>2</div>
+                                    </div>
+                                    <p> {"<"} 5</p>
+                                </div>
+                                x {"<"} 5 × 2 <br />
+                                x {"<"} 10 <br /> <br />
                                 Answer: <br />
-                                x {">"} 3
+                                x {"<"} 10
                             </p>
                         </div>
                     </div>
@@ -467,17 +493,26 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 7</h3>
                         <p className={style.questionContent}>
-                            Factorize the expression  x²-4.
+                            Sarah bought a bag of candies for a party. She knew there were 13 candies in total, but when she got home, she realized that 8 candies were already missing from the bag. Assuming each candy costs the same amount, how many candies (z) were originally in the bag before any were eaten? Solve for z in 3𝑧 – 8 = 13.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                Recognize it as a difference of squares and factor:
-                                x²-4=(x+2)(x-2) <br /> <br />
+                                3z – 8 = 13 <br />
+                                3z = 13 + 8 <br />
+                                3z = 21 <br />
+                                <div className={style.equation}>
+                                    <p>z = </p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>21</div>
+                                        <div className={style.bottomf}>3</div>
+                                    </div>
+                                </div>
+                                z = 7 <br /> <br />
                                 Answer: <br />
-                                (x + 2)(x - 2)
+                                z = 7
                             </p>
                         </div>
                     </div>
@@ -487,21 +522,28 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 8</h3>
                         <p className={style.questionContent}>
-                            Solve the equation 2(x+1)=3(x-2).
+                            Denise is designing a rectangular garden with a maximum area of 100 square feet. She plans to fence the garden with wire fencing, but she wants to minimize the amount of fencing she uses to save money. Let's represent the length of the garden as 𝑥 feet and the width as (2𝑥−5) feet. The total length of fencing required is the perimeter of the garden, which is 2𝑥+2(2𝑥−5) feet. Based on her budget, Denise needs to use less than 30 feet of fencing. Write an inequality to represent this situation. Find the values of 𝑥 that satisfy the inequality 2x² – 5𝑥 {'<'} 3.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                2(x+1=3(x-2)) <br />
-                                2x+2=3x-6 <br />
-                                2=3x-2x-6 <br />
-                                2=x-6 <br />
-                                2+6=x <br />
-                                x=8 <br /> <br />
+                                First, rearrange the inequality: <br />
+                                2x² - 5x – 3 {"<"} 0<br />
+                                Then, factor and find the solutions: <br />
+                                (2x + 1) (x - 3) {"<"} 0 <br />
+                                The solutions are  <br />
+                                x {"<"} -1/2 and x {">"} 3. <br /> <br />
                                 Answer: <br />
-                                x=8
+                                <div className={style.equation}>
+                                    <p>-</p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>-1</div>
+                                        <div className={style.bottomf}>2</div>
+                                    </div>
+                                    <p> {">"} x {">"} 3</p>
+                                </div>
                             </p>
                         </div>
                     </div>
@@ -511,45 +553,27 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 9</h3>
                         <p className={style.questionContent}>
-                            <div className={style.equation}>
-                                <p>If y = </p>
-                                <div className={style.fraction}>
-                                    <div className={style.topf}>2x-3</div>
-                                    <div className={style.bottomf}>x-1</div>
-                                </div>
-                                <p> find the value of y when x = 2</p>
-                            </div>
+                            Dana is planning a party and wants to buy some party favors. She found a great deal online where she could buy packs of four party favors for $24 total. However, she wants to know the individual price of each favor. If she knows that the total cost for 4 party favors is $24 and each pack of four costs 4(𝑎−2), where 𝑎 represents the price of each party favor, can you help Dana figure out how much each individual party favor costs? Solve for 𝑎 in the equation 4(𝑎 − 2) = 24.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                Substitute x = 2 into the equation: <br />
+                                4(a - 2) = 24 <br />
+                                4a – 8 = 24 <br />
+                                4a = 24 +8 <br />
+                                4a = 32 <br />
                                 <div className={style.equation}>
-                                    <p>y = </p>
+                                    <p>a = </p>
                                     <div className={style.fraction}>
-                                        <div className={style.topf}>2(2) -3</div>
-                                        <div className={style.bottomf}>2-1</div>
+                                        <div className={style.topf}>32</div>
+                                        <div className={style.bottomf}>4</div>
                                     </div>
                                 </div>
-                                <div className={style.equation}>
-                                    <p>= </p>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>4 - 3</div>
-                                        <div className={style.bottomf}>1</div>
-                                    </div>
-                                </div>
-                                <div className={style.equation}>
-                                    <p>y = </p>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>7</div>
-                                        <div className={style.bottomf}>1</div>
-                                    </div>
-                                </div>
-                                y=7 <br /> <br />
+                                a = 8 <br /> <br /> 
                                 Answer: <br />
-                                y=7
+                                a = 8
                             </p>
                         </div>
                     </div>
@@ -559,31 +583,18 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 10</h3>
                         <p className={style.questionContent}>
-                            <div className={style.equation}>
-                                <p>Simplify the expression  </p>
-                                <div className={style.fraction}>
-                                    <div className={style.topf}>x² - 4</div>
-                                    <div className={style.bottomf}>x + 2</div>
-                                </div>
-                            </div>
+                            Imagine you're planning a garden with a rectangular shape. You have a total of 9 plants to arrange along one side of the garden. However, you want to ensure that the arrangement allows each plant to have enough space to grow properly. To do this, you decide to calculate the width of the garden (represented by 𝑥) where the area of each plant's allocated space is greater than zero. If we denote the width of the garden as 𝑥, and the area of each plant's space as x²−6𝑥+9, we want to find the values of 𝑥 where the area is greater than zero. In other words, we need to find the values of 𝑥 that satisfy the inequality x²−6𝑥+9{">"}0. What are the possible values of 𝑥 that ensure each plant has enough space to grow without overlapping? Determine the values of 𝑥 that satisfy x² − 6𝑥 + 9 {">"} 0.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                2x+5=11 <br />
-                                2x=11-5 <br />
-                                2x=6 <br />
-                                <div className={style.equation}>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>(x-2)(x+2)</div>
-                                        <div className={style.bottomf}>x+2</div>
-                                    </div>
-                                </div>
-                                = x -2 <br /> <br />
+                                This is a quadratic inequality, and its solutions lie outside the roots. First, find the roots: <br />
+                                x²- 6x + 9 = (x-3)² <br />
+                                The only root is 𝑥 = 3. Therefore, the inequality is true for 𝑥{"<"}3 and 𝑥{">"}3, but not at 𝑥=3.  So, the solution is 𝑥{"<"}3 or 𝑥{">"}3. <br /> <br />
                                 Answer: <br />
-                                x - 2
+                                x {"<"} 3 or x {"> "}3
                             </p>
                         </div>
                     </div>
@@ -593,30 +604,20 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 11</h3>
                         <p className={style.questionContent}>
-                            You are at a store buying some items. The price of each item is $3, and you also need to pay an additional $5 for taxes. You want to know how many items you can buy, given that you have a total of $17 to spend.
+                            A company produces x units of a product per day. The cost of producing x units is given by the equation C(x) = 100x + 5000. If the company sells each unit for $150, find the number of units that must be produced to break even.
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                To isolate x, we subtract 5 from both sides: <br />
-                                3x + 5 - 5 = 17 - 5 <br />
-                                3x = 12 <br />
-                                Then, divide both sides by 3: <br />
-                                <div className={style.equation}>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>3x</div>
-                                        <div className={style.bottomf}>3</div>
-                                    </div>
-                                    <p></p>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>12</div>
-                                        <div className={style.bottomf}>3</div>
-                                    </div>
-                                </div>
+                                Let R(x) be the total revenue from sales. <br />
+                                R(x) = 150x <br />
+                                100x + 5000 = 150x <br />
+                                5000 = 50x <br />
+                                x = 100 <br /> <br />
                                 Answer: <br />
-                                x=4
+                                100 units
                             </p>
                         </div>
                     </div>
@@ -626,17 +627,29 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 12</h3>
                         <p className={style.questionContent}>
-                            Lisa has a rectangular garden with an area of 4x² – 9 square meters. The length of the garden is represented by 4x meters, and the width is 3 meters less than the length. What are the dimensions of the garden?
+                            A water tank can hold 1000 liters of water. If 300 liters of water are already in the tank, and 20 liters of water are added per minute, how long will it take to fill the tank?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                This expression is a difference of squares, so it factors as: <br />
-                                4x² – 9 (2x)² - 3² = (2x + 3) (2x – 3) <br />   <br />
+                                Let x be the number of minutes it takes to fill the tank.  <br />
+                                20x + 300 = 1000 <br />
+                                20x = 700  <br />
+                                <div className={style.equation}>
+                                    <p>x = </p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>20x</div>
+                                        <div className={style.bottomf}>20</div>
+                                        <p></p>
+                                        <div className={style.topf}>700</div>
+                                        <div className={style.bottomf}>20</div>
+                                    </div>
+                                </div>
+                                x = 35. <br /> <br />
                                 Answer: <br />
-                                (2x + 3) (2x – 3)
+                                x = 35
                             </p>
                         </div>
                     </div>
@@ -646,40 +659,29 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 13</h3>
                         <p className={style.questionContent}>
-                            John has a certain number of marbles. He decides to share them equally among his 4 friends. After distributing the marbles, there are 7 marbles left with John. However, when he adds these remaining marbles to the ones he initially had and divides the total by 4, he finds that each friend has exactly 10 marbles. What is the total number of marbles that John had initially?
+                        A car travels at a constant speed of 60 miles per hour. How long does it take for the car to travel 240 miles?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                To isolate x, first, we subtract 7 from both sides:
+                                Let x be the number of hours <br />
+                                60x = 240 <br />
                                 <div className={style.equation}>
                                     <div className={style.fraction}>
-                                        <div className={style.topf}>x</div>
-                                        <div className={style.bottomf}>4</div>
+                                        <div className={style.topf}>60x</div>
+                                        <div className={style.bottomf}>60</div>
                                     </div>
-                                    <p> + 7 - 7 = 10 - 7</p>
-                                </div>
-                                <div className={style.equation}>
+                                    <p>=</p>
                                     <div className={style.fraction}>
-                                        <div className={style.topf}>x</div>
-                                        <div className={style.bottomf}>4</div>
+                                        <div className={style.topf}>240</div>
+                                        <div className={style.bottomf}>60</div>
                                     </div>
-                                    <p> = 3</p>
                                 </div>
-                                Then, multiply both sides by 4 to solve for x:
-                                <div className={style.equation}>
-                                    <p>4 × </p>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>x</div>
-                                        <div className={style.bottomf}>4</div>
-                                    </div>
-                                    <p> 3 × 4</p>
-                                </div>
-                                x = 12 <br /> <br />
+                                x = 4 <br /> <br />
                                 Answer: <br />
-                                x = 12
+                                x = 4
                             </p>
                         </div>
                     </div>
@@ -689,19 +691,24 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 14</h3>
                         <p className={style.questionContent}>
-                        Samantha is organizing a fundraising event for her school. She has designed a square booth with sides measuring (2x-3) meters. To estimate the amount of space inside the booth, Samantha needs to expand the expression (2x-3)²
+                            Emily is planning a road trip. She needs to drive at least 300 miles to reach her destination. If she can drive at a maximum speed of 60 miles per hour, how many hours will it take her to reach her destination?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                (2x-3)² <br />
-                                = (2x – 3) (2x – 3) <br />
-                                =  4x²- 6x – 6x + 9 <br />
-                                = 4x² – 12x + 9 <br /> <br />
+                                Let 𝑡 be the time (in hours) Emily takes to reach her destination <br />
+                                <div className={style.equation}>
+                                    <p>t≥</p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>300</div>
+                                        <div className={style.bottomf}>60</div>
+                                    </div>
+                                </div>
+                                t ≥ 5 <br /> <br />
                                 Answer: <br />
-                                4x² – 12x + 9
+                                5 hours
                             </p>
                         </div>
                     </div>
@@ -711,43 +718,19 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 15</h3>
                         <p className={style.questionContent}>
-                            Samantha is a farmer and wants to simplify the expression 
-                            <div className={style.equation}>
-                                <div className={style.fraction}>
-                                    <div className={style.topf}>3x²+6x</div>
-                                    <div className={style.bottomf}>3x</div>
-                                </div>
-                            </div>
-                            the number of crops she needs to plant in her field. Each crop requires 3 square units of space. If Samantha has a field with an area represented by the expression 
-                            <div className={style.equation}>
-                                <div className={style.fraction}>
-                                    <div className={style.topf}>3x²+6x</div>
-                                    <div className={style.bottomf}>3x</div>
-                                </div>
-                            </div>
-                            and each crop requires 3 square units of space, how many crops can she plant in her field?
+                            A toy factory has a fixed operating cost of $3,600 per day plus costs $1.40 per widget produced. If a toy sells for $4.20, what is the least number of toysthat must be sold per day to make a profit?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                We can simplify by canceling out the common factor in the numerator and denominator.
-                                <div className={style.equation}>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>3x²+6x</div>
-                                        <div className={style.bottomf}>3x</div>
-                                    </div>
-                                </div>
-                                <div className={style.equation}>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>3x(x+2)</div>
-                                        <div className={style.bottomf}>3x</div>
-                                    </div>
-                                </div>
-                                = x + 2 <br /> <br />
+                                4.2{">"}3600+1.4x <br />
+                                4.2-1.4x{">"}3600+1.4x-1.4x <br />
+                                2.8x{">"}3600 <br />
+                                x{">"}1285.71 <br />
                                 Answer: <br />
-                                = x + 2
+                                1285+    widgets
                             </p>
                         </div>
                     </div>
@@ -757,21 +740,25 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 16</h3>
                         <p className={style.questionContent}>
-                            Anna bought twice the number of toys as her friend. If she subtracts 4 toys from her collection and doubles it, the result is 10 toys. How many toys did Anna originally have?
+                            A group of friends are planning a picnic and want to buy enough sandwiches for everyone. If each sandwich costs $5 and they have a budget of $100, what is the maximum number of sandwiches they can buy?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution:  <br />
-                                Distribute 2 to both terms inside the parentheses: <br />
-                                2x – 8 = 10 <br /> <br />
-                                Then, add 8 to both sides: <br />
-                                2x = 18  <br /> <br />
-                                Finally, divide both sides by 2: <br />
-                                x = 9 <br /> <br />
+                                Let 𝑥 be the number of sandwiches they can buy. <br />
+                                5x≤100 <br />
+                                <div className={style.equation}>
+                                    <p>x≤</p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>100</div>
+                                        <div className={style.bottomf}>5</div>
+                                    </div>
+                                </div>
+                                x≤20 <br /> <br />
                                 Answer: <br />
-                                x = 9
+                                20 sandwiches
                             </p>
                         </div>
                     </div>
@@ -781,17 +768,25 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 17</h3>
                         <p className={style.questionContent}>
-                            John is building a rectangular garden. The length of the garden is represented by the expression x² + 6x +9. The expression represents the area of the garden. John wants to factorize the expression to find the dimensions of the garden. By factorizing, he can determine the length and width of the garden.
+                            JMark has a part-time job delivering newspapers. He earns $10 for each hour he works. He wants to save at least $200 by the end of the month. If he can only work up to 25 hours per week, what is the minimum number of weeks it will take him to reach his savings goal?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                This expression is a perfect square trinomial, so it factors as: <br />
-                                x² + 6x + 9 =  (x+3)² <br /> <br />
+                                Let 𝑤 be the number of weeks Mark works.<br />
+                                10w≥200
+                                <div className={style.equation}>
+                                    <p>w≥</p>
+                                    <div className={style.fraction}>
+                                        <div className={style.topf}>200</div>
+                                        <div className={style.bottomf}>10</div>
+                                    </div>
+                                </div>
+                                w≥20 <br /> <br />
                                 Answer: <br />
-                                (x+3)²
+                                20 weeks
                             </p>
                         </div>
                     </div>
@@ -801,21 +796,21 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 18</h3>
                         <p className={style.questionContent}>
-                            You are planning a road trip and need to calculate the average speed you need to maintain to reach your destination on time. The distance you need to travel is 3x kilometers, and your current average speed is (3x - 5) kilometers per hour. You have a time constraint and need to arrive at your destination in 7 hours. To calculate the required average speed for your journey, you set up the following equation
+                        Jason makes and sells fishing poles. If he has costs totaling $12,000 per year plus a cost of $4 per pole, how many fishing poles must he produce to make a profit of $48,000 in one year, if he sells the fishing poles for $28 each?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                Multiply both sides by 3 to eliminate the fraction: <br />
-                                2x – 5 = 21 <br />
-                                Then, add 5 to both sides: <br />
-                                2x = 26 <br />
-                                Finally, divide both sides by 2: <br />
-                                x = 13 <br /> <br />
+                                28x-(12000+4x)≥4800 <br />
+                                28x-1200-4x≥4800 <br />
+                                24x-12000≥48000 <br />
+                                24x-12000+12000≥48000+12000 <br />
+                                24x≥60000 <br />
+                                x≥2500 <br /> <br />
                                 Answer: <br />
-                                x = 13
+                                At least 2500 poles
                             </p>
                         </div>
                     </div>
@@ -825,51 +820,46 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 19</h3>
                         <p className={style.questionContent}>
-                        Consider a rectangular garden with an unknown length and width. The area of the garden is represented by the expression x² – 4 square units. The length and width of the garden can be found by factorizing the expression.
+                        A company requires a minimum of 100 units of a certain component for production. If they can purchase the component for $5 per unit, how much money must they spend to meet their requirement?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />
-                                This expression is a difference of squares, so it factors as: <br />
-                                x² – 4 = (x + 2) (x - 2)<br /> <br />
+                                C=5x <br />
+                                x≥100<br /> 
+                                C=5×100<br /> 
+                                C=500<br /> <br />
                                 Answer: <br />
-                                (x + 2) (x - 2)
+                                at least $500
                             </p>
                         </div>
                     </div>
-                    <button className={style.btn} onClick={reveal19} id='btn19'>Reveal answer</button>
+                    <button className={style.btn} onClick={reveal1} id='btn1'>Reveal answer</button>
                 </div>
                 <div className={style.prob} id='20'>
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 20</h3>
                         <p className={style.questionContent}>
-                            Alice and Bob are competing in a math contest. Alice's score is represented by the expression "5 (x + 3)" and Bob's score is represented by the expression "2 (x – 1) + 9". The equation "5 (x + 3) = 2 (x – 1) + 9" is used to determine the value of x that makes their scores equal. Alice scored 5 times the sum of her score and 3. Bob scored twice the difference between his score and 1, and then added 9. If their scores are equal, what is the value of x?
+                        A catering company charges $15 per person for a buffet dinner. If they want to earn at least $5000 from a single event, what is the minimum number of people they need to attend?
                         </p>
                     </div>
                     <div className={style.answer}>
                         <div className={style.con}>
                             <p className={style.answerContent}>
                                 Solution <br />             
-                                5x + 15 = 2x – 2 + 9 <br />
-                                5x + 15 = 2x + 7 <br />
-                                3x + 15 = 7 <br />
+                                15n≥5000 <br />
                                 <div className={style.equation}>
-                                    <p>x = -</p>
+                                    <p>n≥</p>
                                     <div className={style.fraction}>
-                                        <div className={style.topf}>8</div>
-                                        <div className={style.bottomf}>3</div>
+                                        <div className={style.topf}>5000</div>
+                                        <div className={style.bottomf}>15</div>
                                     </div>
                                 </div>
+                                n≥333.4 <br /> <br />
                                 Answer:
-                                <div className={style.equation}>
-                                    <p>x = -</p>
-                                    <div className={style.fraction}>
-                                        <div className={style.topf}>8</div>
-                                        <div className={style.bottomf}>3</div>
-                                    </div>
-                                </div>
+                                minimum of 334 people
                             </p>
                         </div>
                     </div>
