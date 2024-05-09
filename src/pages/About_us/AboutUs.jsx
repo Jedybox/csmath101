@@ -1,6 +1,6 @@
 import React from 'react'
 import Navi from '../../widgets/nav'
-import Footer from '../../widgets/foot'
+import Foot from '../../widgets/foot'
 
 // bg
 import bg1 from './assets/bg/bg1.png'
@@ -29,8 +29,8 @@ import Alpuerto from './assets/group3/Alpuerto.jpg'
 import Hannz from './assets/group3/Hannz.jpeg'
 import jim from './assets/group3/jim.jpg'
 import Jp from './assets/group3/Jp.jpg'
-import shreck from './assets/group3/shreck.png'
 import vlad from './assets/group3/Vlad.jpg'
+import me from './assets/group3/me.jpg'
 
 // group 4
 import adormeo from './assets/group4/adormeo.png'
@@ -41,7 +41,6 @@ import kenjie from './assets/group4/kenjie.jpg'
 import pena from './assets/group4/pena.png'
 
 import style from './AboutUs.module.css'
-import Foot from '../../widgets/foot'
 
 export default function AboutUs() {
   return (
@@ -225,7 +224,7 @@ export default function AboutUs() {
                     <div className={style.member}>
                         <div className={style.memberImg}>
                             <div className={style.pfpContainer}>
-                                <img src={shreck} alt="JEDY" className={style.pfp} id={style.jedy}/>
+                                <img src={me} alt="JEDY" className={style.pfp} id={style.jedy}/>
                             </div>
                         </div>
                         <div className={style.memberInfo}>
