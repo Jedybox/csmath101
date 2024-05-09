@@ -1,0 +1,214 @@
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.title {
+    width: 1022px;
+    font-size: 75px;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+}
+
+.TaskContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.prob {
+    position: relative;
+    width: 820px;
+    height: 250px;
+    transition: .75s linear;
+}
+
+.question {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #26292c;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+
+.probNum {
+    font-family: Montserrat;
+    color: #fff;
+    text-align: justify;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.questionContent {
+    margin-left: 15px;
+}
+
+.questionContent, .answerContent {
+    font-size: 20px;
+    width: 90%;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: justify;
+}
+
+
+
+.answer {
+    z-index: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #3a3e42;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con {
+    scrollbar-width: none;
+    position: relative;
+    width: 90%;
+    max-height: 76%;
+    overflow: auto;
+}
+
+.answerContent {
+    font-size: 25px;
+    z-index: -1;
+    bottom: 30px;
+    height: auto;
+    width: 90%;
+    margin: 0;
+}
+
+.btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: #3a3e42;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+
+.equation {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.fraction {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.topf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.bottomf{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    position: absolute;
+    z-index: -100;
+    width: 1100px;
+
+    animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+
+#bg1 {
+    right: 55%;
+    top: 2%;
+}
+
+#bg2 {
+    left: 55%;
+    top: 11%;
+}
+
+#bg3 {
+    right: 55%;
+    top: 22%;
+}
+
+#bg4 {
+    left: 55%;
+    top: 35%;
+}
+
+#bg5 {
+    right: 55%;
+    top: 49%;
+}
+
+#bg6 {
+    left: 55%;
+    top: 55%;
+}
+
+#bg7 {
+    right: 55%;
+    top: 65%;
+}
+
+#bg8 {
+    left: 55%;
+    top: 84%;
+}
+
+#bg9 {
+    right: 55%;
+    top: 90%;
+}
