@@ -23,7 +23,7 @@ function SemiProblem() {
             unlock(true)
         } else {
             document.getElementById('inputedPass').value = ''
-            alert('Wrong Password')
+            alert(inputedPass + ' is the wrong password')
         }
         
     }
