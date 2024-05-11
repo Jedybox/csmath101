@@ -711,15 +711,17 @@ export default function BAC() {
                     <div className={style.question}>
                         <h3 className={style.probNum}>Problem 15</h3>
                         <p className={style.questionContent}>
-                            Samantha is a farmer and wants to simplify the expression 
+                            
                             <div className={style.equation}>
+                                <p>Samantha is a farmer and wants to simplify the expression </p>
                                 <div className={style.fraction}>
                                     <div className={style.topf}>3x²+6x</div>
                                     <div className={style.bottomf}>3x</div>
                                 </div>
                             </div>
-                            the number of crops she needs to plant in her field. Each crop requires 3 square units of space. If Samantha has a field with an area represented by the expression 
+                            the number of crops she needs to plant in her field. Each crop requires 3 square units of space. 
                             <div className={style.equation}>
+                                <p>If Samantha has a field with an area represented by the expression </p>
                                 <div className={style.fraction}>
                                     <div className={style.topf}>3x²+6x</div>
                                     <div className={style.bottomf}>3x</div>
@@ -751,7 +753,7 @@ export default function BAC() {
                             </p>
                         </div>
                     </div>
-                    <button className={style.btn} onClick={reveal1} id='btn1'>Reveal answer</button>
+                    <button className={style.btn} onClick={reveal15} id='btn15'>Reveal answer</button>
                 </div>
                 <div className={style.prob} id='16'>
                     <div className={style.question}>

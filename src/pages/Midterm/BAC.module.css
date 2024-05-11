@@ -52,7 +52,7 @@
     font-family: Montserrat;
     color: #fff;
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     margin-left: 15px;
     margin-top: 15px;
@@ -63,7 +63,7 @@
 }
 
 .questionContent, .answerContent {
-    font-size: 20px;
+    font-size: 15px;
     width: 90%;
     font-family: Montserrat;
     color: #fff;
@@ -95,7 +95,7 @@
 }
 
 .answerContent {
-    font-size: 25px;
+    font-size: 13px;
     z-index: -1;
     bottom: 30px;
     height: auto;
