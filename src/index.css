@@ -108,6 +108,10 @@ body.LockBG {
     border-radius: 35px;
 }
 
+img {
+    pointer-events: none;
+}
+
 @media only screen and (max-width: 600px){
     #root {
         overflow-x: clip !important;

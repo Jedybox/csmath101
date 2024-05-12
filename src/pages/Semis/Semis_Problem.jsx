@@ -11,6 +11,7 @@ import ErrorPage from "../Error/ErrorPage";
 import style_ from "./Semis_Problem.module.css"
 import Foot from "../../widgets/foot";
 import Task from "../../widgets/task";
+import Navi from "../../widgets/nav";
 
 function SemiProblem() {
 
@@ -141,15 +142,7 @@ function SemiProblem() {
 
     return(
         <>  
-            <nav className={style_.SemNav}>
-                <div className={style_.nameIconHolder}>
-                    <img src={icon} alt="icon" className={style_.Icon}/>
-                    <h1 className={style_.name}>CSMath101</h1>
-                </div>
-                <div className={style_.gobackContainer}>
-                    <Link to="/Semi" id={style_.ID}>Back</Link>
-                </div>
-            </nav>
+            <Navi/>
             <h1 className={style_.TopicTitle}>Functions <br /> and <br /> Relations</h1>
             <div className={style_.parentProblemContainer}>
                 <img src={bg2} alt="" className={style_._1bg}/>

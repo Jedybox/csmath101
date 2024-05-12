@@ -12,6 +12,7 @@ import bg2 from "../../assets/bgGradients/bg2.png"
 import bg3 from "../../assets/bgGradients/bg3.png"
 
 import Foot from "../../widgets/foot";
+import Navi from "../../widgets/nav";
 
 function Semi() {
 
@@ -21,26 +22,7 @@ function Semi() {
 
     return(
         <>
-        <nav className={style.navi}>
-            <div className={style.nameIcon}>
-                <img src={icon} alt="" className={style.icon}/>
-                <h1 className={style.name}>CSMath101</h1>
-            </div>
-            <ul className={style.navList}>
-                <li className={style.navItems}>
-                    <Link to="/Semi/FunctionsRelations">Functions<br/>Relations</Link>
-                </li>
-                <li className={style.navItems}>
-                    <Link to="/Semi/LinearFunction">Linear<br/>Function</Link>
-                </li>
-                <li className={style.navItems}>
-                    <Link to="/Semi/QuadraticFunctions">Quadratic<br/>Functions</Link>
-                </li>
-                <li className={style.navItems}>
-                    <Link to="/">Back</Link>
-                </li>
-            </ul>
-        </nav>
+        <Navi/>
         <header className={style.head}>
             <img src={bg2} alt="" className={style.headBG}/>
             <h1 className={style.termTitle}>Semi-Final <b className={style.TitleEffect}>Term</b></h1>

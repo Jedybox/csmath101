@@ -268,7 +268,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className={style.group}>
-                <h1 className={style.groupNum}>Group 3: Semi-Finals</h1>
+                <h1 className={style.groupNum}>Group 4: Finals</h1>
                 <div className={style.members}>
                     <div className={style.member}>
                         <div className={style.memberImg}>

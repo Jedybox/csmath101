@@ -247,6 +247,7 @@
     color: #fff;
     text-align: justify;
     overflow: scroll;
+    scrollbar-width: none;
 }
 
 .close {

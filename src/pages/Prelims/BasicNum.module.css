@@ -241,3 +241,184 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1050px) {
+    .taskContainer {
+        width: 95%;
+        grid-template-columns: auto auto;
+        margin-bottom: 75px;
+    }
+
+    .task {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .title {
+        font-size: 50px;
+    }
+    
+    .task {
+        height: 200px;
+    }
+
+    .num {
+        width: 200px;
+        left: 40px;
+        top: -50px;
+    }
+
+    ._10 {
+        width: 350px;
+        left: 40px;
+        top: -70px;
+    }
+
+    .bg {
+        width: 800px;
+    }
+
+    #b1 {
+        bottom: -150%;
+        left: 0;
+    }
+
+    #bg2 {
+        bottom: 0;
+        right: -50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .taskContainer {
+        width: 95%;
+        margin: 0 auto;
+        gap: 1rem;
+        margin-bottom: 75px;
+    }
+
+    .task {
+        border-radius: 20px;
+        height: 150px;
+    }
+
+    .num {
+        width: 125px;
+        left: 30px;
+        top: -40px;
+    }
+
+    ._10 {
+        width: 200px;
+        left: 30px;
+        top: -50px;
+    }
+
+    .bg {
+        width: 400px;
+    }
+
+    #bg1 {
+        bottom: -100%;
+        left: -50%;
+    }
+
+    #bg2 {
+        bottom: 30%;
+        right: -50%;
+    }
+
+    #bg3 {
+        bottom: -10%;
+        left: -50%;
+    }
+
+    .question {
+        font-size: 12px;
+    }
+
+    .eye {
+        width: 20px;
+        height: 20px;
+    }
+
+    .eyeContainer {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .header {
+        gap: 10px;
+    }
+
+    .title {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .taskContainer {
+        width: 95%;
+        margin: 0 auto;
+        gap: 1rem;
+        margin-bottom: 75px;
+    }
+
+    .task {
+        border-radius: 20px;
+        height: 150px;
+    }
+
+    .num {
+        width: 100px;
+        left: 30px;
+        top: -40px;
+    }
+
+    ._10 {
+        width: 150px;
+        left: 30px;
+        top: -50px;
+    }
+
+    .bg {
+        width: 300px;
+    }
+
+    #bg1 {
+        bottom: -100%;
+        left: -50%;
+    }
+
+    #bg2 {
+        bottom: 30%;
+        right: -50%;
+    }
+
+    #bg3 {
+        bottom: -10%;
+        left: -50%;
+    }
+
+    .question {
+        font-size: 12px;
+    }
+
+    .eye {
+        width: 20px;
+        height: 20px;
+    }
+
+    .eyeContainer {
+        right: 10px;
+        bottom: 10px;
+    }
+}
