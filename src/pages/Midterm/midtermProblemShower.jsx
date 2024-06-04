@@ -15,7 +15,7 @@ export default function MidtermProblemShower() {
     const unlocker = () => {
 
         const inputedPass = document.getElementById('inputedPass').value
-        if (inputedPass === 'MacaulayBagnate2') {
+        if (inputedPass === '4UserName') {
             unlock(true)
         } else {
             document.getElementById('inputedPass').value = ''
