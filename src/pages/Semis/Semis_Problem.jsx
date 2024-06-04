@@ -20,7 +20,7 @@ function SemiProblem() {
     const unlocker = () => {
 
         const inputedPass = document.getElementById('inputedPass').value
-        if (inputedPass === 'MacaulayBagnate3') {
+        if (inputedPass === 'Functions_7') {
             unlock(true)
         } else {
             document.getElementById('inputedPass').value = ''
