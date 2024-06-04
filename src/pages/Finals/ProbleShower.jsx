@@ -14,7 +14,7 @@ export default function FinalsProbleShower() {
   const unlocker = () => {
 
       const inputedPass = document.getElementById('inputedPass').value
-      if (inputedPass === 'MacaulayBagnate4') {
+      if (inputedPass === 'CS_101') {
           unlock(true)
       } else {
           document.getElementById('inputedPass').value = ''
