@@ -15,7 +15,7 @@ export default function PrelimProblemshower() {
     const unlocker = () => {
 
         const inputedPass = document.getElementById('inputedPass').value
-        if (inputedPass === 'MacaulayBagnate1') {
+        if (inputedPass === 'MacaulayBagnate') {
             unlock(true)
         } else {
             document.getElementById('inputedPass').value = ''
