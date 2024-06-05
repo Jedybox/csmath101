@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 
 import Navi from '../../widgets/nav.jsx'
 import Foot from '../../widgets/foot.jsx'

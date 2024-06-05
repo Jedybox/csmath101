@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Foot from '../../widgets/foot.jsx'
 import Navi from '../../widgets/nav.jsx'
 import { Link } from 'react-router-dom'
@@ -38,7 +38,7 @@ export default function Finals() {
                         functions, inverse trigonometric functions, 
                         exponential functions, logarithmic functions, 
                         and hyperbolic functions. These functions are 
-                        called "transcendental" because they cannot be 
+                        called {"transcendental"} because they cannot be 
                         expressed as finite combinations of algebraic 
                         operations such as addition, subtraction, 
                         multiplication, division, and root extraction.
